@@ -1,0 +1,11 @@
+.article-list-item {
+    text-decoration: none;
+    color: cyan;
+    padding: 16px 0 0 0;
+}
+
+.article-list-item p {
+    padding-bottom: 10px;
+    color: white;
+    border-bottom: 2px solid white;
+}
