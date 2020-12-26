@@ -6,20 +6,26 @@ import {
   Article,
   ArticlesList
 } from './pages/';
+import { NavBar } from './components';
 import './App.css';
 
 function App() {
   return (
     <Router>
-      <div id='pages-body'>
-        <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='/about' element={<About />} />
-          <Route path='/article' element={<Article />} >
-            <Route path='article-list' element={<ArticlesList />} />
-          </Route>
-          <Route path='*' element={<Error />} />
-        </Routes>
+      <div id='app' className='App'>
+        <NavBar />
+        <div id='pages-body' className='page-body'>
+          <Routes>
+            <Route path='/' element={<Home />} />
+            <Route path='/about' element={<About />} />
+            <Route path='/articles-list' element={<ArticlesList />} />
+            <Route path='/article' element={<Article />} />
+            {/* <Route path='/article' element={<Article />} >
+              <Route path='articles-list' element={<ArticlesList />} />
+            </Route> */}
+            <Route path='*' element={<Error />} />
+          </Routes>
+        </div>
       </div>
     </Router>
   );

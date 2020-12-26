@@ -1,3 +1,7 @@
-.App {
-  text-align: center;
+.App {}
+
+.page-body {
+  max-width: 700px;
+  margin: auto;
+  padding-top: 64px;
 }
