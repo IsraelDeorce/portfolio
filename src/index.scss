@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Breakpoints */
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
+$xxl: 1400px;
+
+/* Dark Theme */
+$dark-background: #1E1E1E;
+$dark-menu: #252526;
+$dark-tab: #3C3C3C;
+$dark-string: #CE9078;
+$dark-function: #DCDCAA;
+$dark-varType: #569CD6;
+$dark-varDeclaration: #4FC1DB;
+$dark-varProperty: #9CDCFE;
+$dark-brackets: #D4D4C8;
+$dark-component: #4EC9B0;
+$dark-number: #A7CEA8;
+$dark-importExport: #C586C0;
+
+/* Light Theme */
+$light-background: #FFFFFF;
+$light-menu: #F3F3F3;
+$light-tab: #DDDDDD;
+$light-string: #A31515;
+$light-function: #795D26;
+$light-varType: #0000E1;
+$light-varDeclaration: #0071C1;
+$light-varProperty: #000F80;
+$light-brackets: #000000;
+$light-component: #267F5A;
+$light-number: #098658;
+$light-importExport: #AF00DB;
+
+h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 60px;
+  font-weight: 400;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+section {
+  padding: 50px 1.25rem;
+}
+
+p {
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+button {
+  background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}

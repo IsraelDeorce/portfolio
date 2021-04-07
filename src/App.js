@@ -1,33 +1,22 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import {
-  Home,
-  About,
-  Error,
-  Article,
-  ArticlesList
-} from './pages/';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { NavBar } from './components';
-import './App.css';
+import { Home, Error } from './pages';
+
+import './App.scss';
 
 function App() {
   return (
     <Router>
       <div id='app' className='App'>
         <NavBar />
-        <div id='pages-body' className='page-body'>
-          <Routes>
-            <Route path='/' element={<Home />} />
-            <Route path='/about' element={<About />} />
-            <Route path='/articles-list' element={<ArticlesList />} />
-            <Route path='/article/:name' element={<Article />} />
-            {/* <Route path='/article' element={<Article />} >
-              <Route path='articles-list' element={<ArticlesList />} />
-            </Route> */}
-            <Route path='*' element={<Error />} />
-          </Routes>
+        <div>
+          <Switch>
+            <Route exact path='/' component={Home} />
+            <Route path='*' component={Error} />
+          </Switch>
         </div>
       </div>
-    </Router>
+    </Router >
   );
 }
 

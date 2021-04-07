@@ -1,4 +1,3 @@
 export { default as NavBar } from './NavBar/NavBar';
-export { default as CommentsList } from './CommentsList/CommentsList';
-export { default as ArticlesList } from './ArticlesList/ArticlesList';
-export { default as UpvotesSection } from './UpvotesSection/UpvotesSection';
+export { default as BlogButton } from './BlogButton/BlogButton';
+export { default as UIButton } from './UIButton/UIButton';
