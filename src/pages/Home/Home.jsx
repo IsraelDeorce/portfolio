@@ -1,9 +1,13 @@
+import './Home.scss';
+
 function Home() {
   return (
-    <>
-      <h1>Hello, Welcome to my blog!</h1>
-      <p>More information are soon to come! ;)</p>
-    </>
+    <section className='home' style={{
+      backgroundImage: 'linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url(/Vancouver.jpg)'
+    }}>
+      <h1>Israel Deorce</h1>
+      <p className='subtitle'>Software Engineer</p>
+    </section>
   )
 }
 
