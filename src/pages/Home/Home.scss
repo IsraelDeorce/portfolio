@@ -8,6 +8,17 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  .home-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 1.25rem;
+    .secondary {
+      color: $dark-component;
+    }
+  }
 }
 
 .subtitle {
