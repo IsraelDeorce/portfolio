@@ -1,7 +1,7 @@
-import { useLocation } from 'react-router-dom';
+import { useLocation } from 'react-router-dom'
 
 function Error() {
-  let location = useLocation();
+  let location = useLocation()
 
   return (
     <h1 style={{ color: 'red' }}>
@@ -10,4 +10,4 @@ function Error() {
   )
 }
   
-  export default Error;
+  export default Error

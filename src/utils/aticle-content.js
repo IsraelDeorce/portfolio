@@ -14,6 +14,6 @@ const articles = [
         title: 'The Fastest Way to Learn React3',
         content: ['blablabla3', 'blobloblo3']
     }
-];
+]
 
-export default articles;
+export default articles

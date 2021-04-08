@@ -1,7 +1,6 @@
-import { BlogButton, UIButton } from '../../components';
-import { FaGoogleDrive } from 'react-icons/fa';
-
-import './Home.scss';
+import { BlogButton, UIButton } from '../../components'
+import { FaGoogleDrive } from 'react-icons/fa'
+import './Home.scss'
 
 function Home() {
   return (
@@ -23,4 +22,4 @@ function Home() {
   )
 }
 
-export default Home;
+export default Home
