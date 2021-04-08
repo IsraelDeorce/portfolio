@@ -1,13 +1,13 @@
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import { NavBar } from './components';
-import { Home, Error } from './pages';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import { NavBar } from './components'
+import { Home, Error } from './pages'
 
-import './App.scss';
+import './App.scss'
 
 function App() {
   return (
     <Router>
-      <div id='app' className='App'>
+      <div id='app'>
         <NavBar />
         <div>
           <Switch>
@@ -17,7 +17,7 @@ function App() {
         </div>
       </div>
     </Router >
-  );
+  )
 }
 
-export default App;
+export default App
