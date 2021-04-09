@@ -1,0 +1,14 @@
+{
+  "subtitle": "Software Engineer",
+  "button": {
+    "home": "Home",
+    "translate": "Translate",
+    "contact": "Contact",
+    "visit_my_blog": "Visit my Blog",
+    "resume": "Résumé"
+  },
+  "description": {
+    "part1": "To get started, edit <1>src/App.js</1> and save to reload.",
+    "part2": "Switch language between english and german using buttons above."
+  }
+}

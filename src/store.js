@@ -1,9 +1,9 @@
 import { init } from '@rematch/core'
-import count from './models/count'
+import session from './models/session'
 
 const store = init({
   models: {
-    count
+    session
   }
 })
 
