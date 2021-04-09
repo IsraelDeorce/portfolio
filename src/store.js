@@ -1,6 +1,10 @@
 import { init } from '@rematch/core'
-import * as models from './models'
+import session from './models/session'
 
-const store = init({ models })
+const store = init({
+  models: {
+    session
+  }
+})
 
 export default store

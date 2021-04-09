@@ -31,3 +31,11 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 ### `npm run eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+
+## Installed Libraries
+
+### i18next
+
+Code example from: https://github.com/i18next/react-i18next/tree/master/example/react
+For all options read: https://www.i18next.com/overview/configuration-options
