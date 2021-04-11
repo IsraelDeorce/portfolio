@@ -1,6 +1,6 @@
 function Spinner() {
   return (
-    <div>LOADING...</div>
+    <div>Loading...</div>
   )
 }
 
