@@ -3,7 +3,6 @@ const path = require('path');
 // html-webpack-plugin: it loads our HTML files and it injects the bundle(s) in the same file
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ESLintPlugin = require('eslint-webpack-plugin')
-
 // in webpack.config.js we can change how webpack behaves by adding or altering:
 // entry -> the default is src/index.js
 // output -> the default is dist
@@ -36,7 +35,8 @@ module.exports = {
   devServer: {
     open: false, // opens the browser automatically
     contentBase: path.join(__dirname, 'dist'), // choses content
-    port: 9000
+    port: 9000,
+    historyApiFallback: true // will redirect 404s to /index.index
   },
   module: {
     rules: [
