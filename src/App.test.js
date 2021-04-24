@@ -2,6 +2,6 @@ import { shallow } from 'enzyme'
 import App from './App'
 
 it('renders learn react link', () => {
-  shallow(<App/>)
+  console.log(shallow(<App/>).debug())
   expect(true).toBe(true)
 })
