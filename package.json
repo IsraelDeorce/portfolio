@@ -13,7 +13,7 @@
     "dev": "webpack serve --open firefox",
     "build": "webpack --mode production",
     "start": "npm run dev",
-    "test": "jest --watch"
+    "test": "jest --watchAll"
   },
   "dependencies": {
     "@rematch/core": "^2.0.1",
