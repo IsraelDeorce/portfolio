@@ -7,9 +7,7 @@ function Home() {
   const { t } = useTranslation()
   
   return (
-    <section className='home' style={{
-      backgroundImage: 'linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url(/Vancouver.jpg)'
-    }}>
+    <section className='home'>
       <h1>Israel Deorce</h1>
       <p className='subtitle'>{t('subtitle')}</p>
       <div className='home-buttons'>

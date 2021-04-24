@@ -1,6 +1,7 @@
 @import '/src/index.scss';
 
 .home {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('../../assets/Vancouver.jpg');
   background-size: cover;
   background-position: top right 30%;
   color: $dark-brackets;
