@@ -1,6 +1,8 @@
 # portfolio
 my portfolio project
 
+https://israeldeorce.com
+
 ## Installed Packages
 
 ### i18next
