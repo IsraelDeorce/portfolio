@@ -20,6 +20,8 @@ module.exports = {
   },
   mode: 'development', // Defines default optimizations depending on mode
   devServer: {
+    host: '0.0.0.0',
+    disableHostCheck: true,
     open: false, // opens the browser automatically
     contentBase: path.join(__dirname, 'dist'), // choses content
     port: 9000,
