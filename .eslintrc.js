@@ -10,6 +10,7 @@ module.exports = {
     'plugin:jest/recommended',
     'plugin:jest/style'
   ],
+  ignorePatterns: ['*.ejs', '*.scss'],
   parserOptions: {
     ecmaFeatures: {
       jsx: true
