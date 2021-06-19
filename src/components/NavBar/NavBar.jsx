@@ -15,10 +15,10 @@ import './NavBar.scss'
 const Nav = styled.nav`
   display: flex;
   align-items: center;
-  background-color: ${(props) => props.theme.c_menu};
+  background-color: ${({ theme }) => theme.c_menu};
   padding: 0 1.5rem;
   height: 60px;
-  color: ${(props) => props.theme.c_brackets};
+  color: ${({ theme }) => theme.c_brackets};
   & > *:not(:last-child) {
     margin-right: 0.75rem;
   }
@@ -29,7 +29,7 @@ const Hamburguer = styled.span`
   cursor: pointer;
   flex-shrink: 0;
   &:hover {
-    color: ${(props) => props.theme.c_varType};
+    color: ${({ theme }) => theme.c_varType};
   }
   @media (min-width: 992px) {
     display: none;
@@ -39,9 +39,9 @@ const NavTitle = styled.a`
   text-decoration: none;
   display: flex;
   align-items: center;
-  color: ${(props) => props.theme.c_brackets};
+  color: ${({ theme }) => theme.c_brackets};
   &:hover {
-    color: ${(props) => props.theme.c_varType};
+    color: ${({ theme }) => theme.c_varType};
   }
   & > *:not(:last-child) {
     margin-right: 0.5rem;

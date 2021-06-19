@@ -10,7 +10,7 @@ const Items = styled.div`
     margin-right: 0.75rem;
   }
   & > *:hover {
-    color: ${(props) => props.theme.c_varType};
+    color: ${({ theme }) => theme.c_varType};
   }
   @media (max-width: 992px) {
     display: none;
