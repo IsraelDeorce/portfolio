@@ -1,8 +1,12 @@
 {
   "subtitle": "Engenheiro de Software",
   "button": {
-    "home": "Home",
-    "translate": "Traduzir",
+    "skills": "Habilidades",
+    "experience": "Experiência",
+    "projects": "Projetos",
+    "education": "Educação", 
+    "awards": "Prêmios",
+    "curiosities": "Curiosidades",
     "contact": "Contato",
     "visit_my_blog": "Visite meu Blog",
     "resume": "Currículo"

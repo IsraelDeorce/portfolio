@@ -1,14 +1,15 @@
 import { BlogButton, UIButton } from '../../components'
 import { FaGoogleDrive } from 'react-icons/fa'
 import { useTranslation } from 'react-i18next'
+import { TEXT } from '../../utils/constants'
 import './Home.scss'
 
 function Home() {
   const { t } = useTranslation()
   
   return (
-    <section className='home'>
-      <h1>Israel Deorce</h1>
+    <section id='home' className='home'>
+      <h1>{TEXT.myName}</h1>
       <p className='subtitle'>{t('subtitle')}</p>
       <div className='home-buttons'>
         <BlogButton />
