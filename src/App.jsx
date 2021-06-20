@@ -9,7 +9,6 @@ import './App.scss'
 
 function App() {
   const { theme } = useSelector((state) => state.session)
-  console.log(theme)
   return (
     <ThemeProvider theme={Themes[theme]}>
       <div id='app'>
