@@ -1,34 +1,71 @@
 import { useTranslation } from 'react-i18next'
 import styled from 'styled-components'
 
-const Items = styled.div`
-  display: flex;
+const HorizontalWrapper = styled.div`
+  ${(props) => { console.log(props) }}
+  display: none;
   & > * {
     cursor: pointer;
   }
   & > *:not(:last-child) {
-    margin-right: 0.75rem;
+    margin-right: 2em;
+  }
+  & > *:hover {
+    color: ${({ theme }) => theme.c_varType};
+  }
+  @media (min-width: 992px) {
+    display: flex;
+  }
+`
+
+const VerticalWrapper = styled.div`
+  ${(props) => { console.log(props) }}
+  display: none;
+  flex-direction: column;
+  & > * {
+    cursor: pointer;
+  }
+  & > * {
+    margin-right: 2em;
   }
   & > *:hover {
     color: ${({ theme }) => theme.c_varType};
   }
   @media (max-width: 992px) {
-    display: none;
+    display: ${({ isOpen }) => isOpen ? 'flex' : 'none'};
   }
 `
 
-function NavItemsList ({ direction = 'column' }) {
+function NavItemsList ({ isOpen }) {
   const { t } = useTranslation()
 
+  const list =
+    <>
+      <a href='#home'>
+        <strong>{t('button.skills')}</strong>
+      </a>
+      <a href='#sec1'>
+        <strong>{t('button.projects')}</strong>
+      </a>
+      <a href='#sec2'>
+        <strong>{t('button.education')}</strong>
+      </a>
+      <a href='#sec3'>
+        <strong>{t('button.awards')}</strong>
+      </a>
+      <a href='#sec4'>
+        <strong>{t('button.curiosities')}</strong>
+      </a>
+      <a href='#sec5'>
+        <strong>{t('button.contact')}</strong>
+      </a>
+    </>
+
   return (
-    <Items style={{ flexDirection: direction }}>
-      <strong href='#home'>{t('button.skills')}</strong>
-      <strong href='#top'>{t('button.projects')}</strong>
-      <strong href='#top'>{t('button.education')}</strong>
-      <strong href='#top'>{t('button.awards')}</strong>
-      <strong href='#top'>{t('button.curiosities')}</strong>
-      <strong href='#top'>{t('button.contact')}</strong>
-    </Items>
+    <>
+      <VerticalWrapper isOpen={isOpen}>{list}</VerticalWrapper>
+      <HorizontalWrapper isOpen={isOpen}>{list}</HorizontalWrapper>
+    </>
   )
 }
 

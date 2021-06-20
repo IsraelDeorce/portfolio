@@ -13,14 +13,19 @@ import NavItemsList from '../NavItemsList/NavItemsList'
 import './NavBar.scss'
 
 const Nav = styled.nav`
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
   display: flex;
   align-items: center;
   background-color: ${({ theme }) => theme.c_menu};
-  padding: 0 1.5rem;
+  padding: 0 1.5em;
   height: 60px;
   color: ${({ theme }) => theme.c_brackets};
   & > *:not(:last-child) {
-    margin-right: 0.75rem;
+    margin-right: 0.75em;
   }
 `
 const Hamburguer = styled.span`
@@ -36,7 +41,6 @@ const Hamburguer = styled.span`
   }
 `
 const NavTitle = styled.a`
-  text-decoration: none;
   display: flex;
   align-items: center;
   color: ${({ theme }) => theme.c_brackets};
@@ -44,16 +48,16 @@ const NavTitle = styled.a`
     color: ${({ theme }) => theme.c_varType};
   }
   & > *:not(:last-child) {
-    margin-right: 0.5rem;
+    margin-right: 0.5em;
   }
 `
-const NavItemsContainer = styled.div`
+const NavItemsWrapper = styled.div`
   flex: 1;
   display: flex;
   align-items: center;
   justify-content: flex-end;
   & > *:not(:last-child) {
-    margin-right: 0.75rem;
+    margin-right: 0.75em;
   }
 `
 
@@ -61,6 +65,7 @@ function NavBar() {
   const { language } = useSelector((state) => state.session)
   const dispatch = useDispatch()
   const [flag, setFlag] = useState(null)
+  const [isOpen, setIsOpen] = useState(false)
 
   useEffect(() => {
     language === 'en'
@@ -76,21 +81,21 @@ function NavBar() {
 
   return (
     <Nav>
-      <Hamburguer>
+      <Hamburguer onClick={() => setIsOpen(!isOpen)} >
         <MdMenu size='32' />
       </Hamburguer>
       <NavTitle href='#home'>
         {<MdHome size='32' />}
         <strong>{TEXT.myName}</strong>
       </NavTitle>
-      <NavItemsContainer>
-        <NavItemsList direction='row' />
+      <NavItemsWrapper>
+        <NavItemsList isOpen={isOpen} />
         <Toggle
           onChange={dispatch.session.switchTheme}
           className='toggle'
           icons={{
-            checked: <FaMoon />,
-            unchecked: <FaSun />,
+            checked: <FaSun />,
+            unchecked: <FaMoon />,
           }}
         />
         <div className='d-flex-center pointer' onClick={handleChangeLanguage}>
@@ -100,7 +105,7 @@ function NavBar() {
           </div>
           {flag}
         </div>
-      </NavItemsContainer>
+      </NavItemsWrapper>
     </Nav>
   )
 }
