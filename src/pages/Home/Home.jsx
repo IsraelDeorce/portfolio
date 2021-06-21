@@ -7,14 +7,16 @@ import { TEXT } from '../../utils/constants'
 
 import './Home.scss'
 
-const Placeholder = styled.div`
+const Placeholder = styled.section`
   scroll-behavior: smooth;
-  & > * {
-    min-height: 400px;
-    background-color: ${({ theme }) => theme.c_importExport};
-    border-bottom: 4px solid black;
-  }
+  min-height: 400px;
+  border-bottom: 4px solid black;
 `
+const Placeholder1 = styled(Placeholder)`background-color: ${({ theme }) => theme.c_importExport};`
+const Placeholder2 = styled(Placeholder)`background-color: ${({ theme }) => theme.c_string};`
+const Placeholder3 = styled(Placeholder)`background-color: ${({ theme }) => theme.c_varDeclaration};`
+const Placeholder4 = styled(Placeholder)`background-color: ${({ theme }) => theme.c_number};`
+const Placeholder5 = styled(Placeholder)`background-color: ${({ theme }) => theme.c_varType};`
 
 function Home() {
   const { t } = useTranslation()
@@ -34,12 +36,11 @@ function Home() {
           />
         </div>
       </section>
-      <Placeholder>
-        <section id='sec1' className='sec' />
-        <section id='sec2' className='sec' />
-        <section id='sec3' className='sec' />
-        <section id='sec4' className='sec' />
-      </Placeholder>
+      <Placeholder1 id='sec1' />
+      <Placeholder2 id='sec2' />
+      <Placeholder3 id='sec3' />
+      <Placeholder4 id='sec4' />
+      <Placeholder5 id='sec5' />
     </>
   )
 }

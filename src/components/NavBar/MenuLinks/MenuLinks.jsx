@@ -16,10 +16,7 @@ function MenuLinks({ isOpen }) {
     </>
 
   return (
-    <>
-      <S.Vertical isOpen={isOpen}>{list}</S.Vertical>
-      <S.Horizontal isOpen={isOpen}>{list}</S.Horizontal>
-    </>
+    <S.MenuLinks isOpen={isOpen}>{list}</S.MenuLinks>
   )
 }
 

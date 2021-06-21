@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useState, useRef } from 'react'
 import { useSelector, useDispatch } from 'react-redux'
 import { MdKeyboardArrowDown } from 'react-icons/md'
 import { FaMoon, FaSun } from 'react-icons/fa'
@@ -16,6 +16,17 @@ function Menu({ isOpen, setIsOpen }) {
   const dispatch = useDispatch()
   const [flag, setFlag] = useState(null)
 
+  const node = useRef()
+  const handleClick = (e) => {
+    if (!node.current.contains(e.target)) setIsOpen(false);;
+  };
+  useEffect(() => {
+    document.addEventListener("mousedown", handleClick);
+    return () => {
+      document.removeEventListener("mousedown", handleClick);
+    };
+  }, []);
+
   useEffect(() => {
     language === 'en'
       ? setFlag(<Flags.CA title='Canada' className='flag' />)
@@ -29,23 +40,26 @@ function Menu({ isOpen, setIsOpen }) {
   }
 
   return (
-    <S.Menu>
+    <S.Menu ref={node} isOpen={isOpen} onBlur={() => setIsOpen(false)}>
       <MenuLinks isOpen={isOpen} />
-      <Toggle
-        onChange={dispatch.session.switchTheme}
-        className='toggle'
-        icons={{
-          checked: <FaSun />,
-          unchecked: <FaMoon />,
-        }}
-      />
-      <S.LanguageSelector onClick={handleChangeLanguage}>
-        <S.LanguageCode>
-          {language}
-          {<MdKeyboardArrowDown />}
-        </S.LanguageCode>
-        {flag}
-      </S.LanguageSelector>
+      <S.UserPreferences isOpen={isOpen}>
+        <Toggle
+          onChange={dispatch.session.switchTheme}
+          className='toggle'
+          icons={{
+            checked: <FaSun />,
+            unchecked: <FaMoon />,
+          }}
+        />
+        <S.LanguageSelector onClick={handleChangeLanguage}>
+          <S.LanguageCode>
+            {language}
+            {<MdKeyboardArrowDown />}
+          </S.LanguageCode>
+          {flag}
+        </S.LanguageSelector>
+      </S.UserPreferences>
+
     </S.Menu>
   )
 }

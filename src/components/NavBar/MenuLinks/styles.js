@@ -1,31 +1,28 @@
-import styled from 'styled-components'
+import styled, { css } from 'styled-components'
 
-export const Horizontal = styled.div`
-  display: none;
+export const MenuLinks = styled.div`
+  display: none
   & > * {
     cursor: pointer;
-  }
-  & > *:not(:last-child) {
-    margin-right: 2em;
   }
   & > *:hover {
     color: ${({ theme }) => theme.c_varType};
   }
   @media (min-width: 992px) {
     display: flex;
-  }
-`
-
-export const Vertical = styled.div`
-  display: none;
-  flex-direction: column;
-  & > * {
-    cursor: pointer;
-  }
-  & > *:hover {
-    color: ${({ theme }) => theme.c_varType};
+    & > *:not(:last-child) {
+      margin-right: 2em;
+    }
   }
   @media (max-width: 992px) {
-    display: ${({ isOpen }) => isOpen ? 'flex' : 'none'};
+    display: none;
+    
+    ${({ isOpen }) => isOpen && css`
+      display: flex;
+      flex-direction: column;
+      & > * {
+        margin: .75em 0;
+      }
+    `}
   }
 `
