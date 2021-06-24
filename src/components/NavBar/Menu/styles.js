@@ -14,7 +14,7 @@ export const Menu = styled.div`
     align-items: flex-start;
     background-color: ${({ theme }) => theme.c_menu};
     height: 100vh;
-    width: 80vw;
+    width: 75vw;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -22,6 +22,7 @@ export const Menu = styled.div`
     box-shadow: blue;
     z-index: 2;
     transition: transform 0.3s ease-in-out;
+    box-shadow: 0 5px 30px ${({ theme }) => theme.c_tab};
     padding-left: 2em;
   `}
 `
@@ -43,7 +44,9 @@ export const UserPreferences = styled.div`
     margin-right: 0.75em;
   }
   @media (max-width: 992px) {
+    display: none;
     ${({ isOpen }) => isOpen && css`
+      display: flex;
       border-bottom: 2px solid gray;
       padding: 0.35em 0;
       margin-bottom: 0.35em;

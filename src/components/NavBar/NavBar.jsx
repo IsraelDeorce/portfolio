@@ -1,5 +1,6 @@
 import { useState } from 'react'
-import { MdMenu, MdHome } from 'react-icons/md'
+import { MdMenu } from 'react-icons/md'
+import { GiDirewolf } from 'react-icons/gi'
 
 import { TEXT } from '../../utils/constants'
 import Menu from './Menu/Menu'
@@ -15,7 +16,7 @@ function NavBar() {
         <MdMenu size='32' />
       </S.Hamburguer>
       <S.Title href='#home'>
-        {<MdHome size='32' />}
+        {<GiDirewolf size='32' />}
         <strong>{TEXT.myName}</strong>
       </S.Title>
       <Menu isOpen={isOpen} setIsOpen={setIsOpen} />

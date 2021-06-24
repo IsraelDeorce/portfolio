@@ -7,31 +7,35 @@ import Toggle from 'react-toggle'
 import 'react-toggle/style.css'
 
 import MenuLinks from '../MenuLinks/MenuLinks'
+import { formatLanguage } from '../../../utils'
 
 import * as S from './styles'
 import './Menu.scss'
 
 function Menu({ isOpen, setIsOpen }) {
-  const { language } = useSelector((state) => state.session)
+  const session = useSelector((state) => state.session)
   const dispatch = useDispatch()
   const [flag, setFlag] = useState(null)
+  const [language, setLanguage] = useState('')
 
   const node = useRef()
   const handleClick = (e) => {
-    if (!node.current.contains(e.target)) setIsOpen(false);;
-  };
+    if (!node.current.contains(e.target)) setIsOpen(false)
+  }
   useEffect(() => {
-    document.addEventListener("mousedown", handleClick);
+    document.addEventListener("mousedown", handleClick)
     return () => {
-      document.removeEventListener("mousedown", handleClick);
-    };
-  }, []);
+      document.removeEventListener("mousedown", handleClick)
+    }
+  }, [])
 
   useEffect(() => {
-    language === 'en'
+    const formatedLanguage = formatLanguage(session.language)
+    setLanguage(formatedLanguage)
+    formatedLanguage === 'en'
       ? setFlag(<Flags.CA title='Canada' className='flag' />)
       : setFlag(<Flags.BR title='Brasil' className='flag' />)
-  }, [language])
+  }, [session.language])
 
   const handleChangeLanguage = () => {
     dispatch.session.changeLanguage({
@@ -59,7 +63,6 @@ function Menu({ isOpen, setIsOpen }) {
           {flag}
         </S.LanguageSelector>
       </S.UserPreferences>
-
     </S.Menu>
   )
 }
