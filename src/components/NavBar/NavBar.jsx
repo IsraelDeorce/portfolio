@@ -1,26 +1,22 @@
-import { useState } from 'react'
+import { useDispatch } from 'react-redux'
 import { MdMenu } from 'react-icons/md'
-import { GiDirewolf } from 'react-icons/gi'
 
-import { TEXT } from '../../utils/constants'
 import Menu from './Menu/Menu'
+import TitledLogo from './TitledLogo/TitledLogo'
 
 import * as S from './styles'
 
 function NavBar() {
-  const [isOpen, setIsOpen] = useState(false)
+  const dispatch = useDispatch()
 
   return (
     <S.NavBar>
-      <S.Hamburguer onClick={() => setIsOpen(!isOpen)} >
+      <S.Hamburguer onClick={() => dispatch.session.update({ isMenuOpen: true })}>
         <MdMenu size='32' />
       </S.Hamburguer>
-      <S.Title href='#home'>
-        {<GiDirewolf size='32' />}
-        <strong>{TEXT.myName}</strong>
-      </S.Title>
-      <Menu isOpen={isOpen} setIsOpen={setIsOpen} />
-    </S.NavBar >
+      <TitledLogo/>
+      <Menu />
+    </S.NavBar>
   )
 }
 

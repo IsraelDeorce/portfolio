@@ -2,7 +2,7 @@ import { useTranslation } from 'react-i18next'
 
 import * as S from './styles'
 
-function MenuLinks({ isOpen }) {
+function MenuLinks({ isMenuOpen }) {
   const { t } = useTranslation()
 
   const list =
@@ -16,7 +16,7 @@ function MenuLinks({ isOpen }) {
     </>
 
   return (
-    <S.MenuLinks isOpen={isOpen}>{list}</S.MenuLinks>
+    <S.MenuLinks isMenuOpen={isMenuOpen}>{list}</S.MenuLinks>
   )
 }
 

@@ -1,9 +1,10 @@
 @import '/src/index.scss';
 
 .home {
-  background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('../../assets/Vancouver.jpg');
-  background-size: cover;
-  background-position: top right 30%;
+  // background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('../../assets/Vancouver.jpg');
+  // background-size: cover;
+  // background-position: top right 30%;
+  background-color: $dark-background;
   color: $dark-brackets;
   padding: 7em 2em 4.5em 2em;
   display: flex;

@@ -7,27 +7,17 @@ import Toggle from 'react-toggle'
 import 'react-toggle/style.css'
 
 import MenuLinks from '../MenuLinks/MenuLinks'
+import TitledLogo from '../TitledLogo/TitledLogo'
 import { formatLanguage } from '../../../utils'
 
 import * as S from './styles'
 import './Menu.scss'
 
-function Menu({ isOpen, setIsOpen }) {
+function Menu() {
   const session = useSelector((state) => state.session)
   const dispatch = useDispatch()
   const [flag, setFlag] = useState(null)
   const [language, setLanguage] = useState('')
-
-  const node = useRef()
-  const handleClick = (e) => {
-    if (!node.current.contains(e.target)) setIsOpen(false)
-  }
-  useEffect(() => {
-    document.addEventListener("mousedown", handleClick)
-    return () => {
-      document.removeEventListener("mousedown", handleClick)
-    }
-  }, [])
 
   useEffect(() => {
     const formatedLanguage = formatLanguage(session.language)
@@ -43,27 +33,33 @@ function Menu({ isOpen, setIsOpen }) {
     })
   }
 
+  const closeMenu = () => { dispatch.session.update({ isMenuOpen: false }) }
+
   return (
-    <S.Menu ref={node} isOpen={isOpen} onBlur={() => setIsOpen(false)}>
-      <MenuLinks isOpen={isOpen} />
-      <S.UserPreferences isOpen={isOpen}>
-        <Toggle
-          onChange={dispatch.session.switchTheme}
-          className='toggle'
-          icons={{
-            checked: <FaSun />,
-            unchecked: <FaMoon />,
-          }}
-        />
-        <S.LanguageSelector onClick={handleChangeLanguage}>
-          <S.LanguageCode>
-            {language}
-            {<MdKeyboardArrowDown />}
-          </S.LanguageCode>
-          {flag}
-        </S.LanguageSelector>
-      </S.UserPreferences>
-    </S.Menu>
+    <>
+      {session.isMenuOpen && <S.Background onClick={closeMenu} />}
+      <S.Menu isMenuOpen={session.isMenuOpen}>
+        <MenuLinks isMenuOpen={session.isMenuOpen} />
+        <S.UserPreferences isMenuOpen={session.isMenuOpen}>
+          {session.isMenuOpen && <TitledLogo/>}
+          <Toggle
+            onChange={dispatch.session.switchTheme}
+            className='toggle'
+            icons={{
+              checked: <FaSun />,
+              unchecked: <FaMoon />,
+            }}
+          />
+          <S.LanguageSelector onClick={handleChangeLanguage}>
+            <S.LanguageCode>
+              {language}
+              {<MdKeyboardArrowDown />}
+            </S.LanguageCode>
+            {flag}
+          </S.LanguageSelector>
+        </S.UserPreferences>
+      </S.Menu>
+    </>
   )
 }
 

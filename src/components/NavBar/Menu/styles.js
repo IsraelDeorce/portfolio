@@ -1,5 +1,14 @@
 import styled, { css } from 'styled-components'
 
+export const Background = styled.div`
+  opacity:0.8;
+  background-color:#ccc;
+  position:fixed;
+  width:100%;
+  height:100%;
+  top:0px;
+  left:0px;
+`
 export const Menu = styled.div`
   flex: 1;
   display: flex;
@@ -8,7 +17,7 @@ export const Menu = styled.div`
   & > *:not(:last-child) {
     margin-right: 0.75em;
   }
-  ${({ isOpen }) => isOpen && css`
+  ${({ isMenuOpen }) => isMenuOpen && css`
     flex-direction: column-reverse;;
     justify-content: flex-end;
     align-items: flex-start;
@@ -24,6 +33,9 @@ export const Menu = styled.div`
     transition: transform 0.3s ease-in-out;
     box-shadow: 0 5px 30px ${({ theme }) => theme.c_tab};
     padding-left: 2em;
+    & > * {
+      width: 100%;
+    }
   `}
 `
 
@@ -39,13 +51,14 @@ transition-duration: .25s;
 
 export const UserPreferences = styled.div`
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   & > *:not(:last-child) {
     margin-right: 0.75em;
   }
   @media (max-width: 992px) {
     display: none;
-    ${({ isOpen }) => isOpen && css`
+    ${({ isMenuOpen }) => isMenuOpen && css`
       display: flex;
       border-bottom: 2px solid gray;
       padding: 0.35em 0;

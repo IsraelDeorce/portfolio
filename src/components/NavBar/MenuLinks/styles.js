@@ -17,7 +17,7 @@ export const MenuLinks = styled.div`
   @media (max-width: 992px) {
     display: none;
     
-    ${({ isOpen }) => isOpen && css`
+    ${({ isMenuOpen }) => isMenuOpen && css`
       display: flex;
       flex-direction: column;
       & > * {
