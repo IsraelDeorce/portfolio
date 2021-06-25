@@ -1,8 +1,8 @@
 import styled, { css } from 'styled-components'
 
 export const Background = styled.div`
-  opacity:0.8;
-  background-color:#ccc;
+  opacity: 0.7;
+  background-color: ${({ theme }) => theme.c_background};
   position:fixed;
   width:100%;
   height:100%;

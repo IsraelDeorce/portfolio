@@ -30,7 +30,7 @@ function Home() {
           <BlogButton />
           <UIButton
             onClick={() => window.open('https://docs.google.com/document/d/1gwsxihd7lOVGqM2HzhD2VqOYW85ExDR7hLntG_dOQyg/edit?usp=sharing', '_blank')}
-            className='secondary'
+            secondary
             label={t('button.resume')}
             righticon={<FaGoogleDrive />}
           />

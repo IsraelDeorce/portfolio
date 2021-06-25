@@ -1,4 +1,4 @@
-import { useEffect, useState, useRef } from 'react'
+import { useEffect, useState } from 'react'
 import { useSelector, useDispatch } from 'react-redux'
 import { MdKeyboardArrowDown } from 'react-icons/md'
 import { FaMoon, FaSun } from 'react-icons/fa'
@@ -14,22 +14,22 @@ import * as S from './styles'
 import './Menu.scss'
 
 function Menu() {
-  const session = useSelector((state) => state.session)
+  const { language, isMenuOpen } = useSelector((state) => state.session)
   const dispatch = useDispatch()
   const [flag, setFlag] = useState(null)
-  const [language, setLanguage] = useState('')
+  const [languageCode, setLanguage] = useState('')
 
   useEffect(() => {
-    const formatedLanguage = formatLanguage(session.language)
+    const formatedLanguage = formatLanguage(language)
     setLanguage(formatedLanguage)
     formatedLanguage === 'en'
       ? setFlag(<Flags.CA title='Canada' className='flag' />)
       : setFlag(<Flags.BR title='Brasil' className='flag' />)
-  }, [session.language])
+  }, [language])
 
   const handleChangeLanguage = () => {
     dispatch.session.changeLanguage({
-      language: language === 'en' ? 'pt' : 'en'
+      languageCode: languageCode === 'en' ? 'pt' : 'en'
     })
   }
 
@@ -37,11 +37,11 @@ function Menu() {
 
   return (
     <>
-      {session.isMenuOpen && <S.Background onClick={closeMenu} />}
-      <S.Menu isMenuOpen={session.isMenuOpen}>
-        <MenuLinks isMenuOpen={session.isMenuOpen} />
-        <S.UserPreferences isMenuOpen={session.isMenuOpen}>
-          {session.isMenuOpen && <TitledLogo/>}
+      {isMenuOpen && <S.Background onClick={closeMenu} />}
+      <S.Menu isMenuOpen={isMenuOpen}>
+        <MenuLinks isMenuOpen={isMenuOpen} />
+        <S.UserPreferences isMenuOpen={isMenuOpen}>
+          {isMenuOpen && <TitledLogo onClick={closeMenu} />}
           <Toggle
             onChange={dispatch.session.switchTheme}
             className='toggle'
@@ -52,7 +52,7 @@ function Menu() {
           />
           <S.LanguageSelector onClick={handleChangeLanguage}>
             <S.LanguageCode>
-              {language}
+              {languageCode}
               {<MdKeyboardArrowDown />}
             </S.LanguageCode>
             {flag}

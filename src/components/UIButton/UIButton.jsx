@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types'
-import './UIButton.scss'
+import * as S from './styles'
 
 const propTypes = {
   className: PropTypes.string,
@@ -8,26 +8,25 @@ const propTypes = {
   lefticon: PropTypes.object,
   righticon: PropTypes.object
 }
-const defaultProps = {
-  className: '',
-  label: '',
-  onClick: () => alert('I do nothing!'),
-  lefticon: null,
-  righticon: null
-}
 
-function UIButton (props) {
-  const { className, label, onClick, lefticon, righticon } = props
+function UIButton(props) {
+  const {
+    label = '',
+    onClick = () => alert('I do nothing!'),
+    lefticon = null,
+    righticon = null,
+    secondary = false
+  } = props
+
   return (
-    <button className={`ui-button ${className}`} onClick={onClick}>
+    <S.UIButton onClick={onClick} secondary={secondary}>
       {lefticon}
-      <span className='ui-button-label'>{label}</span>
+      <S.Label>{label}</S.Label>
       {righticon}
-    </button>
+    </S.UIButton>
   )
 }
 
 UIButton.propTypes = propTypes
-UIButton.defaultProps = defaultProps
 
 export default UIButton
