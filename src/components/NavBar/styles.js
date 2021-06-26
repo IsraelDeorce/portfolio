@@ -29,3 +29,16 @@ export const Hamburguer = styled.span`
     display: none;
   }
 `
+
+export const Menu = styled.div`
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  & > *:not(:last-child) {
+    margin-right: 0.75em;
+  }
+  @media (max-width: 992px) {
+    display: none;
+  }
+`

@@ -81,3 +81,8 @@ a {
   color: inherit;
   text-decoration: inherit;
 }
+
+.isDisabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}

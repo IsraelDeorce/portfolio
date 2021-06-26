@@ -5,7 +5,7 @@ function BlogButton() {
   const { t } = useTranslation()
 
   return (
-    <UIButton label={t('button.visit_my_blog')} onClick={() => null}/>
+    <UIButton label={t('button.visit_my_blog')} />
   )
 }
 

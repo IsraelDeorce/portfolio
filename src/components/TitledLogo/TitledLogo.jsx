@@ -1,7 +1,7 @@
 import { GiDirewolf } from 'react-icons/gi'
 import PropTypes from 'prop-types'
 
-import { TEXT } from '../../../utils/constants'
+import { TEXT } from '../../utils/constants'
 
 import * as S from './styles'
 

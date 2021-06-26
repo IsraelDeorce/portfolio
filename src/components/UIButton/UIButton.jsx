@@ -21,7 +21,7 @@ function UIButton(props) {
   return (
     <S.UIButton onClick={onClick} secondary={secondary}>
       {lefticon}
-      <S.Label>{label}</S.Label>
+      <span>{label}</span>
       {righticon}
     </S.UIButton>
   )

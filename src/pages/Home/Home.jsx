@@ -36,11 +36,11 @@ function Home() {
           />
         </div>
       </section>
-      <Placeholder1 id='sec1' />
-      <Placeholder2 id='sec2' />
-      <Placeholder3 id='sec3' />
-      <Placeholder4 id='sec4' />
-      <Placeholder5 id='sec5' />
+      <Placeholder1 id='sec1'><h1>TESTEEEEEEEEEEEE</h1></Placeholder1>
+      <Placeholder2 id='sec2'><h1>TESTEEEEEEEEEEEE</h1></Placeholder2>
+      <Placeholder3 id='sec3'><h1>TESTEEEEEEEEEEEE</h1></Placeholder3>
+      <Placeholder4 id='sec4'><h1>TESTEEEEEEEEEEEE</h1></Placeholder4>
+      <Placeholder5 id='sec5'><h1>TESTEEEEEEEEEEEE</h1></Placeholder5>
     </>
   )
 }

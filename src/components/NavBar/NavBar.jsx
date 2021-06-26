@@ -1,29 +1,29 @@
-import { useEffect } from 'react'
-import { useSelector, useDispatch } from 'react-redux'
+import { useDispatch } from 'react-redux'
 import { MdMenu } from 'react-icons/md'
 
-import Menu from './Menu/Menu'
-import TitledLogo from './TitledLogo/TitledLogo'
-import { useWindowSize } from '../../utils/hooks'
+import TitledLogo from '../TitledLogo/TitledLogo'
+import PortfolioLinks from '../PortfolioLinks/PortfolioLinks'
+import ThemeToggle from '../ThemeToggle/ThemeToggle'
+import LanguageSelector from '../LanguageSelector/LanguageSelector'
 
 import * as S from './styles'
 
 function NavBar() {
-  const { isMenuOpen } = useSelector((state) => state.session)
   const dispatch = useDispatch()
-  const [_height, width] = useWindowSize()
 
-  useEffect(() => {
-    if (isMenuOpen && width >= 992) dispatch.session.update({ isMenuOpen: false })
-  }, [isMenuOpen, width])
+  const openSideBar = () => dispatch.session.update({ isSideBarOpen: true })
 
   return (
     <S.NavBar>
-      <S.Hamburguer onClick={() => dispatch.session.update({ isMenuOpen: true })}>
+      <S.Hamburguer onClick={openSideBar}>
         <MdMenu size='32' />
       </S.Hamburguer>
       <TitledLogo/>
-      <Menu />
+      <S.Menu>
+        <PortfolioLinks />
+        <ThemeToggle />
+        <LanguageSelector />
+      </S.Menu>
     </S.NavBar>
   )
 }
