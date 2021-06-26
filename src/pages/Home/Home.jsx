@@ -1,8 +1,7 @@
-import { BlogButton, UIButton } from '../../components'
-import { FaGoogleDrive } from 'react-icons/fa'
 import { useTranslation } from 'react-i18next'
 import styled from 'styled-components'
 
+import ExternalButtons from '../../components/ExternalButtons/ExternalButtons'
 import { TEXT } from '../../utils/constants'
 
 import './Home.scss'
@@ -26,15 +25,7 @@ function Home() {
       <section id='home' className='home'>
         <h1>{TEXT.myName}</h1>
         <p className='subtitle'>{t('subtitle')}</p>
-        <div className='home-buttons'>
-          <BlogButton />
-          <UIButton
-            onClick={() => window.open('https://docs.google.com/document/d/1gwsxihd7lOVGqM2HzhD2VqOYW85ExDR7hLntG_dOQyg/edit?usp=sharing', '_blank')}
-            secondary
-            label={t('button.resume')}
-            righticon={<FaGoogleDrive />}
-          />
-        </div>
+        <ExternalButtons/>
       </section>
       <Placeholder1 id='sec1'><h1>TESTEEEEEEEEEEEE</h1></Placeholder1>
       <Placeholder2 id='sec2'><h1>TESTEEEEEEEEEEEE</h1></Placeholder2>

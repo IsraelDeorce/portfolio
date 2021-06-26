@@ -10,9 +10,9 @@ export const NavBar = styled.nav`
   align-items: center;
   font-weight: 700;
   background-color: ${({ theme }) => theme.c_menu};
-  padding: 0 1.5em;
-  height: 60px;
   color: ${({ theme }) => theme.c_brackets};
+  padding: 0 1.5em;
+  min-height: 60px;
   & > *:not(:last-child) {
     margin-right: 0.75em;
   }

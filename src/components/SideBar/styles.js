@@ -10,18 +10,18 @@ export const Background = styled.div`
   left:0px;
 `
 export const SideBar = styled.div`
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
   display: flex;
   flex-direction: column;
   background-color: ${({ theme }) => theme.c_menu};
   height: 100vh;
   width: 75vw;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  top: 0;
   z-index: 2;
   box-shadow: 0 5px 30px ${({ theme }) => theme.c_tab};
-  padding-left: 2em;
+  padding: 0 2em;
   & > * {
     width: 100%;
   }
@@ -34,7 +34,7 @@ export const Header = styled.div`
   min-height: 60px;
   border-bottom: 2px solid gray;
   & > *:not(:last-child) {
-    margin-right: 0.75em;
+    padding: 0.35em;
   }
 `
 

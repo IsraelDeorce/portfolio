@@ -2,9 +2,7 @@ import styled, { css } from 'styled-components'
 
 export const PortfolioLinks = styled.div`
   display: flex;
-  & > * {
-    cursor: pointer;
-  }
+  color: ${({ theme }) => theme.c_brackets};
   & > *:hover {
     color: ${({ theme }) => theme.c_varType};
   }
