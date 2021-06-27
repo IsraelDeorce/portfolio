@@ -13,7 +13,7 @@ function TitledLogo({ onClick }) {
   return (
     <S.Title onClick={onClick} href='#home'>
       {<GiDirewolf size='32' />}
-      <strong>{TEXT.myName}</strong>
+      <strong>{TEXT.MYNAME}</strong>
     </S.Title>
   )
 }

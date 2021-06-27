@@ -11,9 +11,16 @@ export const UIButton = styled.button`
   ${({ theme, secondary }) => secondary
   ? css`
     color: ${theme.c_component};
+    :hover {
+      color: ${({ theme }) => theme.c_varType};
+    }
   `
   : css`
     background-color: ${theme.c_component};
     color: ${theme.c_background};
+    :hover {
+      background-color: ${({ theme }) => theme.c_varType};
+    }
   `}
+
 `

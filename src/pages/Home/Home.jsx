@@ -23,7 +23,7 @@ function Home() {
   return (
     <>
       <section id='home' className='home'>
-        <h1>{TEXT.myName}</h1>
+        <h1>{TEXT.MYNAME}</h1>
         <p className='subtitle'>{t('subtitle')}</p>
         <ExternalButtons/>
       </section>

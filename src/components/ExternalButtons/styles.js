@@ -4,6 +4,9 @@ export const ExternalButtons = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 20px;
-  font-size: 1.25rem;
+  margin-top: 1.5em;
+  font-size: 1.25em;
+  & > * {
+    margin-bottom: 0.3em;
+  }
 `

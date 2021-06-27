@@ -1,6 +1,8 @@
 import { useTranslation } from 'react-i18next'
 import { FaGoogleDrive } from 'react-icons/fa'
+
 import { UIButton } from '../'
+import { LINKS } from '../../utils/constants'
 
 import * as S from './styles'
 
@@ -11,7 +13,7 @@ function ExternalButtons() {
     <S.ExternalButtons>
       <UIButton label={t('button.visit_my_blog')} />
       <UIButton
-          onClick={() => window.open('https://docs.google.com/document/d/1gwsxihd7lOVGqM2HzhD2VqOYW85ExDR7hLntG_dOQyg/edit?usp=sharing', '_blank')}
+          onClick={() => window.open(LINKS.GDRIVE, '_blank')}
           secondary
           label={t('button.resume')}
           righticon={<FaGoogleDrive />}
