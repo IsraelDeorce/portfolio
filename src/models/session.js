@@ -2,17 +2,24 @@ import i18n from '../i18n'
 
 const session = {
   state: {
-    language: 'en'
+    language: i18n.language,
+    theme: 'dark',
+    isSideBarOpen: false
   },
   reducers: {
     update (state, payload) {
-      return { ...state, ...payload}
-    },
+      return { ...state, ...payload }
+    }
   },
-  effects: dispatch => ({
-    changeLanguage({ language }, _rootState) {
+  effects: (dispatch) => ({
+    changeLanguage ({ language }) {
       dispatch.session.update({ language })
       i18n.changeLanguage(language)
+    },
+    switchTheme (_, rootState) {
+      rootState.session.theme === 'dark'
+        ? dispatch.session.update({ theme: 'light' })
+        : dispatch.session.update({ theme: 'dark' })
     }
   })
 }

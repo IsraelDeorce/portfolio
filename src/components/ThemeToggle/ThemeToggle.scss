@@ -1,0 +1,8 @@
+.toggle .react-toggle-track {
+  background-color: #4D4D4D !important;
+  & > * {
+    display: flex;
+    align-items: center;
+    color: #FFCC33;
+  }
+}

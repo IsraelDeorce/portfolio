@@ -1,8 +1,9 @@
 {
   "subtitle": "Software Engineer",
   "button": {
-    "home": "Home",
-    "translate": "Translate",
+    "skills": "Skills",
+    "experience": "Experience",
+    "education": "Education", 
     "contact": "Contact",
     "visit_my_blog": "Visit my Blog",
     "resume": "Résumé"
