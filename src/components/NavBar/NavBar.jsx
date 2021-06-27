@@ -1,11 +1,11 @@
 import { useDispatch } from 'react-redux'
 import { MdMenu } from 'react-icons/md'
-
-import TitledLogo from '../TitledLogo/TitledLogo'
-import PortfolioLinks from '../PortfolioLinks/PortfolioLinks'
-import ThemeToggle from '../ThemeToggle/ThemeToggle'
-import LanguageSelector from '../LanguageSelector/LanguageSelector'
-
+import {
+  TitledLogo,
+  PortfolioLinks,
+  ThemeToggle,
+  LanguageSelector
+} from '../'
 import * as S from './styles'
 
 function NavBar() {

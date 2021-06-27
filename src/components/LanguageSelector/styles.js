@@ -5,6 +5,9 @@ export const LanguageSelector = styled.div`
   align-items: center;
   cursor: pointer;
   color: ${({ theme }) => theme.c_brackets};
+  &:hover {
+    color: ${({ theme }) => theme.c_varType};
+  }
 `
 
 export const LanguageCode = styled.div`

@@ -1,9 +1,7 @@
 import { useTranslation } from 'react-i18next'
 import { FaGoogleDrive } from 'react-icons/fa'
-
 import { UIButton } from '../'
 import { LINKS } from '../../utils/constants'
-
 import * as S from './styles'
 
 function ExternalButtons() {

@@ -1,15 +1,15 @@
 import { useEffect } from 'react'
 import { useSelector, useDispatch } from 'react-redux'
 import 'react-toggle/style.css'
-
 import { useWindowSize } from '../../utils/hooks'
-import PortfolioLinks from '../PortfolioLinks/PortfolioLinks'
-import TitledLogo from '../TitledLogo/TitledLogo'
-import ThemeToggle from '../ThemeToggle/ThemeToggle'
-import LanguageSelector from '../LanguageSelector/LanguageSelector'
-import ExternalButtons from '../ExternalButtons/ExternalButtons'
-import SocialNetworks from '../SocialNetworks/SocialNetworks'
-
+import {
+  PortfolioLinks,
+  TitledLogo,
+  ThemeToggle,
+  LanguageSelector,
+  ExternalButtons,
+  SocialNetworks
+} from '../'
 import * as S from './styles'
 
 function SideBar() {

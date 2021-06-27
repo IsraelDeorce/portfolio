@@ -1,11 +1,9 @@
 import { useSelector } from 'react-redux'
 import { ThemeProvider } from 'styled-components'
 import { Switch, Route } from 'react-router-dom'
-
 import { NavBar, SideBar } from './components'
 import { Home, Error } from './pages'
 import Themes from './utils/themes'
-
 import * as S from './styles'
 
 function App() {

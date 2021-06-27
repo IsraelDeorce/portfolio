@@ -1,6 +1,5 @@
 import { FaWhatsapp, FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa'
 import { LINKS } from '../../utils/constants'
-
 import * as S from './styles'
 
 function SocialNetworks () {

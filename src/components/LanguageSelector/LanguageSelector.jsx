@@ -2,9 +2,7 @@ import { useState, useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { MdKeyboardArrowDown } from 'react-icons/md'
 import Flags from 'country-flag-icons/react/3x2'
-
 import { formatLanguage } from '../../utils'
-
 import * as S from './styles'
 import './LanguageSelector.scss'
 
