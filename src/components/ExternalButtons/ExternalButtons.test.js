@@ -22,9 +22,8 @@ describe('<ExternalButtons/>', () => {
     })
 
     it('opens a new window to the google drive resume', () => {
-      const resumeButton = shallow(<ExternalButtons/>).find('UIButton#resume-button')
-      global.open = jest.fn()
-      resumeButton.simulate('click')
+      global.open = jest.fn()      
+      shallow(<ExternalButtons/>).find('UIButton#resume-button').simulate('click')
       expect(global.open).toHaveBeenCalledTimes(1)
       expect(global.open).toHaveBeenCalledWith(LINKS.GDRIVE, '_blank')
     })
