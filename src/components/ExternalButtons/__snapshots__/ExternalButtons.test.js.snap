@@ -7,6 +7,7 @@ exports[`<ExternalButtons/> Snapshot renders without crashing using mount 1`] = 
       className="sc-crzoAE ciYwSr"
     >
       <UIButton
+        id="blog-button"
         label="button.visit_my_blog"
       >
         <styled.button
@@ -24,6 +25,7 @@ exports[`<ExternalButtons/> Snapshot renders without crashing using mount 1`] = 
         </styled.button>
       </UIButton>
       <UIButton
+        id="resume-button"
         label="button.resume"
         onClick={[Function]}
         righticon={<FaGoogleDrive />}
@@ -114,9 +116,11 @@ exports[`<ExternalButtons/> Snapshot renders without crashing using render 1`] =
 exports[`<ExternalButtons/> Snapshot renders without crashing using shallow 1`] = `
 <styled.div>
   <UIButton
+    id="blog-button"
     label="button.visit_my_blog"
   />
   <UIButton
+    id="resume-button"
     label="button.resume"
     onClick={[Function]}
     righticon={<FaGoogleDrive />}
