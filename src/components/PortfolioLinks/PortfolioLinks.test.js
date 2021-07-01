@@ -3,7 +3,7 @@ import PortfolioLinks from './PortfolioLinks'
 import * as S from './styles' 
 
 describe('<PortfolioLinks/>', () => {
-  beforeEach(() => jest.clearAllMocks())
+  afterEach(() => jest.clearAllMocks())
 
   it('renders four portfolio links', () => {
     const shallowed = shallow(<PortfolioLinks />).find(S.PortfolioLinks)

@@ -2,7 +2,7 @@ import { LINKS } from '../../utils/constants'
 import SocialNetworks from './SocialNetworks'
 
 describe('<SocialNetworks/>', () => {
-  beforeEach(() => jest.clearAllMocks())
+  afterEach(() => jest.clearAllMocks())
 
   it('redirects to the whatsapp link when the whatsapp icon is clicked', () => {
     const whatsappIcon = shallow(<SocialNetworks/>).find('FaWhatsapp')

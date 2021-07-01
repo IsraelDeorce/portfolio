@@ -4,7 +4,7 @@ import ExternalButtons from './ExternalButtons'
 import { LINKS } from '../../utils/constants'
 
 describe('<ExternalButtons/>', () => {
-  beforeEach(() => jest.clearAllMocks())
+  afterEach(() => jest.clearAllMocks())
 
   it('renders a Visit my Blog UIButton with correct label and translation', () => {
     expect(shallow(<ExternalButtons/>).find('UIButton#blog-button').first().prop('label')).toBe('button.visit_my_blog')

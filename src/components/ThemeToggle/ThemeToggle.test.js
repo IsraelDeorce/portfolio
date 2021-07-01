@@ -4,7 +4,7 @@ import ThemeToggle from './ThemeToggle'
 
 describe('<ThemeToggle/>', () => {
   const dispatch = useDispatch()
-  beforeEach(() => jest.clearAllMocks())
+  afterEach(() => jest.clearAllMocks())
 
 
   it('renders a Toggle component from react-togle with a sun and moon as icons', () => {
