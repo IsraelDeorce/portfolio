@@ -8,8 +8,9 @@ jest.mock('../../utils', () => ({
 }))
 
 describe('<LanguageSelector/>', () => {
-  afterEach(() => jest.clearAllMocks())
   const dispatch = useDispatch()
+
+  afterEach(() => jest.clearAllMocks())
 
   it('renders with a formated code as "en" when formatLanguage returns it', () => {
     formatLanguage.mockImplementationOnce(() => 'en')

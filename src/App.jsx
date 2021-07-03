@@ -7,11 +7,11 @@ import Themes from './utils/themes'
 import * as S from './styles'
 
 function App() {
-  const { theme, isSideBarOpen } = useSelector((state) => state.session)
+  const { theme } = useSelector((state) => state.session)
 
   return (
     <ThemeProvider theme={Themes[theme]}>
-      <S.App id='app' isSideBarOpen={isSideBarOpen}>
+      <S.App id='app'>
         <NavBar />
         <SideBar />
         <div>

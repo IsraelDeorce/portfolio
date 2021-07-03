@@ -4,6 +4,7 @@ import * as S from './styles'
 
 describe('<NavBar/>', () => {
   const dispatch = useDispatch()
+
   afterEach(() => jest.clearAllMocks())
 
   it('calls the open side bar function so update the store with side bar is open', () => {
