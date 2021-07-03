@@ -4,7 +4,6 @@ import * as S from './styles'
 
 function SocialNetworks () {
   const redirect = (url) => {
-    console.log(url) 
     window.open(url, '_blank')
   }
 

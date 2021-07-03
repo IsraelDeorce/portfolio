@@ -1,0 +1,130 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ExternalButtons/> Snapshot renders without crashing using mount 1`] = `
+<ExternalButtons>
+  <styled.div>
+    <div
+      className="sc-crzoAE ciYwSr"
+    >
+      <UIButton
+        id="blog-button"
+        label="button.visit_my_blog"
+      >
+        <styled.button
+          onClick={[Function]}
+          secondary={false}
+        >
+          <button
+            className="sc-iqAclL dMFDtY"
+            onClick={[Function]}
+          >
+            <span>
+              button.visit_my_blog
+            </span>
+          </button>
+        </styled.button>
+      </UIButton>
+      <UIButton
+        id="resume-button"
+        label="button.resume"
+        onClick={[Function]}
+        rightIcon={<FaGoogleDrive />}
+        secondary={true}
+      >
+        <styled.button
+          onClick={[Function]}
+          secondary={true}
+        >
+          <button
+            className="sc-iqAclL fMnUBS"
+            onClick={[Function]}
+          >
+            <span>
+              button.resume
+            </span>
+            <FaGoogleDrive>
+              <IconBase
+                attr={
+                  Object {
+                    "viewBox": "0 0 512 512",
+                  }
+                }
+              >
+                <svg
+                  fill="currentColor"
+                  height="1em"
+                  stroke="currentColor"
+                  strokeWidth="0"
+                  style={
+                    Object {
+                      "color": undefined,
+                    }
+                  }
+                  viewBox="0 0 512 512"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M339 314.9L175.4 32h161.2l163.6 282.9H339zm-137.5 23.6L120.9 480h310.5L512 338.5H201.5zM154.1 67.4L0 338.5 80.6 480 237 208.8 154.1 67.4z"
+                    key="0"
+                  />
+                </svg>
+              </IconBase>
+            </FaGoogleDrive>
+          </button>
+        </styled.button>
+      </UIButton>
+    </div>
+  </styled.div>
+</ExternalButtons>
+`;
+
+exports[`<ExternalButtons/> Snapshot renders without crashing using render 1`] = `
+<div
+  class="sc-crzoAE ciYwSr"
+>
+  <button
+    class="sc-iqAclL dMFDtY"
+  >
+    <span>
+      button.visit_my_blog
+    </span>
+  </button>
+  <button
+    class="sc-iqAclL fMnUBS"
+  >
+    <span>
+      button.resume
+    </span>
+    <svg
+      fill="currentColor"
+      height="1em"
+      stroke="currentColor"
+      stroke-width="0"
+      viewBox="0 0 512 512"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M339 314.9L175.4 32h161.2l163.6 282.9H339zm-137.5 23.6L120.9 480h310.5L512 338.5H201.5zM154.1 67.4L0 338.5 80.6 480 237 208.8 154.1 67.4z"
+      />
+    </svg>
+  </button>
+</div>
+`;
+
+exports[`<ExternalButtons/> Snapshot renders without crashing using shallow 1`] = `
+<styled.div>
+  <UIButton
+    id="blog-button"
+    label="button.visit_my_blog"
+  />
+  <UIButton
+    id="resume-button"
+    label="button.resume"
+    onClick={[Function]}
+    rightIcon={<FaGoogleDrive />}
+    secondary={true}
+  />
+</styled.div>
+`;

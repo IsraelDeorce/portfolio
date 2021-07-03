@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PortfolioLinks/> Snapshot renders without crashing using mount 1`] = `
+<PortfolioLinks>
+  <styled.div
+    orientation="horizontal"
+  >
+    <div
+      className="sc-bdnxRM eMTju"
+      orientation="horizontal"
+    >
+      <a
+        href="#sec1"
+      >
+        button.skills
+      </a>
+      <a
+        href="#sec2"
+      >
+        button.experience
+      </a>
+      <a
+        href="#sec3"
+      >
+        button.education
+      </a>
+      <a
+        href="#sec4"
+      >
+        button.contact
+      </a>
+    </div>
+  </styled.div>
+</PortfolioLinks>
+`;
+
+exports[`<PortfolioLinks/> Snapshot renders without crashing using render 1`] = `
+<div
+  class="sc-bdnxRM eMTju"
+  orientation="horizontal"
+>
+  <a
+    href="#sec1"
+  >
+    button.skills
+  </a>
+  <a
+    href="#sec2"
+  >
+    button.experience
+  </a>
+  <a
+    href="#sec3"
+  >
+    button.education
+  </a>
+  <a
+    href="#sec4"
+  >
+    button.contact
+  </a>
+</div>
+`;
+
+exports[`<PortfolioLinks/> Snapshot renders without crashing using shallow 1`] = `
+<styled.div
+  orientation="horizontal"
+>
+  <a
+    href="#sec1"
+  >
+    button.skills
+  </a>
+  <a
+    href="#sec2"
+  >
+    button.experience
+  </a>
+  <a
+    href="#sec3"
+  >
+    button.education
+  </a>
+  <a
+    href="#sec4"
+  >
+    button.contact
+  </a>
+</styled.div>
+`;

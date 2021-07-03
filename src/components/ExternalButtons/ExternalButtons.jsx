@@ -9,12 +9,13 @@ function ExternalButtons() {
 
   return (
     <S.ExternalButtons>
-      <UIButton label={t('button.visit_my_blog')} />
+      <UIButton id='blog-button' label={t('button.visit_my_blog')} />
       <UIButton
+          id='resume-button'
           onClick={() => window.open(LINKS.GDRIVE, '_blank')}
           secondary
           label={t('button.resume')}
-          righticon={<FaGoogleDrive />}
+          rightIcon={<FaGoogleDrive />}
         />
     </S.ExternalButtons>
   )
