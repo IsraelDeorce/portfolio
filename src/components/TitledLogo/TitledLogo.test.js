@@ -16,9 +16,9 @@ describe('<TitledLogo/>', () => {
   })
 
   it('calls the onCLick function when it is passed and the user clicks on the Logo', () => {
-    const mock = jest.fn()
-    shallow(<TitledLogo onClick={mock} />).find(S.Title).simulate('click')
-    expect(mock).toHaveBeenCalledTimes(1)
+    const mockFn = jest.fn()
+    shallow(<TitledLogo onClick={mockFn} />).find(S.Title).simulate('click')
+    expect(mockFn).toHaveBeenCalledTimes(1)
   })
 
   describe('Snapshot', () => {

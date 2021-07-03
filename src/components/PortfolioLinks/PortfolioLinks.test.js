@@ -7,7 +7,7 @@ describe('<PortfolioLinks/>', () => {
 
   it('renders four portfolio links', () => {
     const shallowed = shallow(<PortfolioLinks />).find(S.PortfolioLinks)
-    expect(shallowed.children().length).toBe(4)
+    expect(shallowed.children()).toHaveLength(4)
   })
 
   it('renders with horizontal orientation by default', () => {

@@ -18,7 +18,7 @@ describe('<ExternalButtons/>', () => {
     })
   
     it('renders a Resume UIButton with right icon as google drive', () => {
-      expect(shallow(<ExternalButtons/>).find('UIButton#resume-button').prop('righticon')).toStrictEqual(<FaGoogleDrive/>)
+      expect(shallow(<ExternalButtons/>).find('UIButton#resume-button').prop('rightIcon')).toStrictEqual(<FaGoogleDrive/>)
     })
 
     it('opens a new window to the google drive resume', () => {

@@ -15,7 +15,7 @@ function ExternalButtons() {
           onClick={() => window.open(LINKS.GDRIVE, '_blank')}
           secondary
           label={t('button.resume')}
-          righticon={<FaGoogleDrive />}
+          rightIcon={<FaGoogleDrive />}
         />
     </S.ExternalButtons>
   )

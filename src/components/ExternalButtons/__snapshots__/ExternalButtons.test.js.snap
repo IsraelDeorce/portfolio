@@ -28,7 +28,7 @@ exports[`<ExternalButtons/> Snapshot renders without crashing using mount 1`] = 
         id="resume-button"
         label="button.resume"
         onClick={[Function]}
-        righticon={<FaGoogleDrive />}
+        rightIcon={<FaGoogleDrive />}
         secondary={true}
       >
         <styled.button
@@ -123,7 +123,7 @@ exports[`<ExternalButtons/> Snapshot renders without crashing using shallow 1`] 
     id="resume-button"
     label="button.resume"
     onClick={[Function]}
-    righticon={<FaGoogleDrive />}
+    rightIcon={<FaGoogleDrive />}
     secondary={true}
   />
 </styled.div>

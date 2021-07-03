@@ -2,27 +2,27 @@ import PropTypes from 'prop-types'
 import * as S from './styles'
 
 const propTypes = {
-  className: PropTypes.string,
   label: PropTypes.string,
   onClick: PropTypes.func,
-  lefticon: PropTypes.object,
-  righticon: PropTypes.object
+  leftIcon: PropTypes.element,
+  rightIcon: PropTypes.element,
+  secondary: PropTypes.bool
 }
 
 function UIButton(props) {
   const {
     label = '',
     onClick = () => alert('I do nothing!'),
-    lefticon = null,
-    righticon = null,
+    leftIcon = null,
+    rightIcon = null,
     secondary = false
   } = props
 
   return (
     <S.UIButton onClick={onClick} secondary={secondary}>
-      {lefticon}
+      {leftIcon}
       <span>{label}</span>
-      {righticon}
+      {rightIcon}
     </S.UIButton>
   )
 }
