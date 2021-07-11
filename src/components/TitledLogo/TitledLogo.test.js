@@ -3,8 +3,8 @@ import { TEXT } from '../../utils/constants'
 import * as S from './styles'
 
 describe('<TitledLogo/>', () => {
-  it('renders a link that redirects to the home section', () => {
-    expect(shallow(<TitledLogo />).find(S.Title).prop('href')).toBe('#home')
+  it('renders a link that redirects to the portfolio section', () => {
+    expect(shallow(<TitledLogo />).find(S.Title).prop('href')).toBe('#portfolio')
   })
 
   it('renders a direwolf icon', () => {

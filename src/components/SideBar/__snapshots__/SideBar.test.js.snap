@@ -22,12 +22,12 @@ exports[`<SideBar/> Snapshot renders without crashing using mount 1`] = `
             onClick={[Function]}
           >
             <styled.a
-              href="#home"
+              href="#portfolio"
               onClick={[Function]}
             >
               <a
                 className="sc-fujyAs hogkDK"
-                href="#home"
+                href="#portfolio"
                 onClick={[Function]}
               >
                 <GiDirewolf
@@ -526,7 +526,7 @@ Array [
     >
       <a
         class="sc-fujyAs hogkDK"
-        href="#home"
+        href="#portfolio"
       >
         <svg
           fill="currentColor"

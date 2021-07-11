@@ -3,11 +3,11 @@
 exports[`<TitledLogo/> Snapshot renders without crashing using mount 1`] = `
 <TitledLogo>
   <styled.a
-    href="#home"
+    href="#portfolio"
   >
     <a
       className="sc-bdnxRM jJDdiL"
-      href="#home"
+      href="#portfolio"
     >
       <GiDirewolf
         size="32"
@@ -52,7 +52,7 @@ exports[`<TitledLogo/> Snapshot renders without crashing using mount 1`] = `
 exports[`<TitledLogo/> Snapshot renders without crashing using render 1`] = `
 <a
   class="sc-bdnxRM jJDdiL"
-  href="#home"
+  href="#portfolio"
 >
   <svg
     fill="currentColor"
@@ -75,7 +75,7 @@ exports[`<TitledLogo/> Snapshot renders without crashing using render 1`] = `
 
 exports[`<TitledLogo/> Snapshot renders without crashing using shallow 1`] = `
 <styled.a
-  href="#home"
+  href="#portfolio"
 >
   <GiDirewolf
     size="32"
