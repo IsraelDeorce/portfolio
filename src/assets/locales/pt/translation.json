@@ -11,5 +11,38 @@
   "description": {
     "part1": "To get started, edit <1>src/App.js</1> and save to reload.",
     "part2": "Switch language between english and german using buttons above."
+  },
+  "skills": {
+    "software_engineering": "Software Engineering",
+    "agile": "Agile",
+    "xp": "XP",
+    "sm": "Scrum",
+    "git": "GIT",
+    "ci_cd": "CI/CD",
+    "lean": "Lean",
+
+    "front": "Front-end",
+    "html": "HTML",
+    "css": "CSS",
+    "react": "React.js",
+    "javascript": "JavaScript",
+
+    "back": "Back-end",
+    "node": "Node.js",
+    "c_sharp": "C# .NET 5",
+    "java": "Java",
+
+    "db": "Banco de Dados",    
+    "sql": "MySQL",
+    "oracle": "Oracle",
+
+    "devops": "DevOps",
+    "aws": "AWS",
+    "ado": "Azure DevOps", 
+
+    "automated_tests": "Testes Automatizados",
+    "tdd": "TDD",
+    "bdd": "BDD",
+    "jest_enzyme": "Jest/Enzyme"
   }
 }
