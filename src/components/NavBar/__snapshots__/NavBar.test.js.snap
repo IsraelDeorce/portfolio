@@ -49,11 +49,11 @@ exports[`<NavBar/> Snapshot renders without crashing using mount 1`] = `
       </styled.span>
       <TitledLogo>
         <styled.a
-          href="#portfolio"
+          href="#home"
         >
           <a
             className="sc-pNWdM ccBgY"
-            href="#portfolio"
+            href="#home"
           >
             <GiDirewolf
               size="32"
@@ -106,7 +106,7 @@ exports[`<NavBar/> Snapshot renders without crashing using mount 1`] = `
                 orientation="horizontal"
               >
                 <a
-                  href="#sec1"
+                  href="#skills"
                 >
                   button.skills
                 </a>
@@ -330,7 +330,7 @@ exports[`<NavBar/> Snapshot renders without crashing using render 1`] = `
   </span>
   <a
     class="sc-pNWdM ccBgY"
-    href="#portfolio"
+    href="#home"
   >
     <svg
       fill="currentColor"
@@ -357,7 +357,7 @@ exports[`<NavBar/> Snapshot renders without crashing using render 1`] = `
       orientation="horizontal"
     >
       <a
-        href="#sec1"
+        href="#skills"
       >
         button.skills
       </a>

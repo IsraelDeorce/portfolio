@@ -22,12 +22,12 @@ exports[`<SideBar/> Snapshot renders without crashing using mount 1`] = `
             onClick={[Function]}
           >
             <styled.a
-              href="#portfolio"
+              href="#home"
               onClick={[Function]}
             >
               <a
                 className="sc-fujyAs hogkDK"
-                href="#portfolio"
+                href="#home"
                 onClick={[Function]}
               >
                 <GiDirewolf
@@ -262,7 +262,7 @@ exports[`<SideBar/> Snapshot renders without crashing using mount 1`] = `
             orientation="vertical"
           >
             <a
-              href="#sec1"
+              href="#skills"
             >
               button.skills
             </a>
@@ -526,7 +526,7 @@ Array [
     >
       <a
         class="sc-fujyAs hogkDK"
-        href="#portfolio"
+        href="#home"
       >
         <svg
           fill="currentColor"
@@ -625,7 +625,7 @@ Array [
       orientation="vertical"
     >
       <a
-        href="#sec1"
+        href="#skills"
       >
         button.skills
       </a>

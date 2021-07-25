@@ -14,13 +14,12 @@
   },
   "skills": {
     "software_engineering": "Engenharia de Software",
-    "agile": "Agile",
+    "agile": "Ágil",
     "xp": "XP",
     "sm": "Scrum",
     "git": "GIT",
     "ci_cd": "CI/CD",
     "lean": "Lean",
-
     "front": "Front-end",
     "html": "HTML",
     "css": "CSS",

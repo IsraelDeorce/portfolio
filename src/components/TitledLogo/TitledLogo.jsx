@@ -9,7 +9,7 @@ const propTypes = {
 
 function TitledLogo({ onClick }) {
   return (
-    <S.Title onClick={onClick} href='#portfolio'>
+    <S.Title onClick={onClick} href='#home'>
       {<GiDirewolf size='32' />}
       <strong>{TEXT.MYNAME}</strong>
     </S.Title>
