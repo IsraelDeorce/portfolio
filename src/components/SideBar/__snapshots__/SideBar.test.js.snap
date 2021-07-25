@@ -6,17 +6,17 @@ exports[`<SideBar/> Snapshot renders without crashing using mount 1`] = `
     onClick={[Function]}
   >
     <div
-      className="sc-jrsJWt NreeM"
+      className="sc-crzoAE gOfUqu"
       onClick={[Function]}
     />
   </styled.div>
   <styled.div>
     <div
-      className="sc-kEqXSa bdPelu"
+      className="sc-dIsUp bAHQog"
     >
       <styled.div>
         <div
-          className="sc-iqAclL ihMZeQ"
+          className="sc-bqGGPW gnWDQS"
         >
           <TitledLogo
             onClick={[Function]}
@@ -70,7 +70,7 @@ exports[`<SideBar/> Snapshot renders without crashing using mount 1`] = `
           </TitledLogo>
           <styled.div>
             <div
-              className="sc-crzoAE bIJVEn"
+              className="sc-ksluID cZIsoH"
             >
               <ThemeToggle>
                 <Toggle
@@ -262,7 +262,7 @@ exports[`<SideBar/> Snapshot renders without crashing using mount 1`] = `
             orientation="vertical"
           >
             <a
-              href="#sec1"
+              href="#skills"
             >
               button.skills
             </a>
@@ -516,13 +516,13 @@ exports[`<SideBar/> Snapshot renders without crashing using mount 1`] = `
 exports[`<SideBar/> Snapshot renders without crashing using render 1`] = `
 Array [
   <div
-    class="sc-jrsJWt NreeM"
+    class="sc-crzoAE gOfUqu"
   />,
   <div
-    class="sc-kEqXSa bdPelu"
+    class="sc-dIsUp bAHQog"
   >
     <div
-      class="sc-iqAclL ihMZeQ"
+      class="sc-bqGGPW gnWDQS"
     >
       <a
         class="sc-fujyAs hogkDK"
@@ -546,7 +546,7 @@ Array [
         </strong>
       </a>
       <div
-        class="sc-crzoAE bIJVEn"
+        class="sc-ksluID cZIsoH"
       >
         <div
           class="react-toggle toggle"
@@ -625,7 +625,7 @@ Array [
       orientation="vertical"
     >
       <a
-        href="#sec1"
+        href="#skills"
       >
         button.skills
       </a>

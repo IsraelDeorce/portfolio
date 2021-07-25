@@ -9,7 +9,6 @@ body {
   font-family: 'Montserrat', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  word-break: break-all;
 }
 
 /* Breakpoints */
@@ -55,8 +54,16 @@ h1 {
   margin-bottom: 20px;
 }
 
+h2 {
+  font-size: 40px;
+  font-weight: 400;
+  margin: 0;
+  margin-bottom: 0.5em;
+  text-align: center;
+}
+
 section {
-  padding: 50px 1.25rem;
+  padding: 50px 2em;
 }
 
 p {
@@ -86,4 +93,15 @@ a {
 .isDisabled {
   cursor: not-allowed;
   opacity: 0.5;
+}
+
+.email {
+  word-break: break-all;
+}
+
+@media (min-width: 992px) {
+  h2 {
+    padding-left: 10%;
+    text-align: left;
+  }
 }
