@@ -9,8 +9,14 @@ function Skills() {
     <S.Skills id='Skills'>
       <S.Progress>
         <ProgressIndicator percentage={99} description={t('skills.software_engineering')} />
-        <ProgressIndicator percentage={90} description={t('skills.front')} />
-        <ProgressIndicator percentage={50} description={t('skills.back')} />
+        <ProgressIndicator
+          percentage={90}
+          description={`${t('skills.front')} (${t('skills.react')})`}
+        />
+        <ProgressIndicator
+          percentage={50}
+          description={`${t('skills.back')} (${t('skills.node')}, ${t('skills.dotnet')})`}
+        />
         <ProgressIndicator percentage={25} description={t('skills.db')} />
         <ProgressIndicator percentage={50} description={t('skills.devops')} />
         <ProgressIndicator percentage={90} description={t('skills.automated_tests')} />

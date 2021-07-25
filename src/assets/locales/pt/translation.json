@@ -13,7 +13,7 @@
     "part2": "Switch language between english and german using buttons above."
   },
   "skills": {
-    "software_engineering": "Software Engineering",
+    "software_engineering": "Engenharia de Software",
     "agile": "Agile",
     "xp": "XP",
     "sm": "Scrum",
@@ -29,7 +29,8 @@
 
     "back": "Back-end",
     "node": "Node.js",
-    "c_sharp": "C# .NET 5",
+    "c_sharp": "C#",
+    "dotnet": ".NET 5",
     "java": "Java",
 
     "db": "Banco de Dados",    

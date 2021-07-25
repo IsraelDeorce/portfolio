@@ -29,7 +29,8 @@
 
     "back": "Back-end",
     "node": "Node.js",
-    "c_sharp": "C# .NET 5",
+    "c_sharp": "C#",
+    "dotnet": ".NET 5",
     "java": "Java",
 
     "db": "Database",    
