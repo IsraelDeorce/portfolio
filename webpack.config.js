@@ -1,5 +1,5 @@
-const path = require('path');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
+const path = require('path')
+const HtmlWebpackPlugin = require('html-webpack-plugin')
 const ESLintPlugin = require('eslint-webpack-plugin')
 
 // In webpack.config.js we can change how webpack behaves by adding or changing:
@@ -10,7 +10,7 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       template: './src/index.ejs',
-      favicon: './src/assets/wolf.ico'
+      favicon: './src/assets/direwolf.svg'
     }),
     new ESLintPlugin()
   ],

@@ -9,7 +9,6 @@ body {
   font-family: 'Montserrat', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  word-break: break-all;
 }
 
 /* Breakpoints */
@@ -20,16 +19,16 @@ $xl: 1200px;
 $xxl: 1400px;
 
 /* Dark Theme */
-$dark-background: #1E1E1E;
-$dark-menu: #252526;
-$dark-tab: #3C3C3C;
+$dark-background: #1E1E1E; // usado
+$dark-menu: #252526; // usado
+$dark-tab: #3C3C3C; // usado
 $dark-string: #CE9078;
 $dark-function: #DCDCAA;
-$dark-varType: #569CD6;
+$dark-varType: #569CD6; // usado
 $dark-varDeclaration: #4FC1DB;
 $dark-varProperty: #9CDCFE;
-$dark-brackets: #D4D4C8;
-$dark-component: #4EC9B0;
+$dark-brackets: #D4D4C8; // usado
+$dark-component: #4EC9B0; // usado
 $dark-number: #A7CEA8;
 $dark-importExport: #C586C0;
 
@@ -56,7 +55,7 @@ h1 {
 }
 
 section {
-  padding: 50px 1.25rem;
+  padding: 50px 2em;
 }
 
 p {
@@ -86,4 +85,8 @@ a {
 .isDisabled {
   cursor: not-allowed;
   opacity: 0.5;
+}
+
+.email {
+  word-break: break-all;
 }
