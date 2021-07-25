@@ -4,7 +4,7 @@ exports[`<ExternalButtons/> Snapshot renders without crashing using mount 1`] = 
 <ExternalButtons>
   <styled.div>
     <div
-      className="sc-crzoAE ciYwSr"
+      className="sc-ksluID dJrFhr"
     >
       <UIButton
         id="blog-button"
@@ -81,7 +81,7 @@ exports[`<ExternalButtons/> Snapshot renders without crashing using mount 1`] = 
 
 exports[`<ExternalButtons/> Snapshot renders without crashing using render 1`] = `
 <div
-  class="sc-crzoAE ciYwSr"
+  class="sc-ksluID dJrFhr"
 >
   <button
     class="sc-iqAclL dMFDtY"

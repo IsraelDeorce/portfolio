@@ -54,6 +54,14 @@ h1 {
   margin-bottom: 20px;
 }
 
+h2 {
+  font-size: 40px;
+  font-weight: 400;
+  margin: 0;
+  margin-bottom: 0.5em;
+  text-align: center;
+}
+
 section {
   padding: 50px 2em;
 }
@@ -89,4 +97,11 @@ a {
 
 .email {
   word-break: break-all;
+}
+
+@media (min-width: 992px) {
+  h2 {
+    padding-left: 10%;
+    text-align: left;
+  }
 }

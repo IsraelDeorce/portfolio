@@ -20,27 +20,22 @@
     "git": "GIT",
     "ci_cd": "CI/CD",
     "lean": "Lean",
-
     "front": "Front-end",
     "html": "HTML",
     "css": "CSS",
     "react": "React.js",
     "javascript": "JavaScript",
-
     "back": "Back-end",
     "node": "Node.js",
     "c_sharp": "C#",
     "dotnet": ".NET 5",
     "java": "Java",
-
     "db": "Database",    
     "sql": "MySQL",
     "oracle": "Oracle",
-
     "devops": "DevOps",
     "aws": "AWS",
     "ado": "Azure DevOps", 
-
     "automated_tests": "Automated Testing",
     "tdd": "TDD",
     "bdd": "BDD",

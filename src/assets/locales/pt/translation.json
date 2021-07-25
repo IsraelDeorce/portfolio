@@ -26,21 +26,17 @@
     "css": "CSS",
     "react": "React.js",
     "javascript": "JavaScript",
-
     "back": "Back-end",
     "node": "Node.js",
     "c_sharp": "C#",
     "dotnet": ".NET 5",
     "java": "Java",
-
     "db": "Banco de Dados",    
     "sql": "MySQL",
     "oracle": "Oracle",
-
     "devops": "DevOps",
     "aws": "AWS",
     "ado": "Azure DevOps", 
-
     "automated_tests": "Testes Automatizados",
     "tdd": "TDD",
     "bdd": "BDD",
