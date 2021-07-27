@@ -23,8 +23,8 @@ describe('<PortfolioLinks/>', () => {
     expect(t).toHaveBeenCalledWith('button.skills')
   })
 
-  it('renders a link that refers to #sec2 with correct translation', () => {
-    expect(shallow(<PortfolioLinks />).find('a[href="#sec2"]').text()).toBe('button.experience')
+  it('renders a link that refers to #experience with correct translation', () => {
+    expect(shallow(<PortfolioLinks />).find('a[href="#experience"]').text()).toBe('button.experience')
     expect(t).toHaveBeenCalledWith('button.experience')
   })
 
