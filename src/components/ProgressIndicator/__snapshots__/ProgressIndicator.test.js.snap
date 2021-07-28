@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProgressIndicator/> Snapshot renders without crashing using mount 1`] = `
+<ProgressIndicator>
+  <styled.div>
+    <div
+      className="sc-bdnxRM cpQBWR"
+    >
+      <styled.div>
+        <div
+          className="sc-gtsrHT jeEpUP"
+        >
+          <styled.div
+            percentage={10}
+          >
+            <div
+              className="sc-dlnjwi uYGDG"
+            />
+          </styled.div>
+        </div>
+      </styled.div>
+    </div>
+  </styled.div>
+</ProgressIndicator>
+`;
+
+exports[`<ProgressIndicator/> Snapshot renders without crashing using render 1`] = `
+<div
+  class="sc-bdnxRM cpQBWR"
+>
+  <div
+    class="sc-gtsrHT jeEpUP"
+  >
+    <div
+      class="sc-dlnjwi uYGDG"
+    />
+  </div>
+</div>
+`;
+
+exports[`<ProgressIndicator/> Snapshot renders without crashing using shallow 1`] = `
+<styled.div>
+  <styled.div>
+    <styled.div
+      percentage={10}
+    />
+  </styled.div>
+</styled.div>
+`;

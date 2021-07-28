@@ -8,9 +8,16 @@
     "visit_my_blog": "Visite meu Blog",
     "resume": "Currículo"
   },
-  "description": {
-    "part1": "To get started, edit <1>src/App.js</1> and save to reload.",
-    "part2": "Switch language between english and german using buttons above."
+  "desc": {
+    "personal_project": "Projeto Pessoal",
+    "research_intern": "Estágio de Pesquisa e Desenvolvimento em parceria com a Dell Inc.",
+    "intern": "(2018-2019) Ajudei a Dell a adotar uma nova metodologia baseada em Extreme Porgramming, Lean e User-Centered Design. Um livro guia surgiu desta parceria e isso também me ajudou a entrar para a Dell como Engenheiro",
+    "hp": "(2020-Present) Trabalhando em maioria como um Engenheiro de Software de UI com React.js e Scrum Master em um time que cria e mantém a solução unificada da HP para credenciais e identidade de usuários para extensos grupos de produtos internacionais da HP",
+    "dell": "(2019-2020) Trabalhei como um Engenheiro FUll Stack com React.js e .NET, desenvolvendo UI e microsserviços para os \"Serviços Financeiros da Dell\". Aqui, experimentei programação em pares, TDD e outras práticas ágeis de engenharia desenvolvidas durante o meu estágio",
+    "ginatells": "(Em andamento) Um Projeto baseado em Inteligência Artificial que busca auxiliar usuários a acharem os melhores filmes ou coisas para assistirem baseado em seus gostos e sentimentos neste momento",
+    "nonprofit_engineer": "Engenheiro de Software sem fins lucrativos (2016-2019)",
+    "ages": "(2016-2019) A Agência Experimental de Engenharia de Software (AGES) deu-me a oportunidade de trabalhar em uma variedade de projetos como o Áudio Livros, Adoções, Simulados prova da OAB e \"EasyWork\"",
+    "kpis": "(Em andamento) O projeto Software KPIs (indicador-chave de desempenho) é um projeto que visa facilitar a criação, implantação e gerenciamento de KPIs em times de desenvolvimento de software que seguem o pensamento Lean"
   },
   "skills": {
     "software_engineering": "Engenharia de Software",

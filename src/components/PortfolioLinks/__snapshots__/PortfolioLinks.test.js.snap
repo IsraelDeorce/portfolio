@@ -15,7 +15,7 @@ exports[`<PortfolioLinks/> Snapshot renders without crashing using mount 1`] = `
         button.skills
       </a>
       <a
-        href="#sec2"
+        href="#experience"
       >
         button.experience
       </a>
@@ -45,7 +45,7 @@ exports[`<PortfolioLinks/> Snapshot renders without crashing using render 1`] = 
     button.skills
   </a>
   <a
-    href="#sec2"
+    href="#experience"
   >
     button.experience
   </a>
@@ -72,7 +72,7 @@ exports[`<PortfolioLinks/> Snapshot renders without crashing using shallow 1`] =
     button.skills
   </a>
   <a
-    href="#sec2"
+    href="#experience"
   >
     button.experience
   </a>
