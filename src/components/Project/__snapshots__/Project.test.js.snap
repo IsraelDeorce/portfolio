@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Project/> Snapshot renders without crashing using mount 1`] = `
+<Project>
+  <styled.div>
+    <div
+      className="sc-bdnxRM ljntC"
+    >
+      <div />
+    </div>
+  </styled.div>
+</Project>
+`;
+
+exports[`<Project/> Snapshot renders without crashing using render 1`] = `
+<div
+  class="sc-bdnxRM ljntC"
+>
+  <div />
+</div>
+`;
+
+exports[`<Project/> Snapshot renders without crashing using shallow 1`] = `
+<styled.div>
+  <div />
+</styled.div>
+`;

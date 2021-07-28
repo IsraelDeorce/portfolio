@@ -15,7 +15,7 @@ function Experience() {
             image={p.image}
             title={t(p.title)}
             subtitle={t(p.subtitle)}
-            description={<Trans>{p.description}</Trans>}
+            description={t(p.description)}
           />
         )}
       </S.Projects>
