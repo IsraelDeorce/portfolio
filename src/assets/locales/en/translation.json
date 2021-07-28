@@ -11,13 +11,13 @@
   "desc": {
     "personal_project": "Personal Project",
     "research_intern": "Research and Development Intern in partnership with Dell Inc.",
-    "intern": "(2018-2019) Helped Dell teams to adopt a new methodology based on Extreme Programming, Lean and User Centered Design. A guide book emerged from this partnership and it also helped me to join Dell as an Engineer",
-    "hp": "(2020-Present) Working mostly as a UI React.js Engineer and Scrum Master in a team that creates and maintains the HP's unified solution for user credentials and identity for a wide group of international HP products",
+    "intern": "(2018-2019) Helped Dell teams to adopt a new methodology based on Extreme Programming, Lean and User-Centered Design. A guidebook emerged from this partnership and it also helped me to join Dell as an Engineer",
+    "hp": "(2020-Present) Working mostly as a UI Engineer with React.js and Scrum Master in a team that creates and maintains the HP's unified solution for user credentials and identity for a wide group of international HP products",
     "dell": "(2019-2020) Worked as a Full Stack Engineer with React.js and .NET developing UI and microservices for \"Dell Financial Services\". Here I've experienced pair programming, TDD, and other agile engineering practices developed during my internship",
-    "ginatells": "(Ongoing) An Artificial Inteligence based project that aims to help users to find the best movie or thing to watch based on what their tastes and feelings are right now",
+    "ginatells": "(Ongoing) An Artificial Intelligence based project that aims to help users to find the best movies or things to watch based on what their tastes and feelings are right now",
     "nonprofit_engineer": "Nonprofit Software Engineer",
-    "ages": "(2016-2019) The Software Engineering Experimental Agency (AGES) gave me the oportunity to work in a variaty of projects such as the Audiobook, Child Adoptions, Law Test Simulator and Easy Work",
-    "kpis": "(Ongoing) The Software KPIs (key performance indicator) is a project that aims to facilitate the creation, implementation and management of KPIs in software development teams that follow the Lean thinking"
+    "ages": "(2016-2019) The Software Engineering Experimental Agency (AGES) gave me the opportunity to work in a variety of projects such as the Audiobook, Child Adoptions, Law Test Simulator and Easy Work",
+    "kpis": "(Ongoing) The Software KPIs (key performance indicator) is a project that aims to facilitate the creation, implementation, and management of KPIs in software development teams that follow the Lean thinking"
   },
   "skills": {
     "software_engineering": "Software Engineering",

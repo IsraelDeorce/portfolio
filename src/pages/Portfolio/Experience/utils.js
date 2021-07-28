@@ -1,6 +1,5 @@
 import { SiHp, SiDell } from 'react-icons/si'
-import { MdMovieFilter } from 'react-icons/md'
-import { GiProgression } from 'react-icons/gi'
+import { GiClapperboard, GiProgression } from 'react-icons/gi'
 import pucrs from '../../../assets/pucrs.svg'
 import ages from '../../../assets/ages.jpg'
 export const projects = [
@@ -23,7 +22,7 @@ export const projects = [
     description: 'desc.intern'
   },
   {
-    image: <MdMovieFilter color='#FFFF99' />,
+    image: <GiClapperboard color='#FF7F00' />,
     title: 'Gina Tells',
     subtitle: 'desc.personal_project',
     description: 'desc.ginatells'
