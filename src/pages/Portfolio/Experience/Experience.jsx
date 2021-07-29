@@ -1,4 +1,4 @@
-import { Trans, useTranslation } from 'react-i18next'
+import { useTranslation } from 'react-i18next'
 import { Project } from '../../../components'
 import { projects } from './utils'
 import * as S from './styles'
