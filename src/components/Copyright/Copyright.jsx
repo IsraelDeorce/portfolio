@@ -1,11 +1,14 @@
+import { useTranslation } from 'react-i18next'
 import { FaRegCopyright } from 'react-icons/fa'
 import * as S from './styles'
 
 function Copyright() {
+  const { t } = useTranslation()
   return (
     <S.Copyright>
-      <FaRegCopyright/>
-      This is a copyroght text
+      Copyright&nbsp;
+      <FaRegCopyright />
+      &nbsp;{t('copyright')}
     </S.Copyright>
   )
 }

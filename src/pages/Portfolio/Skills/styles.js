@@ -1,10 +1,6 @@
 import styled from 'styled-components'
 
-export const Skills = styled.section`
-  display: flex;
-  flex-direction: column;
-  background-color: ${({ theme }) => theme.c_menu};
-`
+export const Skills = styled.section``
 
 export const Progress = styled.div`
   display: flex;

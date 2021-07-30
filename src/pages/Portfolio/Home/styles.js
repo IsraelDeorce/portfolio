@@ -8,8 +8,6 @@ export const Home = styled.section`
   color: #D4D4C8;
   padding-top: 7em;
   padding-bottom: 4.5em;
-  display: flex;
-  flex-direction: column;
   align-items: center;
 `
 
