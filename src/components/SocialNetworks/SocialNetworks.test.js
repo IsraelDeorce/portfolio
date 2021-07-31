@@ -33,7 +33,7 @@ describe('<SocialNetworks/>', () => {
     global.open = jest.fn()
     envelopeIcon.simulate('click')
     expect(global.open).toHaveBeenCalledTimes(1)
-    expect(global.open).toHaveBeenCalledWith(LINKS.EMAIL, '_blank')
+    expect(global.open).toHaveBeenCalledWith(TEXT.EMAIL, '_blank')
   })
 
   describe('Snapshot', () => {

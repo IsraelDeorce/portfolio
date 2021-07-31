@@ -9,10 +9,10 @@ function SocialNetworks () {
 
   return (
     <S.SocialNetworks>
-      <FaWhatsapp size='32' onClick={() => { redirect(LINKS.WHATSAPP) }} />
-      <FaGithub size='32' onClick={() => { redirect(LINKS.GITHUB) }} />
-      <FaLinkedin size='32' onClick={() => { redirect(LINKS.LINKEDIN) }} />
-      <FaEnvelope size='32' onClick={() => { redirect(LINKS.EMAIL) }} />
+      <FaWhatsapp size='46' onClick={() => { redirect(LINKS.WHATSAPP) }} />
+      <FaGithub size='46' onClick={() => { redirect(LINKS.GITHUB) }} />
+      <FaLinkedin size='46' onClick={() => { redirect(LINKS.LINKEDIN) }} />
+      <FaEnvelope size='46' onClick={() => { redirect(TEXT.EMAIL) }} />
     </S.SocialNetworks>
   )
 }
