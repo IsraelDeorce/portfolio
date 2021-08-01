@@ -7,7 +7,7 @@ function Contact() {
   const { t } = useTranslation()
 
   return (
-    <S.Contact id='contact'>
+    <footer id='contact'>
       <S.Body>
         <SocialNetworks />
         <S.TextualContacts>
@@ -17,7 +17,7 @@ function Contact() {
         </S.TextualContacts>
       </S.Body>
       <Copyright />
-    </S.Contact>
+    </footer>
   )
 }
 

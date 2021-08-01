@@ -1,10 +1,5 @@
 import styled from 'styled-components'
 
-export const Contact = styled.footer`
-  justify-content: flex-end;
-  min-height: 100px;
-`
-
 export const Body = styled.div`
   display: flex;
   flex-direction: column;
@@ -17,10 +12,17 @@ export const Body = styled.div`
 export const TextualContacts = styled.div`
   display: flex;
   flex-direction: column;
-  & p:not(:last-of-type) {
-    padding-right: 1em;
+  align-items: center;
+  & p:last-of-type {
+    margin-bottom: 0;
   }
   @media (min-width: 992px) {
     flex-direction: row;
+    & p {
+      margin: 0;
+    }
+    & p:not(:last-of-type) {
+      margin-right: 1em;
+    }
   }
 `
