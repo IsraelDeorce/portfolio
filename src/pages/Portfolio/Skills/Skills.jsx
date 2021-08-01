@@ -6,7 +6,7 @@ function Skills() {
   const { t } = useTranslation()
 
   return (
-    <S.Skills id='skills'>
+    <section id='skills'>
       <h2>{t('button.skills')}</h2>
       <S.Progress>
         <ProgressIndicator percentage={99} description={t('skills.software_engineering')} />
@@ -22,7 +22,7 @@ function Skills() {
         <ProgressIndicator percentage={50} description={t('skills.devops')} />
         <ProgressIndicator percentage={90} description={t('skills.automated_tests')} />
       </S.Progress>
-    </S.Skills>
+    </section>
   )
 }
 

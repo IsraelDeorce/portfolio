@@ -4,13 +4,13 @@ exports[`<NavBar/> Snapshot renders without crashing using mount 1`] = `
 <NavBar>
   <styled.nav>
     <nav
-      className="sc-bqGGPW jdDbKn"
+      className="sc-ksluID dYRBjr"
     >
       <styled.span
         onClick={[Function]}
       >
         <span
-          className="sc-ksluID bFztPs"
+          className="sc-hBMUJo iQmebz"
           onClick={[Function]}
         >
           <MdMenu
@@ -95,7 +95,7 @@ exports[`<NavBar/> Snapshot renders without crashing using mount 1`] = `
       </TitledLogo>
       <styled.div>
         <div
-          className="sc-hBMUJo hzndGS"
+          className="sc-fnVZcZ ewwoWw"
         >
           <PortfolioLinks>
             <styled.div
@@ -121,7 +121,7 @@ exports[`<NavBar/> Snapshot renders without crashing using mount 1`] = `
                   button.education
                 </a>
                 <a
-                  href="#sec4"
+                  href="#contact"
                 >
                   button.contact
                 </a>
@@ -309,10 +309,10 @@ exports[`<NavBar/> Snapshot renders without crashing using mount 1`] = `
 
 exports[`<NavBar/> Snapshot renders without crashing using render 1`] = `
 <nav
-  class="sc-bqGGPW jdDbKn"
+  class="sc-ksluID dYRBjr"
 >
   <span
-    class="sc-ksluID bFztPs"
+    class="sc-hBMUJo iQmebz"
   >
     <svg
       fill="currentColor"
@@ -350,7 +350,7 @@ exports[`<NavBar/> Snapshot renders without crashing using render 1`] = `
     </strong>
   </a>
   <div
-    class="sc-hBMUJo hzndGS"
+    class="sc-fnVZcZ ewwoWw"
   >
     <div
       class="sc-hKFxyN gRYIjj"
@@ -372,7 +372,7 @@ exports[`<NavBar/> Snapshot renders without crashing using render 1`] = `
         button.education
       </a>
       <a
-        href="#sec4"
+        href="#contact"
       >
         button.contact
       </a>

@@ -1,18 +1,22 @@
 import { FaWhatsapp, FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa'
-import { LINKS } from '../../utils/constants'
+import { LINKS, TEXT } from '../../utils/constants'
 import * as S from './styles'
 
-function SocialNetworks () {
-  const redirect = (url) => {
-    window.open(url, '_blank')
-  }
-
+function SocialNetworks() {  
   return (
     <S.SocialNetworks>
-      <FaWhatsapp size='32' onClick={() => { redirect(LINKS.WHATSAPP) }} />
-      <FaGithub size='32' onClick={() => { redirect(LINKS.GITHUB) }} />
-      <FaLinkedin size='32' onClick={() => { redirect(LINKS.LINKEDIN) }} />
-      <FaEnvelope size='32' onClick={() => { redirect(LINKS.EMAIL) }} />
+      <a title={LINKS.WHATSAPP} href={LINKS.WHATSAPP} target='_blank'>
+        <FaWhatsapp size='46' />
+      </a>
+      <a title={LINKS.GITHUB} href={LINKS.GITHUB} target='_blank'>
+        <FaGithub size='46' />
+      </a>
+      <a title={LINKS.LINKEDIN} href={LINKS.LINKEDIN} target='_blank'>
+        <FaLinkedin size='46' />
+      </a>
+      <a title={TEXT.EMAIL} href={`mailto: ${TEXT.EMAIL}`} target='_blank'>
+        <FaEnvelope size='46' />
+      </a>
     </S.SocialNetworks>
   )
 }

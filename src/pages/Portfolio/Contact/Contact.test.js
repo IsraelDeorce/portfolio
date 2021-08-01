@@ -1,19 +1,19 @@
-import SocialNetworks from './SocialNetworks'
+import Contact from './Contact'
 
-describe('<SocialNetworks/>', () => {
+describe('<Contact/>', () => {
   afterEach(() => jest.clearAllMocks())
 
   describe('Snapshot', () => {
     it('renders without crashing using shallow', () => {
-      expect(shallow(<SocialNetworks />)).toMatchSnapshot()
+      expect(shallow(<Contact />)).toMatchSnapshot()
     })
 
     it('renders without crashing using render', () => {
-      expect(render(<SocialNetworks />)).toMatchSnapshot()
+      expect(render(<Contact />)).toMatchSnapshot()
     })
 
     it('renders without crashing using mount', () => {
-      expect(mount(<SocialNetworks />)).toMatchSnapshot()
+      expect(mount(<Contact />)).toMatchSnapshot()
     })
   })
 })

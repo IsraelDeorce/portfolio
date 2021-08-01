@@ -3,7 +3,16 @@ import styled from 'styled-components'
 export const Portfolio = styled.div`
   display: flex;
   flex-direction: column;
-  background-color: ${({ theme }) => theme.c_background};
+  > * {
+    display: flex;
+    flex-direction: column;
+  }
+  > :nth-child(even) {
+    background-color: ${({ theme }) => theme.c_menu};
+  }
+  > :nth-child(odd) {
+    background-color: ${({ theme }) => theme.c_background};
+  }
 `
 
 export const Placeholder = styled.section`

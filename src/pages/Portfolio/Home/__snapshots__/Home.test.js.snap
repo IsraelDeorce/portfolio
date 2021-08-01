@@ -6,7 +6,7 @@ exports[`<Home/> Snapshot renders without crashing using mount 1`] = `
     id="home"
   >
     <section
-      className="sc-fnVZcZ hTsAbG"
+      className="sc-fFSPTT UxeRs"
       id="home"
     >
       <h1>
@@ -16,7 +16,7 @@ exports[`<Home/> Snapshot renders without crashing using mount 1`] = `
         className="subtitle"
       >
         <p
-          className="sc-fFSPTT fbmbFW subtitle"
+          className="sc-bkbkJK jhAOQg subtitle"
         >
           subtitle
         </p>
@@ -104,14 +104,14 @@ exports[`<Home/> Snapshot renders without crashing using mount 1`] = `
 
 exports[`<Home/> Snapshot renders without crashing using render 1`] = `
 <section
-  class="sc-fnVZcZ hTsAbG"
+  class="sc-fFSPTT UxeRs"
   id="home"
 >
   <h1>
     Israel Deorce
   </h1>
   <p
-    class="sc-fFSPTT fbmbFW subtitle"
+    class="sc-bkbkJK jhAOQg subtitle"
   >
     subtitle
   </p>
