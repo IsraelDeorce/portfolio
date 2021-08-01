@@ -1,19 +1,19 @@
-import SocialNetworks from './SocialNetworks'
+import Copyright from './Copyright'
 
-describe('<SocialNetworks/>', () => {
+describe('<Copyright/>', () => {
   afterEach(() => jest.clearAllMocks())
 
   describe('Snapshot', () => {
     it('renders without crashing using shallow', () => {
-      expect(shallow(<SocialNetworks />)).toMatchSnapshot()
+      expect(shallow(<Copyright />)).toMatchSnapshot()
     })
 
     it('renders without crashing using render', () => {
-      expect(render(<SocialNetworks />)).toMatchSnapshot()
+      expect(render(<Copyright />)).toMatchSnapshot()
     })
 
     it('renders without crashing using mount', () => {
-      expect(mount(<SocialNetworks />)).toMatchSnapshot()
+      expect(mount(<Copyright />)).toMatchSnapshot()
     })
   })
 })

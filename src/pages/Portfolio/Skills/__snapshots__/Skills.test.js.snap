@@ -6,7 +6,7 @@ exports[`<Skills/> Snapshot renders without crashing using mount 1`] = `
     id="skills"
   >
     <section
-      className="sc-fnVZcZ gFyqPh"
+      className="sc-fFSPTT"
       id="skills"
     >
       <h2>
@@ -14,7 +14,7 @@ exports[`<Skills/> Snapshot renders without crashing using mount 1`] = `
       </h2>
       <styled.div>
         <div
-          className="sc-fFSPTT erILfs"
+          className="sc-bkbkJK hfkuZi"
         >
           <ProgressIndicator
             description="skills.software_engineering"
@@ -187,14 +187,14 @@ exports[`<Skills/> Snapshot renders without crashing using mount 1`] = `
 
 exports[`<Skills/> Snapshot renders without crashing using render 1`] = `
 <section
-  class="sc-fnVZcZ gFyqPh"
+  class="sc-fFSPTT"
   id="skills"
 >
   <h2>
     button.skills
   </h2>
   <div
-    class="sc-fFSPTT erILfs"
+    class="sc-bkbkJK hfkuZi"
   >
     <div
       class="sc-dIsUp kRpPEh"

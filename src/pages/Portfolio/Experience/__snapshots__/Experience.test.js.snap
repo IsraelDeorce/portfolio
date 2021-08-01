@@ -6,7 +6,7 @@ exports[`<Experience/> Snapshot renders without crashing using mount 1`] = `
     id="experience"
   >
     <section
-      className="sc-fnVZcZ fFQkpH"
+      className="sc-fFSPTT"
       id="experience"
     >
       <h2>
@@ -14,7 +14,7 @@ exports[`<Experience/> Snapshot renders without crashing using mount 1`] = `
       </h2>
       <styled.div>
         <div
-          className="sc-fFSPTT kbQYgO"
+          className="sc-bkbkJK jjCffU"
         >
           <Project
             description="desc.hp"
@@ -347,14 +347,14 @@ exports[`<Experience/> Snapshot renders without crashing using mount 1`] = `
 
 exports[`<Experience/> Snapshot renders without crashing using render 1`] = `
 <section
-  class="sc-fnVZcZ fFQkpH"
+  class="sc-fFSPTT"
   id="experience"
 >
   <h2>
     button.experience
   </h2>
   <div
-    class="sc-fFSPTT kbQYgO"
+    class="sc-bkbkJK jjCffU"
   >
     <div
       class="sc-hBMUJo bXVrzm"
