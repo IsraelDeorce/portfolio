@@ -33,8 +33,8 @@ describe('<PortfolioLinks/>', () => {
     expect(t).toHaveBeenCalledWith('button.education')
   })
 
-  it('renders a link that refers to #sec4 with correct translation', () => {
-    expect(shallow(<PortfolioLinks />).find('a[href="#sec4"]').text()).toBe('button.contact')
+  it('renders a link that refers to #contact with correct translation', () => {
+    expect(shallow(<PortfolioLinks />).find('a[href="#contact"]').text()).toBe('button.contact')
     expect(t).toHaveBeenCalledWith('button.contact')
   })
 

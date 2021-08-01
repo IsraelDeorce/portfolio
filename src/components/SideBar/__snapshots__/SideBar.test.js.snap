@@ -277,7 +277,7 @@ exports[`<SideBar/> Snapshot renders without crashing using mount 1`] = `
               button.education
             </a>
             <a
-              href="#sec4"
+              href="#contact"
             >
               button.contact
             </a>
@@ -652,7 +652,7 @@ Array [
         button.education
       </a>
       <a
-        href="#sec4"
+        href="#contact"
       >
         button.contact
       </a>

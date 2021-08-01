@@ -6,7 +6,7 @@ import * as S from './styles'
 function Experience() {
   const { t } = useTranslation()
   return (
-    <S.Experience id='experience'>
+    <section id='experience'>
       <h2>{t('button.experience')}</h2>
       <S.Projects>
         {projects.map((p, i) =>
@@ -19,7 +19,7 @@ function Experience() {
           />
         )}
       </S.Projects>
-    </S.Experience>
+    </section>
   )
 }
 

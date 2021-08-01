@@ -1,7 +1,5 @@
 import styled from 'styled-components'
 
-export const Experience = styled.section``
-
 export const Projects = styled.div`
   display: flex;
   justify-content: center;

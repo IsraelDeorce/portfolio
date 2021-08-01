@@ -121,7 +121,7 @@ exports[`<NavBar/> Snapshot renders without crashing using mount 1`] = `
                   button.education
                 </a>
                 <a
-                  href="#sec4"
+                  href="#contact"
                 >
                   button.contact
                 </a>
@@ -372,7 +372,7 @@ exports[`<NavBar/> Snapshot renders without crashing using render 1`] = `
         button.education
       </a>
       <a
-        href="#sec4"
+        href="#contact"
       >
         button.contact
       </a>

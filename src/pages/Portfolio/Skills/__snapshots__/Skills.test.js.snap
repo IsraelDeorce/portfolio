@@ -2,199 +2,193 @@
 
 exports[`<Skills/> Snapshot renders without crashing using mount 1`] = `
 <Skills>
-  <styled.section
+  <section
     id="skills"
   >
-    <section
-      className="sc-fFSPTT"
-      id="skills"
-    >
-      <h2>
-        button.skills
-      </h2>
-      <styled.div>
-        <div
-          className="sc-bkbkJK hfkuZi"
+    <h2>
+      button.skills
+    </h2>
+    <styled.div>
+      <div
+        className="sc-fFSPTT erILfs"
+      >
+        <ProgressIndicator
+          description="skills.software_engineering"
+          percentage={99}
         >
-          <ProgressIndicator
-            description="skills.software_engineering"
-            percentage={99}
-          >
-            <styled.div>
-              <div
-                className="sc-dIsUp kRpPEh"
-              >
-                <styled.div>
-                  <div
-                    className="sc-bqGGPW jUrrst"
+          <styled.div>
+            <div
+              className="sc-dIsUp kRpPEh"
+            >
+              <styled.div>
+                <div
+                  className="sc-bqGGPW jUrrst"
+                >
+                  <styled.div
+                    percentage={99}
                   >
-                    <styled.div
-                      percentage={99}
-                    >
-                      <div
-                        className="sc-ksluID fMRnJV"
-                      />
-                    </styled.div>
-                  </div>
-                </styled.div>
-                <div>
-                  skills.software_engineering
+                    <div
+                      className="sc-ksluID fMRnJV"
+                    />
+                  </styled.div>
                 </div>
+              </styled.div>
+              <div>
+                skills.software_engineering
               </div>
-            </styled.div>
-          </ProgressIndicator>
-          <ProgressIndicator
-            description="skills.front (skills.react)"
-            percentage={90}
-          >
-            <styled.div>
-              <div
-                className="sc-dIsUp kRpPEh"
-              >
-                <styled.div>
-                  <div
-                    className="sc-bqGGPW jUrrst"
+            </div>
+          </styled.div>
+        </ProgressIndicator>
+        <ProgressIndicator
+          description="skills.front (skills.react)"
+          percentage={90}
+        >
+          <styled.div>
+            <div
+              className="sc-dIsUp kRpPEh"
+            >
+              <styled.div>
+                <div
+                  className="sc-bqGGPW jUrrst"
+                >
+                  <styled.div
+                    percentage={90}
                   >
-                    <styled.div
-                      percentage={90}
-                    >
-                      <div
-                        className="sc-ksluID gQyraI"
-                      />
-                    </styled.div>
-                  </div>
-                </styled.div>
-                <div>
-                  skills.front (skills.react)
+                    <div
+                      className="sc-ksluID gQyraI"
+                    />
+                  </styled.div>
                 </div>
+              </styled.div>
+              <div>
+                skills.front (skills.react)
               </div>
-            </styled.div>
-          </ProgressIndicator>
-          <ProgressIndicator
-            description="skills.back (skills.node, skills.dotnet)"
-            percentage={50}
-          >
-            <styled.div>
-              <div
-                className="sc-dIsUp kRpPEh"
-              >
-                <styled.div>
-                  <div
-                    className="sc-bqGGPW jUrrst"
+            </div>
+          </styled.div>
+        </ProgressIndicator>
+        <ProgressIndicator
+          description="skills.back (skills.node, skills.dotnet)"
+          percentage={50}
+        >
+          <styled.div>
+            <div
+              className="sc-dIsUp kRpPEh"
+            >
+              <styled.div>
+                <div
+                  className="sc-bqGGPW jUrrst"
+                >
+                  <styled.div
+                    percentage={50}
                   >
-                    <styled.div
-                      percentage={50}
-                    >
-                      <div
-                        className="sc-ksluID gSttvk"
-                      />
-                    </styled.div>
-                  </div>
-                </styled.div>
-                <div>
-                  skills.back (skills.node, skills.dotnet)
+                    <div
+                      className="sc-ksluID gSttvk"
+                    />
+                  </styled.div>
                 </div>
+              </styled.div>
+              <div>
+                skills.back (skills.node, skills.dotnet)
               </div>
-            </styled.div>
-          </ProgressIndicator>
-          <ProgressIndicator
-            description="skills.db"
-            percentage={25}
-          >
-            <styled.div>
-              <div
-                className="sc-dIsUp kRpPEh"
-              >
-                <styled.div>
-                  <div
-                    className="sc-bqGGPW jUrrst"
+            </div>
+          </styled.div>
+        </ProgressIndicator>
+        <ProgressIndicator
+          description="skills.db"
+          percentage={25}
+        >
+          <styled.div>
+            <div
+              className="sc-dIsUp kRpPEh"
+            >
+              <styled.div>
+                <div
+                  className="sc-bqGGPW jUrrst"
+                >
+                  <styled.div
+                    percentage={25}
                   >
-                    <styled.div
-                      percentage={25}
-                    >
-                      <div
-                        className="sc-ksluID gXCOhW"
-                      />
-                    </styled.div>
-                  </div>
-                </styled.div>
-                <div>
-                  skills.db
+                    <div
+                      className="sc-ksluID gXCOhW"
+                    />
+                  </styled.div>
                 </div>
+              </styled.div>
+              <div>
+                skills.db
               </div>
-            </styled.div>
-          </ProgressIndicator>
-          <ProgressIndicator
-            description="skills.devops"
-            percentage={50}
-          >
-            <styled.div>
-              <div
-                className="sc-dIsUp kRpPEh"
-              >
-                <styled.div>
-                  <div
-                    className="sc-bqGGPW jUrrst"
+            </div>
+          </styled.div>
+        </ProgressIndicator>
+        <ProgressIndicator
+          description="skills.devops"
+          percentage={50}
+        >
+          <styled.div>
+            <div
+              className="sc-dIsUp kRpPEh"
+            >
+              <styled.div>
+                <div
+                  className="sc-bqGGPW jUrrst"
+                >
+                  <styled.div
+                    percentage={50}
                   >
-                    <styled.div
-                      percentage={50}
-                    >
-                      <div
-                        className="sc-ksluID gSttvk"
-                      />
-                    </styled.div>
-                  </div>
-                </styled.div>
-                <div>
-                  skills.devops
+                    <div
+                      className="sc-ksluID gSttvk"
+                    />
+                  </styled.div>
                 </div>
+              </styled.div>
+              <div>
+                skills.devops
               </div>
-            </styled.div>
-          </ProgressIndicator>
-          <ProgressIndicator
-            description="skills.automated_tests"
-            percentage={90}
-          >
-            <styled.div>
-              <div
-                className="sc-dIsUp kRpPEh"
-              >
-                <styled.div>
-                  <div
-                    className="sc-bqGGPW jUrrst"
+            </div>
+          </styled.div>
+        </ProgressIndicator>
+        <ProgressIndicator
+          description="skills.automated_tests"
+          percentage={90}
+        >
+          <styled.div>
+            <div
+              className="sc-dIsUp kRpPEh"
+            >
+              <styled.div>
+                <div
+                  className="sc-bqGGPW jUrrst"
+                >
+                  <styled.div
+                    percentage={90}
                   >
-                    <styled.div
-                      percentage={90}
-                    >
-                      <div
-                        className="sc-ksluID gQyraI"
-                      />
-                    </styled.div>
-                  </div>
-                </styled.div>
-                <div>
-                  skills.automated_tests
+                    <div
+                      className="sc-ksluID gQyraI"
+                    />
+                  </styled.div>
                 </div>
+              </styled.div>
+              <div>
+                skills.automated_tests
               </div>
-            </styled.div>
-          </ProgressIndicator>
-        </div>
-      </styled.div>
-    </section>
-  </styled.section>
+            </div>
+          </styled.div>
+        </ProgressIndicator>
+      </div>
+    </styled.div>
+  </section>
 </Skills>
 `;
 
 exports[`<Skills/> Snapshot renders without crashing using render 1`] = `
 <section
-  class="sc-fFSPTT"
   id="skills"
 >
   <h2>
     button.skills
   </h2>
   <div
-    class="sc-bkbkJK hfkuZi"
+    class="sc-fFSPTT erILfs"
   >
     <div
       class="sc-dIsUp kRpPEh"
@@ -285,7 +279,7 @@ exports[`<Skills/> Snapshot renders without crashing using render 1`] = `
 `;
 
 exports[`<Skills/> Snapshot renders without crashing using shallow 1`] = `
-<styled.section
+<section
   id="skills"
 >
   <h2>
@@ -317,5 +311,5 @@ exports[`<Skills/> Snapshot renders without crashing using shallow 1`] = `
       percentage={90}
     />
   </styled.div>
-</styled.section>
+</section>
 `;
