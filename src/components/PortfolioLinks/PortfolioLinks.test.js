@@ -18,6 +18,11 @@ describe('<PortfolioLinks/>', () => {
     expect(shallow(<PortfolioLinks orientation='vertical' />).find(S.PortfolioLinks).prop('orientation')).toBe('vertical')
   })
 
+  it('renders a link that refers to ##about with correct translation', () => {
+    expect(shallow(<PortfolioLinks />).find('a[href="##about"]').text()).toBe('button.education')
+    expect(t).toHaveBeenCalledWith('button.education')
+  })
+
   it('renders a link that refers to #skills with correct translation', () => {
     expect(shallow(<PortfolioLinks />).find('a[href="#skills"]').text()).toBe('button.skills')
     expect(t).toHaveBeenCalledWith('button.skills')
@@ -26,11 +31,6 @@ describe('<PortfolioLinks/>', () => {
   it('renders a link that refers to #experience with correct translation', () => {
     expect(shallow(<PortfolioLinks />).find('a[href="#experience"]').text()).toBe('button.experience')
     expect(t).toHaveBeenCalledWith('button.experience')
-  })
-
-  it('renders a link that refers to #sec3 with correct translation', () => {
-    expect(shallow(<PortfolioLinks />).find('a[href="#sec3"]').text()).toBe('button.education')
-    expect(t).toHaveBeenCalledWith('button.education')
   })
 
   it('renders a link that refers to #contact with correct translation', () => {

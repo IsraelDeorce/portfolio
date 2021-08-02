@@ -12,9 +12,9 @@ function PortfolioLinks({ orientation = 'horizontal', onClick }) {
 
   return (
     <S.PortfolioLinks orientation={orientation} onClick={onClick}>
+      <a href='#about'>{t('button.about')}</a>
       <a href='#skills'>{t('button.skills')}</a>
       <a href='#experience'>{t('button.experience')}</a>
-      <a href='#sec3'>{t('button.education')}</a>
       <a href='#contact'>{t('button.contact')}</a>
     </S.PortfolioLinks>
   )
