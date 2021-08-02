@@ -106,6 +106,11 @@ exports[`<NavBar/> Snapshot renders without crashing using mount 1`] = `
                 orientation="horizontal"
               >
                 <a
+                  href="#about"
+                >
+                  button.about
+                </a>
+                <a
                   href="#skills"
                 >
                   button.skills
@@ -114,11 +119,6 @@ exports[`<NavBar/> Snapshot renders without crashing using mount 1`] = `
                   href="#experience"
                 >
                   button.experience
-                </a>
-                <a
-                  href="#sec3"
-                >
-                  button.education
                 </a>
                 <a
                   href="#contact"
@@ -357,6 +357,11 @@ exports[`<NavBar/> Snapshot renders without crashing using render 1`] = `
       orientation="horizontal"
     >
       <a
+        href="#about"
+      >
+        button.about
+      </a>
+      <a
         href="#skills"
       >
         button.skills
@@ -365,11 +370,6 @@ exports[`<NavBar/> Snapshot renders without crashing using render 1`] = `
         href="#experience"
       >
         button.experience
-      </a>
-      <a
-        href="#sec3"
-      >
-        button.education
       </a>
       <a
         href="#contact"
