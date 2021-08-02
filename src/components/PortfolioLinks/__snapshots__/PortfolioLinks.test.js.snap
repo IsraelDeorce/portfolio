@@ -10,6 +10,11 @@ exports[`<PortfolioLinks/> Snapshot renders without crashing using mount 1`] = `
       orientation="horizontal"
     >
       <a
+        href="#about"
+      >
+        button.about
+      </a>
+      <a
         href="#skills"
       >
         button.skills
@@ -18,11 +23,6 @@ exports[`<PortfolioLinks/> Snapshot renders without crashing using mount 1`] = `
         href="#experience"
       >
         button.experience
-      </a>
-      <a
-        href="#sec3"
-      >
-        button.education
       </a>
       <a
         href="#contact"
@@ -40,6 +40,11 @@ exports[`<PortfolioLinks/> Snapshot renders without crashing using render 1`] = 
   orientation="horizontal"
 >
   <a
+    href="#about"
+  >
+    button.about
+  </a>
+  <a
     href="#skills"
   >
     button.skills
@@ -48,11 +53,6 @@ exports[`<PortfolioLinks/> Snapshot renders without crashing using render 1`] = 
     href="#experience"
   >
     button.experience
-  </a>
-  <a
-    href="#sec3"
-  >
-    button.education
   </a>
   <a
     href="#contact"
@@ -67,6 +67,11 @@ exports[`<PortfolioLinks/> Snapshot renders without crashing using shallow 1`] =
   orientation="horizontal"
 >
   <a
+    href="#about"
+  >
+    button.about
+  </a>
+  <a
     href="#skills"
   >
     button.skills
@@ -75,11 +80,6 @@ exports[`<PortfolioLinks/> Snapshot renders without crashing using shallow 1`] =
     href="#experience"
   >
     button.experience
-  </a>
-  <a
-    href="#sec3"
-  >
-    button.education
   </a>
   <a
     href="#contact"

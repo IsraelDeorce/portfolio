@@ -4,7 +4,7 @@ exports[`<Portfolio/> Snapshot renders without crashing using mount 1`] = `
 <Portfolio>
   <styled.div>
     <div
-      className="sc-kfYoZR bGofxk"
+      className="sc-fKgJPI drgXhq"
     >
       <Home>
         <styled.section
@@ -105,6 +105,27 @@ exports[`<Portfolio/> Snapshot renders without crashing using mount 1`] = `
           </section>
         </styled.section>
       </Home>
+      <About>
+        <section
+          id="about"
+        >
+          <h2>
+            button.about_me
+          </h2>
+          <styled.div>
+            <div
+              className="sc-iemWCZ cVeLS"
+            >
+              <p>
+                desc.about_1
+              </p>
+              <p>
+                desc.about_2
+              </p>
+            </div>
+          </styled.div>
+        </section>
+      </About>
       <Skills>
         <section
           id="skills"
@@ -114,7 +135,7 @@ exports[`<Portfolio/> Snapshot renders without crashing using mount 1`] = `
           </h2>
           <styled.div>
             <div
-              className="sc-iemWCZ dyDPek"
+              className="sc-dIvrsQ wBbOE"
             >
               <ProgressIndicator
                 description="skills.software_engineering"
@@ -291,7 +312,7 @@ exports[`<Portfolio/> Snapshot renders without crashing using mount 1`] = `
           </h2>
           <styled.div>
             <div
-              className="sc-dIvrsQ kGujVm"
+              className="sc-hHEiqL hQxvaI"
             >
               <Project
                 description="desc.hp"
@@ -625,7 +646,7 @@ exports[`<Portfolio/> Snapshot renders without crashing using mount 1`] = `
         >
           <styled.div>
             <div
-              className="sc-hHEiqL jXQGgJ"
+              className="sc-dlMDgC foeJtd"
             >
               <SocialNetworks>
                 <styled.div>
@@ -789,7 +810,7 @@ exports[`<Portfolio/> Snapshot renders without crashing using mount 1`] = `
               </SocialNetworks>
               <styled.div>
                 <div
-                  className="sc-dlMDgC kseaCI"
+                  className="sc-kfYoZR iXGPkS"
                 >
                   <p>
                     israel.idvj@gmail.com
@@ -853,7 +874,7 @@ exports[`<Portfolio/> Snapshot renders without crashing using mount 1`] = `
 
 exports[`<Portfolio/> Snapshot renders without crashing using render 1`] = `
 <div
-  class="sc-kfYoZR bGofxk"
+  class="sc-fKgJPI drgXhq"
 >
   <section
     class="sc-fFSPTT UxeRs"
@@ -900,13 +921,30 @@ exports[`<Portfolio/> Snapshot renders without crashing using render 1`] = `
     </div>
   </section>
   <section
+    id="about"
+  >
+    <h2>
+      button.about_me
+    </h2>
+    <div
+      class="sc-iemWCZ cVeLS"
+    >
+      <p>
+        desc.about_1
+      </p>
+      <p>
+        desc.about_2
+      </p>
+    </div>
+  </section>
+  <section
     id="skills"
   >
     <h2>
       button.skills
     </h2>
     <div
-      class="sc-iemWCZ dyDPek"
+      class="sc-dIvrsQ wBbOE"
     >
       <div
         class="sc-dIsUp kRpPEh"
@@ -1001,7 +1039,7 @@ exports[`<Portfolio/> Snapshot renders without crashing using render 1`] = `
       button.experience
     </h2>
     <div
-      class="sc-dIvrsQ kGujVm"
+      class="sc-hHEiqL hQxvaI"
     >
       <div
         class="sc-hBMUJo bXVrzm"
@@ -1169,7 +1207,7 @@ exports[`<Portfolio/> Snapshot renders without crashing using render 1`] = `
     id="contact"
   >
     <div
-      class="sc-hHEiqL jXQGgJ"
+      class="sc-dlMDgC foeJtd"
     >
       <div
         class="sc-kEqXSa bgIIai"
@@ -1252,7 +1290,7 @@ exports[`<Portfolio/> Snapshot renders without crashing using render 1`] = `
         </a>
       </div>
       <div
-        class="sc-dlMDgC kseaCI"
+        class="sc-kfYoZR iXGPkS"
       >
         <p>
           israel.idvj@gmail.com
@@ -1291,6 +1329,7 @@ exports[`<Portfolio/> Snapshot renders without crashing using render 1`] = `
 exports[`<Portfolio/> Snapshot renders without crashing using shallow 1`] = `
 <styled.div>
   <Home />
+  <About />
   <Skills />
   <Experience />
   <Contact />
