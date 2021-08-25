@@ -4,7 +4,7 @@
   "br": "Brasil",
   "button": {
     "about": "Sobre",
-    "about_me": "Sobre Mim",
+    "about_me": "Sobre mim",
     "skills": "Habilidades",
     "experience": "Experiência",
     "contact": "Contato",
@@ -12,13 +12,13 @@
     "resume": "Currículo"
   },
   "desc": {
-    "about_1": "Olá, meu nome é Israel Doerce, sou Engenheiro de Software e especialista em desenvolvimento web. Gosto do desafio de trabalhar com as melhores práticas sob condiçoes de incerteza para construir produtos de software de alta qualidade que afetem positivamente a vida das pessoas.",
-    "about_2": "Graduado em Engenharia de Sotware pela PUCRS e com experiencia de trabalho em grandes empresas multinacionais, criei este site com o objetivo de apresentar o meu trabalho, compartilhar meu conhecimento e ajudar a comunidade de software a criar soluções de grande impacto na sociedade.",
+    "about_1": "Olá, meu nome é Israel Deorce, sou Engenheiro de Software e especialista em desenvolvimento web. Gosto do desafio de trabalhar com as melhores práticas sob condições de incerteza para construir produtos de software de alta qualidade que afetem positivamente a vida das pessoas.",
+    "about_2": "Graduado em Engenharia de Sotware pela PUCRS e com experiência de trabalho em grandes empresas multinacionais, criei este site com o objetivo de apresentar o meu trabalho, compartilhar meu conhecimento e ajudar a comunidade de software a criar soluções de grande impacto na sociedade.",
     "personal_project": "Projeto Pessoal",
     "research_intern": "Estágio em P&D em parceria com a Dell Inc.",
-    "intern": "(2018-2019) Ajudei a Dell a adotar uma nova metodologia baseada em Extreme Porgramming, Lean e User-Centered Design. Um livro guia surgiu desta parceria e isso também me ajudou a entrar para a Dell como Engenheiro",
-    "hp": "(2020-Present) Trabalhando em maioria como um Engenheiro de Software de UI com React.js e Scrum Master em um time que cria e mantém a solução unificada da HP para credenciais e identidade de usuários para extensos grupos de produtos internacionais da HP",
-    "dell": "(2019-2020) Trabalhei como um Engenheiro FUll Stack com React.js e .NET, desenvolvendo UI e microsserviços para os \"Serviços Financeiros da Dell\". Aqui, experimentei programação em pares, TDD e outras práticas ágeis de engenharia desenvolvidas durante o meu estágio",
+    "intern": "(2018-2019) Ajudei a Dell a adotar uma nova metodologia baseada em Extreme Programming, Lean e User-Centered Design. Um livro guia surgiu desta parceria e isso também me ajudou a entrar para a Dell como Engenheiro",
+    "hp": "(2020-Present) Trabalhando em maioria como um Engenheiro de Software de UI com React.js e Scrum Master em um time que cria e mantém a solução unificada da para credenciais e identidade de usuários para extensos grupos de produtos internacionais da HP",
+    "dell": "(2019-2020) Trabalhei como um Engenheiro Full Stack com React.js e .NET, desenvolvendo UI e microsserviços para os \"Serviços Financeiros da Dell\". Aqui, experimentei programação em pares, TDD e outras práticas ágeis de engenharia desenvolvidas durante o meu estágio",
     "ginatells": "(Em andamento) Um Projeto baseado em Inteligência Artificial que busca auxiliar usuários a acharem os melhores filmes ou coisas para assistirem baseado em seus gostos e sentimentos neste momento",
     "nonprofit_engineer": "Engenheiro de Software sem fins lucrativos (2016-2019)",
     "ages": "(2016-2019) A Agência Experimental de Engenharia de Software (AGES) deu-me a oportunidade de trabalhar em uma variedade de projetos como o Áudio Livros, Adoções, Simulados prova da OAB e \"EasyWork\"",
