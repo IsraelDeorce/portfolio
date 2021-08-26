@@ -1,18 +1,113 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Contact/> Snapshot renders without crashing using mount 1`] = `
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c1 > * {
+  cursor: pointer;
+}
+
+.c1 > *:not(:last-child) {
+  margin-right: 0.75em;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 0.5em;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 3em;
+}
+
+.c0 > :first-child {
+  padding-bottom: 2em;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c2 p:last-of-type {
+  margin-bottom: 0;
+}
+
+@media (min-width:992px) {
+  .c2 {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+
+  .c2 p {
+    margin: 0;
+  }
+
+  .c2 p:not(:last-of-type) {
+    margin-right: 2em;
+  }
+}
+
 <Contact>
   <footer
     id="contact"
   >
     <styled.div>
       <div
-        className="sc-fFSPTT bQXvlD"
+        className="c0"
       >
         <SocialNetworks>
           <styled.div>
             <div
-              className="sc-kEqXSa bgIIai"
+              className="c1"
             >
               <a
                 href="https://wa.me/5551980254545"
@@ -171,7 +266,7 @@ exports[`<Contact/> Snapshot renders without crashing using mount 1`] = `
         </SocialNetworks>
         <styled.div>
           <div
-            className="sc-bkbkJK pVkGw"
+            className="c2"
           >
             <p>
               israel.idvj@gmail.com
@@ -189,7 +284,7 @@ exports[`<Contact/> Snapshot renders without crashing using mount 1`] = `
     <Copyright>
       <styled.div>
         <div
-          className="sc-fnVZcZ HaGRW"
+          className="c3"
         >
           Copyright 
           <FaRegCopyright>
@@ -231,14 +326,109 @@ exports[`<Contact/> Snapshot renders without crashing using mount 1`] = `
 `;
 
 exports[`<Contact/> Snapshot renders without crashing using render 1`] = `
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c1 > * {
+  cursor: pointer;
+}
+
+.c1 > *:not(:last-child) {
+  margin-right: 0.75em;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 0.5em;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 3em;
+}
+
+.c0 > :first-child {
+  padding-bottom: 2em;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c2 p:last-of-type {
+  margin-bottom: 0;
+}
+
+@media (min-width:992px) {
+  .c2 {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+
+  .c2 p {
+    margin: 0;
+  }
+
+  .c2 p:not(:last-of-type) {
+    margin-right: 2em;
+  }
+}
+
 <footer
   id="contact"
 >
   <div
-    class="sc-fFSPTT bQXvlD"
+    class="c0"
   >
     <div
-      class="sc-kEqXSa bgIIai"
+      class="c1"
     >
       <a
         href="https://wa.me/5551980254545"
@@ -318,7 +508,7 @@ exports[`<Contact/> Snapshot renders without crashing using render 1`] = `
       </a>
     </div>
     <div
-      class="sc-bkbkJK pVkGw"
+      class="c2"
     >
       <p>
         israel.idvj@gmail.com
@@ -332,7 +522,7 @@ exports[`<Contact/> Snapshot renders without crashing using render 1`] = `
     </div>
   </div>
   <div
-    class="sc-fnVZcZ HaGRW"
+    class="c3"
   >
     Copyright 
     <svg

@@ -22,7 +22,7 @@ export const TextualContacts = styled.div`
       margin: 0;
     }
     & p:not(:last-of-type) {
-      margin-right: 1em;
+      margin-right: 2em;
     }
   }
 `

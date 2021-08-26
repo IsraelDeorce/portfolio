@@ -1,10 +1,33 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<SocialNetworks/> Snapshot renders without crashing using mount 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c0 > * {
+  cursor: pointer;
+}
+
+.c0 > *:not(:last-child) {
+  margin-right: 0.75em;
+}
+
 <SocialNetworks>
   <styled.div>
     <div
-      className="sc-bdnxRM ggpjlM"
+      className="c0"
     >
       <a
         href="https://wa.me/5551980254545"
@@ -164,8 +187,31 @@ exports[`<SocialNetworks/> Snapshot renders without crashing using mount 1`] = `
 `;
 
 exports[`<SocialNetworks/> Snapshot renders without crashing using render 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c0 > * {
+  cursor: pointer;
+}
+
+.c0 > *:not(:last-child) {
+  margin-right: 0.75em;
+}
+
 <div
-  class="sc-bdnxRM ggpjlM"
+  class="c0"
 >
   <a
     href="https://wa.me/5551980254545"

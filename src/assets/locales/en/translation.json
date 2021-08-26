@@ -4,7 +4,7 @@
   "br": "Brazil",
   "button": {
     "about": "About",
-    "about_me": "About Me",
+    "about_me": "About me",
     "skills": "Skills",
     "experience": "Experience",
     "contact": "Contact",
@@ -12,12 +12,12 @@
     "resume": "Résumé"
   },
   "desc": {
-    "about_1": "Hello, my name is Israel Doerce, I am a Software Engineer who specializes in web development. I enjoy the challenge of working with best practices under conditions of uncertainty to build high quality software products that positively affect people's lives.",
+    "about_1": "Hello, my name is Israel Deorce, I am a Software Engineer who specializes in web development. I enjoy the challenge of working with best practices under conditions of uncertainty to build high quality software products that positively affect people's lives.",
     "about_2": "Graduated in Software Engineering at PUCRS and with experience working in large multinational companies, I created this webpage to present my work, share my knowledge and to help the software community to create solutions with a great impact on society.",
     "personal_project": "Personal Project",
     "research_intern": "R&D Intern in partnership with Dell Inc.",
     "intern": "(2018-2019) Helped Dell teams to adopt a new methodology based on Extreme Programming, Lean and User-Centered Design. A guidebook emerged from this partnership and it also helped me to join Dell as an Engineer",
-    "hp": "(2020-Present) Working mostly as a UI Engineer with React.js and Scrum Master in a team that creates and maintains the HP's unified solution for user credentials and identity for a wide group of international HP products",
+    "hp": "(2020-Present) Working mostly as a UI Engineer with React.js and Scrum Master in a team that creates and maintains the unified solution for user credentials and identity for a wide group of international HP products",
     "dell": "(2019-2020) Worked as a Full Stack Engineer with React.js and .NET developing UI and microservices for \"Dell Financial Services\". Here I've experienced pair programming, TDD, and other agile engineering practices developed during my internship",
     "ginatells": "(Ongoing) An Artificial Intelligence based project that aims to help users to find the best movies or things to watch based on what their tastes and feelings are right now",
     "nonprofit_engineer": "Nonprofit Software Engineer",

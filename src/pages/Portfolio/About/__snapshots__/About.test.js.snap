@@ -1,6 +1,22 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<About/> Snapshot renders without crashing using mount 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+@media (min-width:992px) {
+  .c0 {
+    padding: 0 10%;
+  }
+}
+
 <About>
   <section
     id="about"
@@ -10,7 +26,7 @@ exports[`<About/> Snapshot renders without crashing using mount 1`] = `
     </h2>
     <styled.div>
       <div
-        className="sc-bdnxRM cYgjXS"
+        className="c0"
       >
         <p>
           desc.about_1
@@ -25,6 +41,22 @@ exports[`<About/> Snapshot renders without crashing using mount 1`] = `
 `;
 
 exports[`<About/> Snapshot renders without crashing using render 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+@media (min-width:992px) {
+  .c0 {
+    padding: 0 10%;
+  }
+}
+
 <section
   id="about"
 >
@@ -32,7 +64,7 @@ exports[`<About/> Snapshot renders without crashing using render 1`] = `
     button.about_me
   </h2>
   <div
-    class="sc-bdnxRM cYgjXS"
+    class="c0"
   >
     <p>
       desc.about_1

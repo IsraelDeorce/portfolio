@@ -1,22 +1,221 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<SideBar/> Snapshot renders without crashing using mount 1`] = `
+.c8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-top: 1.5em;
+  font-size: 1.25em;
+}
+
+.c8 > * {
+  margin-bottom: 0.3em;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c7 > * {
+  margin: .75em 0;
+}
+
+.c11 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c11 > * {
+  cursor: pointer;
+}
+
+.c11 > *:not(:last-child) {
+  margin-right: 0.75em;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c3 > *:not(:last-child) {
+  margin-right: 0.5em;
+}
+
+.c9 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: .75rem 1.25rem;
+  cursor: pointer;
+}
+
+.c9 > *:not(:last-child) {
+  padding-right: 0.25em;
+}
+
+.c10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: .75rem 1.25rem;
+  cursor: pointer;
+}
+
+.c10 > *:not(:last-child) {
+  padding-right: 0.25em;
+}
+
+.c0 {
+  opacity: 0.7;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+}
+
+.c1 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  height: 100vh;
+  width: 75vw;
+  z-index: 2;
+  box-shadow: 0 5px 30px;
+  padding: 0 2em;
+}
+
+.c1 > * {
+  width: 100%;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-height: 60px;
+  border-bottom: 2px solid gray;
+}
+
+.c2 > *:not(:last-child) {
+  padding: 0.35em;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c4 > *:not(:last-child) {
+  margin-right: 0.75em;
+}
+
 <SideBar>
   <styled.div
     onClick={[Function]}
   >
     <div
-      className="sc-bqGGPW gKrChu"
+      className="c0"
       onClick={[Function]}
     />
   </styled.div>
   <styled.div>
     <div
-      className="sc-ksluID fQZLob"
+      className="c1"
     >
       <styled.div>
         <div
-          className="sc-hBMUJo jfmbmh"
+          className="c2"
         >
           <TitledLogo
             onClick={[Function]}
@@ -26,7 +225,7 @@ exports[`<SideBar/> Snapshot renders without crashing using mount 1`] = `
               onClick={[Function]}
             >
               <a
-                className="sc-fujyAs hogkDK"
+                className="c3"
                 href="#home"
                 onClick={[Function]}
               >
@@ -70,7 +269,7 @@ exports[`<SideBar/> Snapshot renders without crashing using mount 1`] = `
           </TitledLogo>
           <styled.div>
             <div
-              className="sc-fnVZcZ qHUSy"
+              className="c4"
             >
               <ThemeToggle>
                 <Toggle
@@ -178,12 +377,12 @@ exports[`<SideBar/> Snapshot renders without crashing using mount 1`] = `
                   onClick={[Function]}
                 >
                   <div
-                    className="sc-gtsrHT efPasq"
+                    className="c5"
                     onClick={[Function]}
                   >
                     <styled.div>
                       <div
-                        className="sc-dlnjwi iDwcvG"
+                        className="c6"
                       >
                         en
                         <MdKeyboardArrowDown>
@@ -257,7 +456,7 @@ exports[`<SideBar/> Snapshot renders without crashing using mount 1`] = `
           orientation="vertical"
         >
           <div
-            className="sc-gKAaRy ilUxeO"
+            className="c7"
             onClick={[Function]}
             orientation="vertical"
           >
@@ -287,7 +486,7 @@ exports[`<SideBar/> Snapshot renders without crashing using mount 1`] = `
       <ExternalButtons>
         <styled.div>
           <div
-            className="sc-bdnxRM jJHyKE"
+            className="c8"
           >
             <UIButton
               id="blog-button"
@@ -298,7 +497,7 @@ exports[`<SideBar/> Snapshot renders without crashing using mount 1`] = `
                 secondary={false}
               >
                 <button
-                  className="sc-pNWdM fsllOu"
+                  className="c9"
                   onClick={[Function]}
                 >
                   <span>
@@ -319,7 +518,7 @@ exports[`<SideBar/> Snapshot renders without crashing using mount 1`] = `
                 secondary={true}
               >
                 <button
-                  className="sc-pNWdM hdQKUA"
+                  className="c10"
                   onClick={[Function]}
                 >
                   <span>
@@ -363,7 +562,7 @@ exports[`<SideBar/> Snapshot renders without crashing using mount 1`] = `
       <SocialNetworks>
         <styled.div>
           <div
-            className="sc-iCoGMd bRymZA"
+            className="c11"
           >
             <a
               href="https://wa.me/5551980254545"
@@ -527,17 +726,216 @@ exports[`<SideBar/> Snapshot renders without crashing using mount 1`] = `
 
 exports[`<SideBar/> Snapshot renders without crashing using render 1`] = `
 Array [
-  <div
-    class="sc-bqGGPW gKrChu"
+  .c0 {
+  opacity: 0.7;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+}
+
+<div
+    class="c0"
   />,
-  <div
-    class="sc-ksluID fQZLob"
+  .c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-top: 1.5em;
+  font-size: 1.25em;
+}
+
+.c7 > * {
+  margin-bottom: 0.3em;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c6 > * {
+  margin: .75em 0;
+}
+
+.c10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c10 > * {
+  cursor: pointer;
+}
+
+.c10 > *:not(:last-child) {
+  margin-right: 0.75em;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c2 > *:not(:last-child) {
+  margin-right: 0.5em;
+}
+
+.c8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: .75rem 1.25rem;
+  cursor: pointer;
+}
+
+.c8 > *:not(:last-child) {
+  padding-right: 0.25em;
+}
+
+.c9 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: .75rem 1.25rem;
+  cursor: pointer;
+}
+
+.c9 > *:not(:last-child) {
+  padding-right: 0.25em;
+}
+
+.c0 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  height: 100vh;
+  width: 75vw;
+  z-index: 2;
+  box-shadow: 0 5px 30px;
+  padding: 0 2em;
+}
+
+.c0 > * {
+  width: 100%;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-height: 60px;
+  border-bottom: 2px solid gray;
+}
+
+.c1 > *:not(:last-child) {
+  padding: 0.35em;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c3 > *:not(:last-child) {
+  margin-right: 0.75em;
+}
+
+<div
+    class="c0"
   >
     <div
-      class="sc-hBMUJo jfmbmh"
+      class="c1"
     >
       <a
-        class="sc-fujyAs hogkDK"
+        class="c2"
         href="#home"
       >
         <svg
@@ -558,7 +956,7 @@ Array [
         </strong>
       </a>
       <div
-        class="sc-fnVZcZ qHUSy"
+        class="c3"
       >
         <div
           class="react-toggle toggle"
@@ -610,10 +1008,10 @@ Array [
           />
         </div>
         <div
-          class="sc-gtsrHT efPasq"
+          class="c4"
         >
           <div
-            class="sc-dlnjwi iDwcvG"
+            class="c5"
           >
             <svg
               fill="currentColor"
@@ -633,7 +1031,7 @@ Array [
       </div>
     </div>
     <div
-      class="sc-gKAaRy ilUxeO"
+      class="c6"
       orientation="vertical"
     >
       <a
@@ -658,17 +1056,17 @@ Array [
       </a>
     </div>
     <div
-      class="sc-bdnxRM jJHyKE"
+      class="c7"
     >
       <button
-        class="sc-pNWdM fsllOu"
+        class="c8"
       >
         <span>
           button.visit_my_blog
         </span>
       </button>
       <button
-        class="sc-pNWdM hdQKUA"
+        class="c9"
       >
         <span>
           button.resume
@@ -689,7 +1087,7 @@ Array [
       </button>
     </div>
     <div
-      class="sc-iCoGMd bRymZA"
+      class="c10"
     >
       <a
         href="https://wa.me/5551980254545"

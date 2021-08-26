@@ -8,7 +8,7 @@ export const ProgressIndicator = styled.div`
 export const ProgressBar = styled.div`
   display: flex;
   border-radius: 25px;
-  border: 4px solid ${({ theme }) => theme.c_function};
+  border: 4px solid ${({ theme }) => theme.c_component};
   min-width: 180px;
   height: 30px;
   padding: 3.5px;

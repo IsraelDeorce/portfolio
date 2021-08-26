@@ -20,8 +20,8 @@
       "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMock.js",
       "\\.(css|scss)$": "identity-obj-proxy"
     },
-    "setupFiles": [
-      "./setupTests.js"
+    "setupFilesAfterEnv": [
+      "<rootDir>/setupTests.js"
     ],
     "snapshotSerializers": [
       "enzyme-to-json/serializer"
@@ -65,6 +65,7 @@
     "html-webpack-plugin": "^5.3.2",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^27.0.5",
+    "jest-styled-components": "^7.0.5",
     "sass": "^1.35.1",
     "sass-loader": "^12.1.0",
     "source-map-loader": "^3.0.0",

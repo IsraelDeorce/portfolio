@@ -1,13 +1,30 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<UIButton/> Snapshot renders without crashing using mount 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: .75rem 1.25rem;
+  cursor: pointer;
+}
+
+.c0 > *:not(:last-child) {
+  padding-right: 0.25em;
+}
+
 <UIButton>
   <styled.button
     onClick={[Function]}
     secondary={false}
   >
     <button
-      className="sc-bdnxRM eXwMXx"
+      className="c0"
       onClick={[Function]}
     >
       <span />
@@ -17,8 +34,25 @@ exports[`<UIButton/> Snapshot renders without crashing using mount 1`] = `
 `;
 
 exports[`<UIButton/> Snapshot renders without crashing using render 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: .75rem 1.25rem;
+  cursor: pointer;
+}
+
+.c0 > *:not(:last-child) {
+  padding-right: 0.25em;
+}
+
 <button
-  class="sc-bdnxRM eXwMXx"
+  class="c0"
 >
   <span />
 </button>
