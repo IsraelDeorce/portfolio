@@ -1,20 +1,55 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<ProgressIndicator/> Snapshot renders without crashing using mount 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 25px;
+  border: 4px solid;
+  min-width: 180px;
+  height: 30px;
+  padding: 3.5px;
+  margin-right: 0.5em;
+}
+
+.c2 {
+  border-radius: 25px;
+  min-width: 10%;
+}
+
+@media (min-width:576px) {
+  .c1 {
+    min-width: 350px;
+  }
+}
+
 <ProgressIndicator>
   <styled.div>
     <div
-      className="sc-bdnxRM cpQBWR"
+      className="c0"
     >
       <styled.div>
         <div
-          className="sc-gtsrHT jeEpUP"
+          className="c1"
         >
           <styled.div
             percentage={10}
           >
             <div
-              className="sc-dlnjwi uYGDG"
+              className="c2"
             />
           </styled.div>
         </div>
@@ -25,14 +60,49 @@ exports[`<ProgressIndicator/> Snapshot renders without crashing using mount 1`] 
 `;
 
 exports[`<ProgressIndicator/> Snapshot renders without crashing using render 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 25px;
+  border: 4px solid;
+  min-width: 180px;
+  height: 30px;
+  padding: 3.5px;
+  margin-right: 0.5em;
+}
+
+.c2 {
+  border-radius: 25px;
+  min-width: 10%;
+}
+
+@media (min-width:576px) {
+  .c1 {
+    min-width: 350px;
+  }
+}
+
 <div
-  class="sc-bdnxRM cpQBWR"
+  class="c0"
 >
   <div
-    class="sc-gtsrHT jeEpUP"
+    class="c1"
   >
     <div
-      class="sc-dlnjwi uYGDG"
+      class="c2"
     />
   </div>
 </div>

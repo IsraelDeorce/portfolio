@@ -1,6 +1,50 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Experience/> Snapshot renders without crashing using mount 1`] = `
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  max-width: 300px;
+}
+
+.c1 :first-child {
+  width: 100px;
+  height: 100px;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.c0 > * {
+  padding: 0 1em 1em 1em;
+}
+
+@media (min-width:992px) {
+  .c0 {
+    margin: 0 10%;
+  }
+}
+
 <Experience>
   <section
     id="experience"
@@ -10,7 +54,7 @@ exports[`<Experience/> Snapshot renders without crashing using mount 1`] = `
     </h2>
     <styled.div>
       <div
-        className="sc-fFSPTT kbQYgO"
+        className="c0"
       >
         <Project
           description="desc.hp"
@@ -25,7 +69,7 @@ exports[`<Experience/> Snapshot renders without crashing using mount 1`] = `
         >
           <styled.div>
             <div
-              className="sc-hBMUJo bXVrzm"
+              className="c1"
             >
               <div>
                 <SiHp
@@ -92,7 +136,7 @@ exports[`<Experience/> Snapshot renders without crashing using mount 1`] = `
         >
           <styled.div>
             <div
-              className="sc-hBMUJo bXVrzm"
+              className="c1"
             >
               <div>
                 <SiDell
@@ -159,7 +203,7 @@ exports[`<Experience/> Snapshot renders without crashing using mount 1`] = `
         >
           <styled.div>
             <div
-              className="sc-hBMUJo bXVrzm"
+              className="c1"
             >
               <div>
                 <img
@@ -191,7 +235,7 @@ exports[`<Experience/> Snapshot renders without crashing using mount 1`] = `
         >
           <styled.div>
             <div
-              className="sc-hBMUJo bXVrzm"
+              className="c1"
             >
               <div>
                 <GiClapperboard
@@ -253,7 +297,7 @@ exports[`<Experience/> Snapshot renders without crashing using mount 1`] = `
         >
           <styled.div>
             <div
-              className="sc-hBMUJo bXVrzm"
+              className="c1"
             >
               <div>
                 <GiProgression
@@ -315,7 +359,7 @@ exports[`<Experience/> Snapshot renders without crashing using mount 1`] = `
         >
           <styled.div>
             <div
-              className="sc-hBMUJo bXVrzm"
+              className="c1"
             >
               <div>
                 <img
@@ -341,6 +385,50 @@ exports[`<Experience/> Snapshot renders without crashing using mount 1`] = `
 `;
 
 exports[`<Experience/> Snapshot renders without crashing using render 1`] = `
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  max-width: 300px;
+}
+
+.c1 :first-child {
+  width: 100px;
+  height: 100px;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.c0 > * {
+  padding: 0 1em 1em 1em;
+}
+
+@media (min-width:992px) {
+  .c0 {
+    margin: 0 10%;
+  }
+}
+
 <section
   id="experience"
 >
@@ -348,10 +436,10 @@ exports[`<Experience/> Snapshot renders without crashing using render 1`] = `
     button.experience
   </h2>
   <div
-    class="sc-fFSPTT kbQYgO"
+    class="c0"
   >
     <div
-      class="sc-hBMUJo bXVrzm"
+      class="c1"
     >
       <div>
         <svg
@@ -383,7 +471,7 @@ exports[`<Experience/> Snapshot renders without crashing using render 1`] = `
       </p>
     </div>
     <div
-      class="sc-hBMUJo bXVrzm"
+      class="c1"
     >
       <div>
         <svg
@@ -415,7 +503,7 @@ exports[`<Experience/> Snapshot renders without crashing using render 1`] = `
       </p>
     </div>
     <div
-      class="sc-hBMUJo bXVrzm"
+      class="c1"
     >
       <div>
         <img
@@ -433,7 +521,7 @@ exports[`<Experience/> Snapshot renders without crashing using render 1`] = `
       </p>
     </div>
     <div
-      class="sc-hBMUJo bXVrzm"
+      class="c1"
     >
       <div>
         <svg
@@ -463,7 +551,7 @@ exports[`<Experience/> Snapshot renders without crashing using render 1`] = `
       </p>
     </div>
     <div
-      class="sc-hBMUJo bXVrzm"
+      class="c1"
     >
       <div>
         <svg
@@ -493,7 +581,7 @@ exports[`<Experience/> Snapshot renders without crashing using render 1`] = `
       </p>
     </div>
     <div
-      class="sc-hBMUJo bXVrzm"
+      class="c1"
     >
       <div>
         <img

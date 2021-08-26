@@ -1,12 +1,83 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Home/> Snapshot renders without crashing using mount 1`] = `
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-top: 1.5em;
+  font-size: 1.25em;
+}
+
+.c2 > * {
+  margin-bottom: 0.3em;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: .75rem 1.25rem;
+  cursor: pointer;
+}
+
+.c3 > *:not(:last-child) {
+  padding-right: 0.25em;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: .75rem 1.25rem;
+  cursor: pointer;
+}
+
+.c4 > *:not(:last-child) {
+  padding-right: 0.25em;
+}
+
+.c0 {
+  background-position: top right 30%;
+  background-image: linear-gradient( rgba(0,0,0,0.6),rgba(0,0,0,0.6) ),url(test-file-stub);
+  background-size: cover;
+  color: #D4D4C8;
+  padding-top: 7em;
+  padding-bottom: 4.5em;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1 {
+  font-size: 30px;
+}
+
 <Home>
   <styled.section
     id="home"
   >
     <section
-      className="sc-fFSPTT UxeRs"
+      className="c0"
       id="home"
     >
       <h1>
@@ -16,7 +87,7 @@ exports[`<Home/> Snapshot renders without crashing using mount 1`] = `
         className="subtitle"
       >
         <p
-          className="sc-bkbkJK jhAOQg subtitle"
+          className="c1 subtitle"
         >
           subtitle
         </p>
@@ -24,7 +95,7 @@ exports[`<Home/> Snapshot renders without crashing using mount 1`] = `
       <ExternalButtons>
         <styled.div>
           <div
-            className="sc-bdnxRM jJHyKE"
+            className="c2"
           >
             <UIButton
               id="blog-button"
@@ -35,7 +106,7 @@ exports[`<Home/> Snapshot renders without crashing using mount 1`] = `
                 secondary={false}
               >
                 <button
-                  className="sc-crzoAE hOvMwS"
+                  className="c3"
                   onClick={[Function]}
                 >
                   <span>
@@ -56,7 +127,7 @@ exports[`<Home/> Snapshot renders without crashing using mount 1`] = `
                 secondary={true}
               >
                 <button
-                  className="sc-crzoAE foTsck"
+                  className="c4"
                   onClick={[Function]}
                 >
                   <span>
@@ -103,30 +174,101 @@ exports[`<Home/> Snapshot renders without crashing using mount 1`] = `
 `;
 
 exports[`<Home/> Snapshot renders without crashing using render 1`] = `
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-top: 1.5em;
+  font-size: 1.25em;
+}
+
+.c2 > * {
+  margin-bottom: 0.3em;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: .75rem 1.25rem;
+  cursor: pointer;
+}
+
+.c3 > *:not(:last-child) {
+  padding-right: 0.25em;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: .75rem 1.25rem;
+  cursor: pointer;
+}
+
+.c4 > *:not(:last-child) {
+  padding-right: 0.25em;
+}
+
+.c0 {
+  background-position: top right 30%;
+  background-image: linear-gradient( rgba(0,0,0,0.6),rgba(0,0,0,0.6) ),url(test-file-stub);
+  background-size: cover;
+  color: #D4D4C8;
+  padding-top: 7em;
+  padding-bottom: 4.5em;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1 {
+  font-size: 30px;
+}
+
 <section
-  class="sc-fFSPTT UxeRs"
+  class="c0"
   id="home"
 >
   <h1>
     Israel Deorce
   </h1>
   <p
-    class="sc-bkbkJK jhAOQg subtitle"
+    class="c1 subtitle"
   >
     subtitle
   </p>
   <div
-    class="sc-bdnxRM jJHyKE"
+    class="c2"
   >
     <button
-      class="sc-crzoAE hOvMwS"
+      class="c3"
     >
       <span>
         button.visit_my_blog
       </span>
     </button>
     <button
-      class="sc-crzoAE foTsck"
+      class="c4"
     >
       <span>
         button.resume

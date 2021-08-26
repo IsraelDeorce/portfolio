@@ -1,12 +1,23 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<PortfolioLinks/> Snapshot renders without crashing using mount 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c0 > *:not(:last-child) {
+  margin-right: 2em;
+}
+
 <PortfolioLinks>
   <styled.div
     orientation="horizontal"
   >
     <div
-      className="sc-bdnxRM eMTju"
+      className="c0"
       orientation="horizontal"
     >
       <a
@@ -35,8 +46,19 @@ exports[`<PortfolioLinks/> Snapshot renders without crashing using mount 1`] = `
 `;
 
 exports[`<PortfolioLinks/> Snapshot renders without crashing using render 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c0 > *:not(:last-child) {
+  margin-right: 2em;
+}
+
 <div
-  class="sc-bdnxRM eMTju"
+  class="c0"
   orientation="horizontal"
 >
   <a

@@ -1,16 +1,140 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<NavBar/> Snapshot renders without crashing using mount 1`] = `
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c4 > *:not(:last-child) {
+  margin-right: 2em;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c2 > *:not(:last-child) {
+  margin-right: 0.5em;
+}
+
+.c0 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-weight: 700;
+  padding: 0 1.5em;
+  min-height: 60px;
+}
+
+.c0 > *:not(:last-child) {
+  margin-right: 0.75em;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c3 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+.c3 > *:not(:last-child) {
+  margin-right: 0.75em;
+}
+
+@media (min-width:992px) {
+  .c1 {
+    display: none;
+  }
+}
+
+@media (max-width:992px) {
+  .c3 {
+    display: none;
+  }
+}
+
 <NavBar>
   <styled.nav>
     <nav
-      className="sc-ksluID dYRBjr"
+      className="c0"
     >
       <styled.span
         onClick={[Function]}
       >
         <span
-          className="sc-hBMUJo iQmebz"
+          className="c1"
           onClick={[Function]}
         >
           <MdMenu
@@ -52,7 +176,7 @@ exports[`<NavBar/> Snapshot renders without crashing using mount 1`] = `
           href="#home"
         >
           <a
-            className="sc-pNWdM ccBgY"
+            className="c2"
             href="#home"
           >
             <GiDirewolf
@@ -95,14 +219,14 @@ exports[`<NavBar/> Snapshot renders without crashing using mount 1`] = `
       </TitledLogo>
       <styled.div>
         <div
-          className="sc-fnVZcZ ewwoWw"
+          className="c3"
         >
           <PortfolioLinks>
             <styled.div
               orientation="horizontal"
             >
               <div
-                className="sc-hKFxyN gRYIjj"
+                className="c4"
                 orientation="horizontal"
               >
                 <a
@@ -234,12 +358,12 @@ exports[`<NavBar/> Snapshot renders without crashing using mount 1`] = `
               onClick={[Function]}
             >
               <div
-                className="sc-gtsrHT efPasq"
+                className="c5"
                 onClick={[Function]}
               >
                 <styled.div>
                   <div
-                    className="sc-dlnjwi iDwcvG"
+                    className="c6"
                   >
                     en
                     <MdKeyboardArrowDown>
@@ -308,11 +432,135 @@ exports[`<NavBar/> Snapshot renders without crashing using mount 1`] = `
 `;
 
 exports[`<NavBar/> Snapshot renders without crashing using render 1`] = `
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c4 > *:not(:last-child) {
+  margin-right: 2em;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c2 > *:not(:last-child) {
+  margin-right: 0.5em;
+}
+
+.c0 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-weight: 700;
+  padding: 0 1.5em;
+  min-height: 60px;
+}
+
+.c0 > *:not(:last-child) {
+  margin-right: 0.75em;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.c3 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+.c3 > *:not(:last-child) {
+  margin-right: 0.75em;
+}
+
+@media (min-width:992px) {
+  .c1 {
+    display: none;
+  }
+}
+
+@media (max-width:992px) {
+  .c3 {
+    display: none;
+  }
+}
+
 <nav
-  class="sc-ksluID dYRBjr"
+  class="c0"
 >
   <span
-    class="sc-hBMUJo iQmebz"
+    class="c1"
   >
     <svg
       fill="currentColor"
@@ -329,7 +577,7 @@ exports[`<NavBar/> Snapshot renders without crashing using render 1`] = `
     </svg>
   </span>
   <a
-    class="sc-pNWdM ccBgY"
+    class="c2"
     href="#home"
   >
     <svg
@@ -350,10 +598,10 @@ exports[`<NavBar/> Snapshot renders without crashing using render 1`] = `
     </strong>
   </a>
   <div
-    class="sc-fnVZcZ ewwoWw"
+    class="c3"
   >
     <div
-      class="sc-hKFxyN gRYIjj"
+      class="c4"
       orientation="horizontal"
     >
       <a
@@ -427,10 +675,10 @@ exports[`<NavBar/> Snapshot renders without crashing using render 1`] = `
       />
     </div>
     <div
-      class="sc-gtsrHT efPasq"
+      class="c5"
     >
       <div
-        class="sc-dlnjwi iDwcvG"
+        class="c6"
       >
         <svg
           fill="currentColor"

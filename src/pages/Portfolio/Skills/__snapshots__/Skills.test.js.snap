@@ -1,6 +1,74 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Skills/> Snapshot renders without crashing using mount 1`] = `
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 25px;
+  border: 4px solid;
+  min-width: 180px;
+  height: 30px;
+  padding: 3.5px;
+  margin-right: 0.5em;
+}
+
+.c3 {
+  border-radius: 25px;
+  min-width: 99%;
+}
+
+.c4 {
+  border-radius: 25px;
+  min-width: 90%;
+}
+
+.c5 {
+  border-radius: 25px;
+  min-width: 50%;
+}
+
+.c6 {
+  border-radius: 25px;
+  min-width: 25%;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  max-width: 600px;
+}
+
+.c0 > *:not(:last-child) {
+  margin-bottom: 1em;
+}
+
+@media (min-width:576px) {
+  .c2 {
+    min-width: 350px;
+  }
+}
+
 <Skills>
   <section
     id="skills"
@@ -10,7 +78,7 @@ exports[`<Skills/> Snapshot renders without crashing using mount 1`] = `
     </h2>
     <styled.div>
       <div
-        className="sc-fFSPTT erILfs"
+        className="c0"
       >
         <ProgressIndicator
           description="skills.software_engineering"
@@ -18,17 +86,17 @@ exports[`<Skills/> Snapshot renders without crashing using mount 1`] = `
         >
           <styled.div>
             <div
-              className="sc-dIsUp kRpPEh"
+              className="c1"
             >
               <styled.div>
                 <div
-                  className="sc-bqGGPW jUrrst"
+                  className="c2"
                 >
                   <styled.div
                     percentage={99}
                   >
                     <div
-                      className="sc-ksluID fMRnJV"
+                      className="c3"
                     />
                   </styled.div>
                 </div>
@@ -45,17 +113,17 @@ exports[`<Skills/> Snapshot renders without crashing using mount 1`] = `
         >
           <styled.div>
             <div
-              className="sc-dIsUp kRpPEh"
+              className="c1"
             >
               <styled.div>
                 <div
-                  className="sc-bqGGPW jUrrst"
+                  className="c2"
                 >
                   <styled.div
                     percentage={90}
                   >
                     <div
-                      className="sc-ksluID gQyraI"
+                      className="c4"
                     />
                   </styled.div>
                 </div>
@@ -72,17 +140,17 @@ exports[`<Skills/> Snapshot renders without crashing using mount 1`] = `
         >
           <styled.div>
             <div
-              className="sc-dIsUp kRpPEh"
+              className="c1"
             >
               <styled.div>
                 <div
-                  className="sc-bqGGPW jUrrst"
+                  className="c2"
                 >
                   <styled.div
                     percentage={50}
                   >
                     <div
-                      className="sc-ksluID gSttvk"
+                      className="c5"
                     />
                   </styled.div>
                 </div>
@@ -99,17 +167,17 @@ exports[`<Skills/> Snapshot renders without crashing using mount 1`] = `
         >
           <styled.div>
             <div
-              className="sc-dIsUp kRpPEh"
+              className="c1"
             >
               <styled.div>
                 <div
-                  className="sc-bqGGPW jUrrst"
+                  className="c2"
                 >
                   <styled.div
                     percentage={25}
                   >
                     <div
-                      className="sc-ksluID gXCOhW"
+                      className="c6"
                     />
                   </styled.div>
                 </div>
@@ -126,17 +194,17 @@ exports[`<Skills/> Snapshot renders without crashing using mount 1`] = `
         >
           <styled.div>
             <div
-              className="sc-dIsUp kRpPEh"
+              className="c1"
             >
               <styled.div>
                 <div
-                  className="sc-bqGGPW jUrrst"
+                  className="c2"
                 >
                   <styled.div
                     percentage={50}
                   >
                     <div
-                      className="sc-ksluID gSttvk"
+                      className="c5"
                     />
                   </styled.div>
                 </div>
@@ -153,17 +221,17 @@ exports[`<Skills/> Snapshot renders without crashing using mount 1`] = `
         >
           <styled.div>
             <div
-              className="sc-dIsUp kRpPEh"
+              className="c1"
             >
               <styled.div>
                 <div
-                  className="sc-bqGGPW jUrrst"
+                  className="c2"
                 >
                   <styled.div
                     percentage={90}
                   >
                     <div
-                      className="sc-ksluID gQyraI"
+                      className="c4"
                     />
                   </styled.div>
                 </div>
@@ -181,6 +249,74 @@ exports[`<Skills/> Snapshot renders without crashing using mount 1`] = `
 `;
 
 exports[`<Skills/> Snapshot renders without crashing using render 1`] = `
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 25px;
+  border: 4px solid;
+  min-width: 180px;
+  height: 30px;
+  padding: 3.5px;
+  margin-right: 0.5em;
+}
+
+.c3 {
+  border-radius: 25px;
+  min-width: 99%;
+}
+
+.c4 {
+  border-radius: 25px;
+  min-width: 90%;
+}
+
+.c5 {
+  border-radius: 25px;
+  min-width: 50%;
+}
+
+.c6 {
+  border-radius: 25px;
+  min-width: 25%;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  max-width: 600px;
+}
+
+.c0 > *:not(:last-child) {
+  margin-bottom: 1em;
+}
+
+@media (min-width:576px) {
+  .c2 {
+    min-width: 350px;
+  }
+}
+
 <section
   id="skills"
 >
@@ -188,16 +324,16 @@ exports[`<Skills/> Snapshot renders without crashing using render 1`] = `
     button.skills
   </h2>
   <div
-    class="sc-fFSPTT erILfs"
+    class="c0"
   >
     <div
-      class="sc-dIsUp kRpPEh"
+      class="c1"
     >
       <div
-        class="sc-bqGGPW jUrrst"
+        class="c2"
       >
         <div
-          class="sc-ksluID fMRnJV"
+          class="c3"
         />
       </div>
       <div>
@@ -205,13 +341,13 @@ exports[`<Skills/> Snapshot renders without crashing using render 1`] = `
       </div>
     </div>
     <div
-      class="sc-dIsUp kRpPEh"
+      class="c1"
     >
       <div
-        class="sc-bqGGPW jUrrst"
+        class="c2"
       >
         <div
-          class="sc-ksluID gQyraI"
+          class="c4"
         />
       </div>
       <div>
@@ -219,13 +355,13 @@ exports[`<Skills/> Snapshot renders without crashing using render 1`] = `
       </div>
     </div>
     <div
-      class="sc-dIsUp kRpPEh"
+      class="c1"
     >
       <div
-        class="sc-bqGGPW jUrrst"
+        class="c2"
       >
         <div
-          class="sc-ksluID gSttvk"
+          class="c5"
         />
       </div>
       <div>
@@ -233,13 +369,13 @@ exports[`<Skills/> Snapshot renders without crashing using render 1`] = `
       </div>
     </div>
     <div
-      class="sc-dIsUp kRpPEh"
+      class="c1"
     >
       <div
-        class="sc-bqGGPW jUrrst"
+        class="c2"
       >
         <div
-          class="sc-ksluID gXCOhW"
+          class="c6"
         />
       </div>
       <div>
@@ -247,13 +383,13 @@ exports[`<Skills/> Snapshot renders without crashing using render 1`] = `
       </div>
     </div>
     <div
-      class="sc-dIsUp kRpPEh"
+      class="c1"
     >
       <div
-        class="sc-bqGGPW jUrrst"
+        class="c2"
       >
         <div
-          class="sc-ksluID gSttvk"
+          class="c5"
         />
       </div>
       <div>
@@ -261,13 +397,13 @@ exports[`<Skills/> Snapshot renders without crashing using render 1`] = `
       </div>
     </div>
     <div
-      class="sc-dIsUp kRpPEh"
+      class="c1"
     >
       <div
-        class="sc-bqGGPW jUrrst"
+        class="c2"
       >
         <div
-          class="sc-ksluID gQyraI"
+          class="c4"
         />
       </div>
       <div>
