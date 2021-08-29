@@ -1,13 +1,22 @@
-import { useLocation } from 'react-router-dom'
+import { useLocation, useHistory } from 'react-router-dom'
+import { Trans } from 'react-i18next'
+import { UIButton } from '../../components'
+import * as S from './styles'
 
 function Error() {
-  let location = useLocation()
+  const { pathname } = useLocation()
+  const history = useHistory()
 
   return (
-    <h1 style={{ color: 'red' }}>
-      Resource not found at {location.pathname}
-    </h1>
+    <S.Error>
+      <h3>
+        <Trans i18nKey="errors.resource_not_found">
+          <strong>{{ pathname }}</strong>
+        </Trans>
+      </h3>
+        <UIButton label='Go Back' onClick={history.goBack} />
+    </S.Error>
   )
 }
-  
+
 export default Error

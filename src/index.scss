@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat&display=swap');
 
-html, body {
-  height: 100%;
-}
-
 html {
   scroll-behavior: smooth;
 }
@@ -13,6 +9,10 @@ body {
   font-family: 'Montserrat', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+html, body, #root, #app {
+  height: 100%;
 }
 
 /* Breakpoints */
