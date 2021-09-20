@@ -18,7 +18,7 @@ export const SideBar = styled.div`
   flex-direction: column;
   background-color: ${({ theme }) => theme.c_menu};
   height: 100vh;
-  width: 75vw;
+  width: 65vw;
   z-index: 2;
   box-shadow: 0 5px 30px ${({ theme }) => theme.c_tab};
   padding: 0 2em;

@@ -2,8 +2,6 @@ const path = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const ESLintPlugin = require('eslint-webpack-plugin')
 
-// In webpack.config.js we can change how webpack behaves by adding or changing:
-// entry; output; loaders; plugins; code splitting
 const plugins = [
   new HtmlWebpackPlugin({
     template: './src/index.ejs',
@@ -11,6 +9,11 @@ const plugins = [
   }),
   new ESLintPlugin()
 ]
+
+const output = {
+  filename: '[name].bundle.js',
+  path: path.resolve(__dirname, 'dist')
+}
 
 const rules = [
   // Allows use of javascript
@@ -36,14 +39,13 @@ const devServer = {
   historyApiFallback: true // will redirect 404s to /index.html
 }
 
+// In webpack.config.js we can change how webpack behaves by adding or changing:
+// entry; output; loaders; plugins; code splitting
 module.exports = {
   mode: 'development', // Defines default optimizations depending on mode
   entry: './src/index.js',
   plugins,
-  output: {
-    filename: '[name].bundle.js',
-    path: path.resolve(__dirname, 'dist')
-  },
+  output,
   devServer,
   module: { rules }
 }

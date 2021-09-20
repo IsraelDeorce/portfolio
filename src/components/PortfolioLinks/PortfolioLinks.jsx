@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types'
 import { useTranslation } from 'react-i18next'
+import { HashLink } from 'react-router-hash-link';
 import * as S from './styles'
 
 const propTypes = {
@@ -12,10 +13,10 @@ function PortfolioLinks({ orientation = 'horizontal', onClick }) {
 
   return (
     <S.PortfolioLinks orientation={orientation} onClick={onClick}>
-      <a href='#about'>{t('button.about')}</a>
-      <a href='#skills'>{t('button.skills')}</a>
-      <a href='#experience'>{t('button.experience')}</a>
-      <a href='#contact'>{t('button.contact')}</a>
+      <HashLink to='#about'>{t('button.about')}</HashLink>
+      <HashLink to='#skills'>{t('button.skills')}</HashLink>
+      <HashLink to='#experience'>{t('button.experience')}</HashLink>
+      <HashLink to='#contact'>{t('button.contact')}</HashLink>
     </S.PortfolioLinks>
   )
 }

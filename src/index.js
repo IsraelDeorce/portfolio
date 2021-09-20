@@ -1,7 +1,7 @@
 import { Suspense } from 'react'
 import ReactDOM from 'react-dom'
 import { Provider } from 'react-redux'
-import { BrowserRouter as Router } from 'react-router-dom'
+import { HashRouter as Router } from 'react-router-dom'
 import './i18n'
 import store from './store'
 import { Spinner } from './components'
@@ -11,7 +11,7 @@ import './index.scss'
 ReactDOM.render(
   <Suspense fallback={<Spinner />}>
     <Provider store={store}>
-      <Router>
+      <Router basename='/'>
         <App />
       </Router >
     </Provider>
