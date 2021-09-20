@@ -1,4 +1,5 @@
 import { useDispatch } from 'react-redux'
+import { HashRouter as Router } from 'react-router-dom'
 import { FaMoon, FaSun } from 'react-icons/fa'
 import ThemeToggle from './ThemeToggle'
 
@@ -26,11 +27,11 @@ describe('<ThemeToggle/>', () => {
     })
 
     it('renders without crashing using render', () => {
-      expect(render(<ThemeToggle />)).toMatchSnapshot()
+      expect(render(<Router><ThemeToggle /></Router>)).toMatchSnapshot()
     })
 
     it('renders without crashing using mount', () => {
-      expect(mount(<ThemeToggle />)).toMatchSnapshot()
+      expect(mount(<Router><ThemeToggle /></Router>)).toMatchSnapshot()
     })
   })
 })

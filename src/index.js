@@ -1,20 +1,5 @@
-import { Suspense } from 'react'
 import ReactDOM from 'react-dom'
-import { Provider } from 'react-redux'
-import { HashRouter as Router } from 'react-router-dom'
-import './i18n'
-import store from './store'
-import { Spinner } from './components'
 import App from './App'
 import './index.scss'
 
-ReactDOM.render(
-  <Suspense fallback={<Spinner />}>
-    <Provider store={store}>
-      <Router basename='/'>
-        <App />
-      </Router >
-    </Provider>
-  </Suspense>,
-  document.getElementById('root')
-)
+ReactDOM.render(<App />, document.getElementById('root'))

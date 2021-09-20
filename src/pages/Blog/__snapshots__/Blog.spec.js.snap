@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Blog/> Snapshot renders without crashing using mount 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+<Blog>
+  <styled.div>
+    <div
+      className="c0"
+    >
+      <h1>
+        TEST PAGE
+      </h1>
+    </div>
+  </styled.div>
+</Blog>
+`;
+
+exports[`<Blog/> Snapshot renders without crashing using render 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+<div
+  class="c0"
+>
+  <h1>
+    TEST PAGE
+  </h1>
+</div>
+`;
+
+exports[`<Blog/> Snapshot renders without crashing using shallow 1`] = `
+<styled.div>
+  <h1>
+    TEST PAGE
+  </h1>
+</styled.div>
+`;

@@ -1,5 +1,5 @@
-import { mount } from 'enzyme'
 import { useSelector, useDispatch } from 'react-redux'
+import { HashRouter as Router } from 'react-router-dom'
 import SideBar from './SideBar'
 import * as S from './styles'
 
@@ -35,21 +35,21 @@ describe('<SideBar/>', () => {
 
   it('closes the sidebar when the screen width is 992 pixels wide', () => {
     global.innerWidth = 992
-    mount(<SideBar />)
+    mount(<Router><SideBar /></Router>)
     expect(dispatch.session.update).toHaveBeenCalledTimes(1)
     expect(dispatch.session.update).toHaveBeenCalledWith({ isSideBarOpen: false })
   })
 
   it('closes the sidebar when the screen width is wider than 992 pixels', () => {
     global.innerWidth = 993
-    mount(<SideBar />)
+    mount(<Router><SideBar /></Router>)
     expect(dispatch.session.update).toHaveBeenCalledTimes(1)
     expect(dispatch.session.update).toHaveBeenCalledWith({ isSideBarOpen: false })
   })
 
   it('does not close the sidebar when the screen width is smaller than 992 pixels', () => {
     global.innerWidth = 991
-    mount(<SideBar />)
+    mount(<Router><SideBar /></Router>)
     expect(dispatch.session.update).toHaveBeenCalledTimes(0)
   })
 
@@ -59,13 +59,13 @@ describe('<SideBar/>', () => {
 
   it('hides the screen overflow when the sidebar is open', () => {
     session.isSideBarOpen = true
-    mount(<SideBar />)
+    mount(<Router><SideBar /></Router>)
     expect(document.body.style.overflow).toBe('hidden')
   })
 
   it('returns the screen overflow when the sidebar is closed', () => {
     session.isSideBarOpen = false
-    mount(<SideBar />)
+    mount(<Router><SideBar /></Router>)
     expect(document.body.style.overflow).toBe('visible')
   })
 
@@ -75,11 +75,11 @@ describe('<SideBar/>', () => {
     })
 
     it('renders without crashing using render', () => {
-      expect(render(<SideBar />)).toMatchSnapshot()
+      expect(render(<Router><SideBar /></Router>)).toMatchSnapshot()
     })
 
     it('renders without crashing using mount', () => {
-      expect(mount(<SideBar />)).toMatchSnapshot()
+      expect(mount(<Router><SideBar /></Router>)).toMatchSnapshot()
     })
   })
 })

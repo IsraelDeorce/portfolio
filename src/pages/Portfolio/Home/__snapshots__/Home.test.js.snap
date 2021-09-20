@@ -100,6 +100,7 @@ exports[`<Home/> Snapshot renders without crashing using mount 1`] = `
             <UIButton
               id="blog-button"
               label="button.visit_my_blog"
+              onClick={[Function]}
             >
               <styled.button
                 onClick={[Function]}

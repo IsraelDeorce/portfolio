@@ -1,4 +1,5 @@
 import { t } from 'react-i18next'
+import { HashRouter as Router } from 'react-router-dom'
 import PortfolioLinks from './PortfolioLinks'
 import * as S from './styles' 
 
@@ -18,23 +19,23 @@ describe('<PortfolioLinks/>', () => {
     expect(shallow(<PortfolioLinks orientation='vertical' />).find(S.PortfolioLinks).prop('orientation')).toBe('vertical')
   })
 
-  it('renders a link that refers to #about with correct translation', () => {
-    expect(shallow(<PortfolioLinks />).find('a[href="#about"]').text()).toBe('button.about')
+  it('renders a hash link that refers to #about with correct translation', () => {
+    expect(shallow(<PortfolioLinks />).find('HashLink[to="#about"]').text()).toBe('button.about')
     expect(t).toHaveBeenCalledWith('button.about')
   })
 
-  it('renders a link that refers to #skills with correct translation', () => {
-    expect(shallow(<PortfolioLinks />).find('a[href="#skills"]').text()).toBe('button.skills')
+  it('renders a hash link that refers to #skills with correct translation', () => {
+    expect(shallow(<PortfolioLinks />).find('HashLink[to="#skills"]').text()).toBe('button.skills')
     expect(t).toHaveBeenCalledWith('button.skills')
   })
 
-  it('renders a link that refers to #experience with correct translation', () => {
-    expect(shallow(<PortfolioLinks />).find('a[href="#experience"]').text()).toBe('button.experience')
+  it('renders a hash link that refers to #experience with correct translation', () => {
+    expect(shallow(<PortfolioLinks />).find('HashLink[to="#experience"]').text()).toBe('button.experience')
     expect(t).toHaveBeenCalledWith('button.experience')
   })
 
-  it('renders a link that refers to #contact with correct translation', () => {
-    expect(shallow(<PortfolioLinks />).find('a[href="#contact"]').text()).toBe('button.contact')
+  it('renders a hash link that refers to #contact with correct translation', () => {
+    expect(shallow(<PortfolioLinks />).find('HashLink[to="#contact"]').text()).toBe('button.contact')
     expect(t).toHaveBeenCalledWith('button.contact')
   })
 
@@ -44,11 +45,11 @@ describe('<PortfolioLinks/>', () => {
     })
 
     it('renders without crashing using render', () => {
-      expect(render(<PortfolioLinks />)).toMatchSnapshot()
+      expect(render(<Router><PortfolioLinks /></Router>)).toMatchSnapshot()
     })
 
     it('renders without crashing using mount', () => {
-      expect(mount(<PortfolioLinks />)).toMatchSnapshot()
+      expect(mount(<Router><PortfolioLinks /></Router>)).toMatchSnapshot()
     })
   })
 })
