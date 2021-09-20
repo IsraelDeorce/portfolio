@@ -1,6 +1,5 @@
 import { useSelector } from 'react-redux'
-import { HashRouter as Router } from 'react-router-dom'
-import { Switch, Route } from 'react-router-dom'
+import { HashRouter as Router, Switch, Route } from 'react-router-dom'
 import { ThemeProvider } from 'styled-components'
 import './i18n'
 import { Portfolio, Error, Blog } from './pages'
