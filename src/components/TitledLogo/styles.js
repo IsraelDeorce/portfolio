@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const Title = styled.a`
+export const TitledLogo = styled.div`
   display: flex;
   align-items: center;
   color: ${({ theme }) => theme.c_brackets};

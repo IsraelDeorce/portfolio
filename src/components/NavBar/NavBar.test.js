@@ -1,4 +1,5 @@
 import { useDispatch } from 'react-redux'
+import { HashRouter as Router } from 'react-router-dom'
 import NavBar from './NavBar'
 import * as S from './styles'
 
@@ -19,11 +20,11 @@ describe('<NavBar/>', () => {
     })
 
     it('renders without crashing using render', () => {
-      expect(render(<NavBar />)).toMatchSnapshot()
+      expect(render(<Router><NavBar /></Router>)).toMatchSnapshot()
     })
 
     it('renders without crashing using mount', () => {
-      expect(mount(<NavBar />)).toMatchSnapshot()
+      expect(mount(<Router><NavBar /></Router>)).toMatchSnapshot()
     })
   })
 })

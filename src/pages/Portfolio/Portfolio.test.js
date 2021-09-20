@@ -1,3 +1,4 @@
+import { HashRouter as Router } from 'react-router-dom'
 import Portfolio from './Portfolio'
 
 describe('<Portfolio/>', () => {
@@ -7,11 +8,11 @@ describe('<Portfolio/>', () => {
     })
 
     it('renders without crashing using render', () => {
-      expect(render(<Portfolio />)).toMatchSnapshot()
+      expect(render(<Router><Portfolio /></Router>)).toMatchSnapshot()
     })
 
     it('renders without crashing using mount', () => {
-      expect(mount(<Portfolio />)).toMatchSnapshot()
+      expect(mount(<Router><Portfolio /></Router>)).toMatchSnapshot()
     })
   })
 })

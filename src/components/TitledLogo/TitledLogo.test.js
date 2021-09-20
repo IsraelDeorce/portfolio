@@ -1,10 +1,10 @@
+import { HashRouter as Router } from 'react-router-dom'
 import TitledLogo from './TitledLogo'
 import { TEXT } from '../../utils/constants'
-import * as S from './styles'
 
 describe('<TitledLogo/>', () => {
   it('renders a link that redirects to the home section', () => {
-    expect(shallow(<TitledLogo />).find(S.Title).prop('href')).toBe('#home')
+    expect(shallow(<TitledLogo />).find('HashLink').prop('to')).toBe('#home')
   })
 
   it('renders a direwolf icon', () => {
@@ -17,7 +17,7 @@ describe('<TitledLogo/>', () => {
 
   it('calls the onCLick function when it is passed and the user clicks on the Logo', () => {
     const mockFn = jest.fn()
-    shallow(<TitledLogo onClick={mockFn} />).find(S.Title).simulate('click')
+    shallow(<TitledLogo onClick={mockFn} />).find('HashLink').simulate('click')
     expect(mockFn).toHaveBeenCalledTimes(1)
   })
 
@@ -27,11 +27,11 @@ describe('<TitledLogo/>', () => {
     })
 
     it('renders without crashing using render', () => {
-      expect(render(<TitledLogo />)).toMatchSnapshot()
+      expect(render(<Router><TitledLogo /></Router>)).toMatchSnapshot()
     })
 
     it('renders without crashing using mount', () => {
-      expect(mount(<TitledLogo />)).toMatchSnapshot()
+      expect(mount(<Router><TitledLogo /></Router>)).toMatchSnapshot()
     })
   })
 })

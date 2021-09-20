@@ -14,9 +14,3 @@ export const Portfolio = styled.div`
     background-color: ${({ theme }) => theme.c_background};
   }
 `
-
-export const Placeholder = styled.section`
-  scroll-behavior: smooth;
-  min-height: 400px;
-  border-bottom: 4px solid black;
-`

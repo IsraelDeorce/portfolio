@@ -1,5 +1,18 @@
+import { shallow, render, mount } from 'enzyme'
+import App from './App'
+
 describe('<App/>', () => {
-  it('renders learn react link', () => {
-    expect(true).toBe(true)
+  describe('Snapshot', () => {
+    it('renders without crashing using shallow', () => {
+      expect(shallow(<App />)).toMatchSnapshot()
+    })
+
+    it('renders without crashing using render', () => {
+      expect(render(<App />)).toMatchSnapshot()
+    })
+
+    it('renders without crashing using mount', () => {
+      expect(mount(<App />)).toMatchSnapshot()
+    })
   })
 })

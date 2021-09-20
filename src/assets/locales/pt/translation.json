@@ -52,5 +52,8 @@
     "tdd": "TDD",
     "bdd": "BDD",
     "jest_enzyme": "Jest/Enzyme"
+  },
+  "errors": {
+    "resource_not_found": "Recurso não encontrado em: \"<1>{{pathname}}</1>\""
   }
 }

@@ -125,310 +125,416 @@ exports[`<NavBar/> Snapshot renders without crashing using mount 1`] = `
   }
 }
 
-<NavBar>
-  <styled.nav>
-    <nav
-      className="c0"
-    >
-      <styled.span
-        onClick={[Function]}
-      >
-        <span
-          className="c1"
-          onClick={[Function]}
+<HashRouter>
+  <Router
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "createHref": [Function],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "length": 1,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "pathname": "/",
+          "search": "",
+          "state": undefined,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <NavBar>
+      <styled.nav>
+        <nav
+          className="c0"
         >
-          <MdMenu
-            size="32"
+          <styled.span
+            onClick={[Function]}
           >
-            <IconBase
-              attr={
-                Object {
-                  "viewBox": "0 0 24 24",
-                }
-              }
-              size="32"
-            >
-              <svg
-                fill="currentColor"
-                height="32"
-                stroke="currentColor"
-                strokeWidth="0"
-                style={
-                  Object {
-                    "color": undefined,
-                  }
-                }
-                viewBox="0 0 24 24"
-                width="32"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
-                  key="0"
-                />
-              </svg>
-            </IconBase>
-          </MdMenu>
-        </span>
-      </styled.span>
-      <TitledLogo>
-        <styled.a
-          href="#home"
-        >
-          <a
-            className="c2"
-            href="#home"
-          >
-            <GiDirewolf
-              size="32"
-            >
-              <IconBase
-                attr={
-                  Object {
-                    "viewBox": "0 0 512 512",
-                  }
-                }
-                size="32"
-              >
-                <svg
-                  fill="currentColor"
-                  height="32"
-                  stroke="currentColor"
-                  strokeWidth="0"
-                  style={
-                    Object {
-                      "color": undefined,
-                    }
-                  }
-                  viewBox="0 0 512 512"
-                  width="32"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M145.14 22.185c9.508 36.595 15.32 71.885 14.22 108.31 21.73 18.495 44.074 28.207 68.035 38.93 11.813 5.288 23.99 10.82 36.37 17.69-24.702-70.606-62.676-117.77-118.626-164.93zM27.122 25.887C24.958 45.21 27.53 71.24 34.12 97.38c6.96 18.72 16.942 37.974 27.595 54.67 15.003 23.516 32.422 42.276 40.48 46.868l-9.27 16.244c-14.91-8.496-31.08-28.122-46.978-53.037-9.383-14.708-18.273-31.144-25.328-47.943v196.584l43.17 1.76c-2.8-23.054-4.248-45.878-2.73-66.516l18.614 1.382c-2.313 31.474 3.16 71.293 9.656 108.65 110.615 90.673 195.362 124.516 260.695 131.175l-95.107-66.8 40.053-15.876L152.44 332.58l38.505-1.738c-28.377-14.028-48.9-32.894-63.144-55.63l1.464-22.964c35.81 41.623 89.82 73.71 151.373 98.096l-43.164 6.068 112.765 52.193-22.39 25.518 119.7 42.32c16.61-5.68 31.058-12.678 43.66-19.464-97.364-69.615-123.58-131.642-168.034-193.962l-.008-.01c-34.93-45.653-68.47-60.9-103.4-76.534-33.725-15.094-68.975-30.612-101.788-72.558L27.123 25.887zm156.344 175.59l89.894 46.75-24.032 17.57c18.66 30.458 55.134 55.834 91.12 72.86-50.826-7.884-103.33-32.248-148.212-69.427l29.815-20.224-38.583-47.53z"
-                    key="0"
-                  />
-                </svg>
-              </IconBase>
-            </GiDirewolf>
-            <strong>
-              Israel Deorce
-            </strong>
-          </a>
-        </styled.a>
-      </TitledLogo>
-      <styled.div>
-        <div
-          className="c3"
-        >
-          <PortfolioLinks>
-            <styled.div
-              orientation="horizontal"
-            >
-              <div
-                className="c4"
-                orientation="horizontal"
-              >
-                <a
-                  href="#about"
-                >
-                  button.about
-                </a>
-                <a
-                  href="#skills"
-                >
-                  button.skills
-                </a>
-                <a
-                  href="#experience"
-                >
-                  button.experience
-                </a>
-                <a
-                  href="#contact"
-                >
-                  button.contact
-                </a>
-              </div>
-            </styled.div>
-          </PortfolioLinks>
-          <ThemeToggle>
-            <Toggle
-              className="toggle"
-              icons={
-                Object {
-                  "checked": <FaSun />,
-                  "unchecked": <FaMoon />,
-                }
-              }
-              onChange={[MockFunction]}
-            >
-              <div
-                className="react-toggle toggle"
-                onClick={[Function]}
-                onTouchEnd={[Function]}
-                onTouchMove={[Function]}
-                onTouchStart={[Function]}
-              >
-                <div
-                  className="react-toggle-track"
-                >
-                  <div
-                    className="react-toggle-track-check"
-                  >
-                    <FaSun>
-                      <IconBase
-                        attr={
-                          Object {
-                            "viewBox": "0 0 512 512",
-                          }
-                        }
-                      >
-                        <svg
-                          fill="currentColor"
-                          height="1em"
-                          stroke="currentColor"
-                          strokeWidth="0"
-                          style={
-                            Object {
-                              "color": undefined,
-                            }
-                          }
-                          viewBox="0 0 512 512"
-                          width="1em"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path
-                            d="M256 160c-52.9 0-96 43.1-96 96s43.1 96 96 96 96-43.1 96-96-43.1-96-96-96zm246.4 80.5l-94.7-47.3 33.5-100.4c4.5-13.6-8.4-26.5-21.9-21.9l-100.4 33.5-47.4-94.8c-6.4-12.8-24.6-12.8-31 0l-47.3 94.7L92.7 70.8c-13.6-4.5-26.5 8.4-21.9 21.9l33.5 100.4-94.7 47.4c-12.8 6.4-12.8 24.6 0 31l94.7 47.3-33.5 100.5c-4.5 13.6 8.4 26.5 21.9 21.9l100.4-33.5 47.3 94.7c6.4 12.8 24.6 12.8 31 0l47.3-94.7 100.4 33.5c13.6 4.5 26.5-8.4 21.9-21.9l-33.5-100.4 94.7-47.3c13-6.5 13-24.7.2-31.1zm-155.9 106c-49.9 49.9-131.1 49.9-181 0-49.9-49.9-49.9-131.1 0-181 49.9-49.9 131.1-49.9 181 0 49.9 49.9 49.9 131.1 0 181z"
-                            key="0"
-                          />
-                        </svg>
-                      </IconBase>
-                    </FaSun>
-                  </div>
-                  <div
-                    className="react-toggle-track-x"
-                  >
-                    <FaMoon>
-                      <IconBase
-                        attr={
-                          Object {
-                            "viewBox": "0 0 512 512",
-                          }
-                        }
-                      >
-                        <svg
-                          fill="currentColor"
-                          height="1em"
-                          stroke="currentColor"
-                          strokeWidth="0"
-                          style={
-                            Object {
-                              "color": undefined,
-                            }
-                          }
-                          viewBox="0 0 512 512"
-                          width="1em"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path
-                            d="M283.211 512c78.962 0 151.079-35.925 198.857-94.792 7.068-8.708-.639-21.43-11.562-19.35-124.203 23.654-238.262-71.576-238.262-196.954 0-72.222 38.662-138.635 101.498-174.394 9.686-5.512 7.25-20.197-3.756-22.23A258.156 258.156 0 0 0 283.211 0c-141.309 0-256 114.511-256 256 0 141.309 114.511 256 256 256z"
-                            key="0"
-                          />
-                        </svg>
-                      </IconBase>
-                    </FaMoon>
-                  </div>
-                </div>
-                <div
-                  className="react-toggle-thumb"
-                />
-                <input
-                  className="react-toggle-screenreader-only"
-                  onBlur={[Function]}
-                  onChange={[MockFunction]}
-                  onFocus={[Function]}
-                  type="checkbox"
-                />
-              </div>
-            </Toggle>
-          </ThemeToggle>
-          <LanguageSelector>
-            <styled.div
+            <span
+              className="c1"
               onClick={[Function]}
             >
-              <div
-                className="c5"
-                onClick={[Function]}
+              <MdMenu
+                size="32"
               >
-                <styled.div>
-                  <div
-                    className="c6"
-                  >
-                    en
-                    <MdKeyboardArrowDown>
-                      <IconBase
-                        attr={
-                          Object {
-                            "viewBox": "0 0 24 24",
-                          }
-                        }
-                      >
-                        <svg
-                          fill="currentColor"
-                          height="1em"
-                          stroke="currentColor"
-                          strokeWidth="0"
-                          style={
-                            Object {
-                              "color": undefined,
-                            }
-                          }
-                          viewBox="0 0 24 24"
-                          width="1em"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path
-                            d="M7.41 7.84L12 12.42l4.59-4.58L18 9.25l-6 6-6-6z"
-                            key="0"
-                          />
-                        </svg>
-                      </IconBase>
-                    </MdKeyboardArrowDown>
-                  </div>
-                </styled.div>
-                <CA
-                  className="flag"
-                  title="Canada"
+                <IconBase
+                  attr={
+                    Object {
+                      "viewBox": "0 0 24 24",
+                    }
+                  }
+                  size="32"
                 >
                   <svg
-                    className="flag"
-                    viewBox="0 0 512 341.3"
+                    fill="currentColor"
+                    height="32"
+                    stroke="currentColor"
+                    strokeWidth="0"
+                    style={
+                      Object {
+                        "color": undefined,
+                      }
+                    }
+                    viewBox="0 0 24 24"
+                    width="32"
+                    xmlns="http://www.w3.org/2000/svg"
                   >
-                    <title>
-                      Canada
-                    </title>
                     <path
-                      d="M0 0h512v341.3H0z"
-                      fill="#FFF"
+                      d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+                      key="0"
                     />
-                    <g
-                      fill="#D80027"
-                    >
-                      <path
-                        d="M0 0h142v341.3H0zM370 0h142v341.3H370zM306.5 206l50.4-25.2-25.2-12.6V143l-50.4 25.2 25.2-50.4h-25.2L256.1 80l-25.2 37.8h-25.2l25.2 50.4-50.4-25.2v25.2l-25.2 12.6 50.4 25.2-12.6 25.2h50.4V269h25.2v-37.8h50.4z"
-                      />
-                    </g>
                   </svg>
-                </CA>
-              </div>
-            </styled.div>
-          </LanguageSelector>
-        </div>
-      </styled.div>
-    </nav>
-  </styled.nav>
-</NavBar>
+                </IconBase>
+              </MdMenu>
+            </span>
+          </styled.span>
+          <TitledLogo>
+            <HashLink
+              to="#home"
+            >
+              <Link
+                onClick={[Function]}
+                to="#home"
+              >
+                <LinkAnchor
+                  href="#/#home"
+                  navigate={[Function]}
+                  onClick={[Function]}
+                >
+                  <a
+                    href="#/#home"
+                    onClick={[Function]}
+                  >
+                    <styled.div>
+                      <div
+                        className="c2"
+                      >
+                        <GiDirewolf
+                          size="32"
+                        >
+                          <IconBase
+                            attr={
+                              Object {
+                                "viewBox": "0 0 512 512",
+                              }
+                            }
+                            size="32"
+                          >
+                            <svg
+                              fill="currentColor"
+                              height="32"
+                              stroke="currentColor"
+                              strokeWidth="0"
+                              style={
+                                Object {
+                                  "color": undefined,
+                                }
+                              }
+                              viewBox="0 0 512 512"
+                              width="32"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M145.14 22.185c9.508 36.595 15.32 71.885 14.22 108.31 21.73 18.495 44.074 28.207 68.035 38.93 11.813 5.288 23.99 10.82 36.37 17.69-24.702-70.606-62.676-117.77-118.626-164.93zM27.122 25.887C24.958 45.21 27.53 71.24 34.12 97.38c6.96 18.72 16.942 37.974 27.595 54.67 15.003 23.516 32.422 42.276 40.48 46.868l-9.27 16.244c-14.91-8.496-31.08-28.122-46.978-53.037-9.383-14.708-18.273-31.144-25.328-47.943v196.584l43.17 1.76c-2.8-23.054-4.248-45.878-2.73-66.516l18.614 1.382c-2.313 31.474 3.16 71.293 9.656 108.65 110.615 90.673 195.362 124.516 260.695 131.175l-95.107-66.8 40.053-15.876L152.44 332.58l38.505-1.738c-28.377-14.028-48.9-32.894-63.144-55.63l1.464-22.964c35.81 41.623 89.82 73.71 151.373 98.096l-43.164 6.068 112.765 52.193-22.39 25.518 119.7 42.32c16.61-5.68 31.058-12.678 43.66-19.464-97.364-69.615-123.58-131.642-168.034-193.962l-.008-.01c-34.93-45.653-68.47-60.9-103.4-76.534-33.725-15.094-68.975-30.612-101.788-72.558L27.123 25.887zm156.344 175.59l89.894 46.75-24.032 17.57c18.66 30.458 55.134 55.834 91.12 72.86-50.826-7.884-103.33-32.248-148.212-69.427l29.815-20.224-38.583-47.53z"
+                                key="0"
+                              />
+                            </svg>
+                          </IconBase>
+                        </GiDirewolf>
+                        <strong>
+                          Israel Deorce
+                        </strong>
+                      </div>
+                    </styled.div>
+                  </a>
+                </LinkAnchor>
+              </Link>
+            </HashLink>
+          </TitledLogo>
+          <styled.div>
+            <div
+              className="c3"
+            >
+              <PortfolioLinks>
+                <styled.div
+                  orientation="horizontal"
+                >
+                  <div
+                    className="c4"
+                    orientation="horizontal"
+                  >
+                    <HashLink
+                      to="#about"
+                    >
+                      <Link
+                        onClick={[Function]}
+                        to="#about"
+                      >
+                        <LinkAnchor
+                          href="#/#about"
+                          navigate={[Function]}
+                          onClick={[Function]}
+                        >
+                          <a
+                            href="#/#about"
+                            onClick={[Function]}
+                          >
+                            button.about
+                          </a>
+                        </LinkAnchor>
+                      </Link>
+                    </HashLink>
+                    <HashLink
+                      to="#skills"
+                    >
+                      <Link
+                        onClick={[Function]}
+                        to="#skills"
+                      >
+                        <LinkAnchor
+                          href="#/#skills"
+                          navigate={[Function]}
+                          onClick={[Function]}
+                        >
+                          <a
+                            href="#/#skills"
+                            onClick={[Function]}
+                          >
+                            button.skills
+                          </a>
+                        </LinkAnchor>
+                      </Link>
+                    </HashLink>
+                    <HashLink
+                      to="#experience"
+                    >
+                      <Link
+                        onClick={[Function]}
+                        to="#experience"
+                      >
+                        <LinkAnchor
+                          href="#/#experience"
+                          navigate={[Function]}
+                          onClick={[Function]}
+                        >
+                          <a
+                            href="#/#experience"
+                            onClick={[Function]}
+                          >
+                            button.experience
+                          </a>
+                        </LinkAnchor>
+                      </Link>
+                    </HashLink>
+                    <HashLink
+                      to="#contact"
+                    >
+                      <Link
+                        onClick={[Function]}
+                        to="#contact"
+                      >
+                        <LinkAnchor
+                          href="#/#contact"
+                          navigate={[Function]}
+                          onClick={[Function]}
+                        >
+                          <a
+                            href="#/#contact"
+                            onClick={[Function]}
+                          >
+                            button.contact
+                          </a>
+                        </LinkAnchor>
+                      </Link>
+                    </HashLink>
+                  </div>
+                </styled.div>
+              </PortfolioLinks>
+              <ThemeToggle>
+                <Toggle
+                  className="toggle"
+                  icons={
+                    Object {
+                      "checked": <FaSun />,
+                      "unchecked": <FaMoon />,
+                    }
+                  }
+                  onChange={[MockFunction]}
+                >
+                  <div
+                    className="react-toggle toggle"
+                    onClick={[Function]}
+                    onTouchEnd={[Function]}
+                    onTouchMove={[Function]}
+                    onTouchStart={[Function]}
+                  >
+                    <div
+                      className="react-toggle-track"
+                    >
+                      <div
+                        className="react-toggle-track-check"
+                      >
+                        <FaSun>
+                          <IconBase
+                            attr={
+                              Object {
+                                "viewBox": "0 0 512 512",
+                              }
+                            }
+                          >
+                            <svg
+                              fill="currentColor"
+                              height="1em"
+                              stroke="currentColor"
+                              strokeWidth="0"
+                              style={
+                                Object {
+                                  "color": undefined,
+                                }
+                              }
+                              viewBox="0 0 512 512"
+                              width="1em"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M256 160c-52.9 0-96 43.1-96 96s43.1 96 96 96 96-43.1 96-96-43.1-96-96-96zm246.4 80.5l-94.7-47.3 33.5-100.4c4.5-13.6-8.4-26.5-21.9-21.9l-100.4 33.5-47.4-94.8c-6.4-12.8-24.6-12.8-31 0l-47.3 94.7L92.7 70.8c-13.6-4.5-26.5 8.4-21.9 21.9l33.5 100.4-94.7 47.4c-12.8 6.4-12.8 24.6 0 31l94.7 47.3-33.5 100.5c-4.5 13.6 8.4 26.5 21.9 21.9l100.4-33.5 47.3 94.7c6.4 12.8 24.6 12.8 31 0l47.3-94.7 100.4 33.5c13.6 4.5 26.5-8.4 21.9-21.9l-33.5-100.4 94.7-47.3c13-6.5 13-24.7.2-31.1zm-155.9 106c-49.9 49.9-131.1 49.9-181 0-49.9-49.9-49.9-131.1 0-181 49.9-49.9 131.1-49.9 181 0 49.9 49.9 49.9 131.1 0 181z"
+                                key="0"
+                              />
+                            </svg>
+                          </IconBase>
+                        </FaSun>
+                      </div>
+                      <div
+                        className="react-toggle-track-x"
+                      >
+                        <FaMoon>
+                          <IconBase
+                            attr={
+                              Object {
+                                "viewBox": "0 0 512 512",
+                              }
+                            }
+                          >
+                            <svg
+                              fill="currentColor"
+                              height="1em"
+                              stroke="currentColor"
+                              strokeWidth="0"
+                              style={
+                                Object {
+                                  "color": undefined,
+                                }
+                              }
+                              viewBox="0 0 512 512"
+                              width="1em"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M283.211 512c78.962 0 151.079-35.925 198.857-94.792 7.068-8.708-.639-21.43-11.562-19.35-124.203 23.654-238.262-71.576-238.262-196.954 0-72.222 38.662-138.635 101.498-174.394 9.686-5.512 7.25-20.197-3.756-22.23A258.156 258.156 0 0 0 283.211 0c-141.309 0-256 114.511-256 256 0 141.309 114.511 256 256 256z"
+                                key="0"
+                              />
+                            </svg>
+                          </IconBase>
+                        </FaMoon>
+                      </div>
+                    </div>
+                    <div
+                      className="react-toggle-thumb"
+                    />
+                    <input
+                      className="react-toggle-screenreader-only"
+                      onBlur={[Function]}
+                      onChange={[MockFunction]}
+                      onFocus={[Function]}
+                      type="checkbox"
+                    />
+                  </div>
+                </Toggle>
+              </ThemeToggle>
+              <LanguageSelector>
+                <styled.div
+                  onClick={[Function]}
+                >
+                  <div
+                    className="c5"
+                    onClick={[Function]}
+                  >
+                    <styled.div>
+                      <div
+                        className="c6"
+                      >
+                        en
+                        <MdKeyboardArrowDown>
+                          <IconBase
+                            attr={
+                              Object {
+                                "viewBox": "0 0 24 24",
+                              }
+                            }
+                          >
+                            <svg
+                              fill="currentColor"
+                              height="1em"
+                              stroke="currentColor"
+                              strokeWidth="0"
+                              style={
+                                Object {
+                                  "color": undefined,
+                                }
+                              }
+                              viewBox="0 0 24 24"
+                              width="1em"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M7.41 7.84L12 12.42l4.59-4.58L18 9.25l-6 6-6-6z"
+                                key="0"
+                              />
+                            </svg>
+                          </IconBase>
+                        </MdKeyboardArrowDown>
+                      </div>
+                    </styled.div>
+                    <CA
+                      className="flag"
+                      title="Canada"
+                    >
+                      <svg
+                        className="flag"
+                        viewBox="0 0 512 341.3"
+                      >
+                        <title>
+                          Canada
+                        </title>
+                        <path
+                          d="M0 0h512v341.3H0z"
+                          fill="#FFF"
+                        />
+                        <g
+                          fill="#D80027"
+                        >
+                          <path
+                            d="M0 0h142v341.3H0zM370 0h142v341.3H370zM306.5 206l50.4-25.2-25.2-12.6V143l-50.4 25.2 25.2-50.4h-25.2L256.1 80l-25.2 37.8h-25.2l25.2 50.4-50.4-25.2v25.2l-25.2 12.6 50.4 25.2-12.6 25.2h50.4V269h25.2v-37.8h50.4z"
+                          />
+                        </g>
+                      </svg>
+                    </CA>
+                  </div>
+                </styled.div>
+              </LanguageSelector>
+            </div>
+          </styled.div>
+        </nav>
+      </styled.nav>
+    </NavBar>
+  </Router>
+</HashRouter>
 `;
 
 exports[`<NavBar/> Snapshot renders without crashing using render 1`] = `
@@ -577,25 +683,28 @@ exports[`<NavBar/> Snapshot renders without crashing using render 1`] = `
     </svg>
   </span>
   <a
-    class="c2"
-    href="#home"
+    href="#/#home"
   >
-    <svg
-      fill="currentColor"
-      height="32"
-      stroke="currentColor"
-      stroke-width="0"
-      viewBox="0 0 512 512"
-      width="32"
-      xmlns="http://www.w3.org/2000/svg"
+    <div
+      class="c2"
     >
-      <path
-        d="M145.14 22.185c9.508 36.595 15.32 71.885 14.22 108.31 21.73 18.495 44.074 28.207 68.035 38.93 11.813 5.288 23.99 10.82 36.37 17.69-24.702-70.606-62.676-117.77-118.626-164.93zM27.122 25.887C24.958 45.21 27.53 71.24 34.12 97.38c6.96 18.72 16.942 37.974 27.595 54.67 15.003 23.516 32.422 42.276 40.48 46.868l-9.27 16.244c-14.91-8.496-31.08-28.122-46.978-53.037-9.383-14.708-18.273-31.144-25.328-47.943v196.584l43.17 1.76c-2.8-23.054-4.248-45.878-2.73-66.516l18.614 1.382c-2.313 31.474 3.16 71.293 9.656 108.65 110.615 90.673 195.362 124.516 260.695 131.175l-95.107-66.8 40.053-15.876L152.44 332.58l38.505-1.738c-28.377-14.028-48.9-32.894-63.144-55.63l1.464-22.964c35.81 41.623 89.82 73.71 151.373 98.096l-43.164 6.068 112.765 52.193-22.39 25.518 119.7 42.32c16.61-5.68 31.058-12.678 43.66-19.464-97.364-69.615-123.58-131.642-168.034-193.962l-.008-.01c-34.93-45.653-68.47-60.9-103.4-76.534-33.725-15.094-68.975-30.612-101.788-72.558L27.123 25.887zm156.344 175.59l89.894 46.75-24.032 17.57c18.66 30.458 55.134 55.834 91.12 72.86-50.826-7.884-103.33-32.248-148.212-69.427l29.815-20.224-38.583-47.53z"
-      />
-    </svg>
-    <strong>
-      Israel Deorce
-    </strong>
+      <svg
+        fill="currentColor"
+        height="32"
+        stroke="currentColor"
+        stroke-width="0"
+        viewBox="0 0 512 512"
+        width="32"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M145.14 22.185c9.508 36.595 15.32 71.885 14.22 108.31 21.73 18.495 44.074 28.207 68.035 38.93 11.813 5.288 23.99 10.82 36.37 17.69-24.702-70.606-62.676-117.77-118.626-164.93zM27.122 25.887C24.958 45.21 27.53 71.24 34.12 97.38c6.96 18.72 16.942 37.974 27.595 54.67 15.003 23.516 32.422 42.276 40.48 46.868l-9.27 16.244c-14.91-8.496-31.08-28.122-46.978-53.037-9.383-14.708-18.273-31.144-25.328-47.943v196.584l43.17 1.76c-2.8-23.054-4.248-45.878-2.73-66.516l18.614 1.382c-2.313 31.474 3.16 71.293 9.656 108.65 110.615 90.673 195.362 124.516 260.695 131.175l-95.107-66.8 40.053-15.876L152.44 332.58l38.505-1.738c-28.377-14.028-48.9-32.894-63.144-55.63l1.464-22.964c35.81 41.623 89.82 73.71 151.373 98.096l-43.164 6.068 112.765 52.193-22.39 25.518 119.7 42.32c16.61-5.68 31.058-12.678 43.66-19.464-97.364-69.615-123.58-131.642-168.034-193.962l-.008-.01c-34.93-45.653-68.47-60.9-103.4-76.534-33.725-15.094-68.975-30.612-101.788-72.558L27.123 25.887zm156.344 175.59l89.894 46.75-24.032 17.57c18.66 30.458 55.134 55.834 91.12 72.86-50.826-7.884-103.33-32.248-148.212-69.427l29.815-20.224-38.583-47.53z"
+        />
+      </svg>
+      <strong>
+        Israel Deorce
+      </strong>
+    </div>
   </a>
   <div
     class="c3"
@@ -605,22 +714,22 @@ exports[`<NavBar/> Snapshot renders without crashing using render 1`] = `
       orientation="horizontal"
     >
       <a
-        href="#about"
+        href="#/#about"
       >
         button.about
       </a>
       <a
-        href="#skills"
+        href="#/#skills"
       >
         button.skills
       </a>
       <a
-        href="#experience"
+        href="#/#experience"
       >
         button.experience
       </a>
       <a
-        href="#contact"
+        href="#/#contact"
       >
         button.contact
       </a>
