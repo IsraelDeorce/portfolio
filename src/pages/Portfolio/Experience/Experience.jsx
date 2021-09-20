@@ -13,7 +13,7 @@ function Experience() {
           <Project
             key={i}
             image={p.image}
-            title={t(p.title)}
+            title={p.title}
             subtitle={t(p.subtitle)}
             description={t(p.description)}
           />
