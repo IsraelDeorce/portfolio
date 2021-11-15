@@ -1,5 +1,5 @@
 import { useSelector } from 'react-redux'
-import { HashRouter as Router, Switch, Route } from 'react-router-dom'
+import { HashRouter as Router, Routes, Route } from 'react-router-dom'
 import { ThemeProvider } from 'styled-components'
 import './i18n'
 import { Portfolio, Error, Blog } from './pages'
@@ -13,11 +13,11 @@ function App() {
     <Router basename='/'>
       <ThemeProvider theme={Themes[theme]}>
         <S.App id='app'>
-          <Switch>
-            <Route exact path='/' component={Portfolio} />
-            <Route exact path='/blog' component={Blog} />
-            <Route path='*' component={Error} />
-          </Switch>
+          <Routes>
+            <Route exact path='/' element={<Portfolio />} />
+            <Route exact path='/blog' element={<Blog />} />
+            <Route path='*' element={<Error />} />
+          </Routes>
         </S.App>
       </ThemeProvider>
     </Router >

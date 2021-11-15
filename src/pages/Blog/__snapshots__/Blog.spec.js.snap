@@ -54,6 +54,7 @@ exports[`<Blog/> Snapshot renders without crashing using mount 1`] = `
       </h1>
       <UIButton
         label="Go Back"
+        onClick={[Function]}
       >
         <styled.button
           onClick={[Function]}
@@ -263,6 +264,7 @@ exports[`<Blog/> Snapshot renders without crashing using shallow 1`] = `
   </h1>
   <UIButton
     label="Go Back"
+    onClick={[Function]}
   />
   <FcClock
     size="46"

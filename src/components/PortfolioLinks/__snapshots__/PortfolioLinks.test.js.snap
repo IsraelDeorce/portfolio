@@ -14,21 +14,31 @@ exports[`<PortfolioLinks/> Snapshot renders without crashing using mount 1`] = `
 
 <HashRouter>
   <Router
-    history={
+    location={
+      Object {
+        "hash": "",
+        "key": "default",
+        "pathname": "/",
+        "search": "",
+        "state": null,
+      }
+    }
+    navigationType="POP"
+    navigator={
       Object {
         "action": "POP",
+        "back": [Function],
         "block": [Function],
         "createHref": [Function],
+        "forward": [Function],
         "go": [Function],
-        "goBack": [Function],
-        "goForward": [Function],
-        "length": 1,
         "listen": [Function],
         "location": Object {
           "hash": "",
+          "key": "default",
           "pathname": "/",
           "search": "",
-          "state": undefined,
+          "state": null,
         },
         "push": [Function],
         "replace": [Function],
@@ -50,18 +60,12 @@ exports[`<PortfolioLinks/> Snapshot renders without crashing using mount 1`] = `
               onClick={[Function]}
               to="#about"
             >
-              <LinkAnchor
+              <a
                 href="#/#about"
-                navigate={[Function]}
                 onClick={[Function]}
               >
-                <a
-                  href="#/#about"
-                  onClick={[Function]}
-                >
-                  button.about
-                </a>
-              </LinkAnchor>
+                button.about
+              </a>
             </Link>
           </HashLink>
           <HashLink
@@ -71,18 +75,12 @@ exports[`<PortfolioLinks/> Snapshot renders without crashing using mount 1`] = `
               onClick={[Function]}
               to="#skills"
             >
-              <LinkAnchor
+              <a
                 href="#/#skills"
-                navigate={[Function]}
                 onClick={[Function]}
               >
-                <a
-                  href="#/#skills"
-                  onClick={[Function]}
-                >
-                  button.skills
-                </a>
-              </LinkAnchor>
+                button.skills
+              </a>
             </Link>
           </HashLink>
           <HashLink
@@ -92,18 +90,12 @@ exports[`<PortfolioLinks/> Snapshot renders without crashing using mount 1`] = `
               onClick={[Function]}
               to="#experience"
             >
-              <LinkAnchor
+              <a
                 href="#/#experience"
-                navigate={[Function]}
                 onClick={[Function]}
               >
-                <a
-                  href="#/#experience"
-                  onClick={[Function]}
-                >
-                  button.experience
-                </a>
-              </LinkAnchor>
+                button.experience
+              </a>
             </Link>
           </HashLink>
           <HashLink
@@ -113,18 +105,12 @@ exports[`<PortfolioLinks/> Snapshot renders without crashing using mount 1`] = `
               onClick={[Function]}
               to="#contact"
             >
-              <LinkAnchor
+              <a
                 href="#/#contact"
-                navigate={[Function]}
                 onClick={[Function]}
               >
-                <a
-                  href="#/#contact"
-                  onClick={[Function]}
-                >
-                  button.contact
-                </a>
-              </LinkAnchor>
+                button.contact
+              </a>
             </Link>
           </HashLink>
         </div>

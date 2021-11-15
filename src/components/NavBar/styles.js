@@ -12,7 +12,7 @@ export const NavBar = styled.nav`
   background-color: ${({ theme }) => theme.c_menu};
   color: ${({ theme }) => theme.c_brackets};
   padding: 0 1.5em;
-  min-height: 60px;
+  min-height: 56px;
   & > *:not(:last-child) {
     margin-right: 0.75em;
   }

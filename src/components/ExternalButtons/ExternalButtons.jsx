@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next'
-import { useHistory } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 import { FaGoogleDrive } from 'react-icons/fa'
 import { UIButton } from '../'
 import { LINKS } from '../../utils/constants'
@@ -7,10 +7,10 @@ import * as S from './styles'
 
 function ExternalButtons() {
   const { t } = useTranslation()
-  const history = useHistory()
+  const navigate = useNavigate()
 
     const handleClick = () => {
-      history.push('blog')
+      navigate('blog')
     }
 
   return (

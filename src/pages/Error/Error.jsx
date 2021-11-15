@@ -1,11 +1,11 @@
-import { useLocation, useHistory } from 'react-router-dom'
+import { useLocation, useNavigate } from 'react-router-dom'
 import { Trans } from 'react-i18next'
 import { UIButton } from '../../components'
 import * as S from './styles'
 
 function Error() {
   const { pathname } = useLocation()
-  const history = useHistory()
+  const navigate = useNavigate()
 
   return (
     <S.Error>
@@ -14,7 +14,7 @@ function Error() {
           <strong>{{ pathname }}</strong>
         </Trans>
       </h3>
-        <UIButton label='Go Back' onClick={history.goBack} />
+        <UIButton label='Go Back' onClick={() => navigate(-1)} />
     </S.Error>
   )
 }

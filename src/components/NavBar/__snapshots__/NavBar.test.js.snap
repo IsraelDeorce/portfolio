@@ -69,7 +69,7 @@ exports[`<NavBar/> Snapshot renders without crashing using mount 1`] = `
   align-items: center;
   font-weight: 700;
   padding: 0 1.5em;
-  min-height: 60px;
+  min-height: 56px;
 }
 
 .c0 > *:not(:last-child) {
@@ -127,21 +127,31 @@ exports[`<NavBar/> Snapshot renders without crashing using mount 1`] = `
 
 <HashRouter>
   <Router
-    history={
+    location={
+      Object {
+        "hash": "",
+        "key": "default",
+        "pathname": "/",
+        "search": "",
+        "state": null,
+      }
+    }
+    navigationType="POP"
+    navigator={
       Object {
         "action": "POP",
+        "back": [Function],
         "block": [Function],
         "createHref": [Function],
+        "forward": [Function],
         "go": [Function],
-        "goBack": [Function],
-        "goForward": [Function],
-        "length": 1,
         "listen": [Function],
         "location": Object {
           "hash": "",
+          "key": "default",
           "pathname": "/",
           "search": "",
-          "state": undefined,
+          "state": null,
         },
         "push": [Function],
         "replace": [Function],
@@ -186,8 +196,13 @@ exports[`<NavBar/> Snapshot renders without crashing using mount 1`] = `
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
-                      d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+                      d="M0 0h24v24H0z"
+                      fill="none"
                       key="0"
+                    />
+                    <path
+                      d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+                      key="1"
                     />
                   </svg>
                 </IconBase>
@@ -202,58 +217,52 @@ exports[`<NavBar/> Snapshot renders without crashing using mount 1`] = `
                 onClick={[Function]}
                 to="#home"
               >
-                <LinkAnchor
+                <a
                   href="#/#home"
-                  navigate={[Function]}
                   onClick={[Function]}
                 >
-                  <a
-                    href="#/#home"
-                    onClick={[Function]}
-                  >
-                    <styled.div>
-                      <div
-                        className="c2"
+                  <styled.div>
+                    <div
+                      className="c2"
+                    >
+                      <GiDirewolf
+                        size="32"
                       >
-                        <GiDirewolf
+                        <IconBase
+                          attr={
+                            Object {
+                              "viewBox": "0 0 512 512",
+                            }
+                          }
                           size="32"
                         >
-                          <IconBase
-                            attr={
+                          <svg
+                            fill="currentColor"
+                            height="32"
+                            stroke="currentColor"
+                            strokeWidth="0"
+                            style={
                               Object {
-                                "viewBox": "0 0 512 512",
+                                "color": undefined,
                               }
                             }
-                            size="32"
+                            viewBox="0 0 512 512"
+                            width="32"
+                            xmlns="http://www.w3.org/2000/svg"
                           >
-                            <svg
-                              fill="currentColor"
-                              height="32"
-                              stroke="currentColor"
-                              strokeWidth="0"
-                              style={
-                                Object {
-                                  "color": undefined,
-                                }
-                              }
-                              viewBox="0 0 512 512"
-                              width="32"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <path
-                                d="M145.14 22.185c9.508 36.595 15.32 71.885 14.22 108.31 21.73 18.495 44.074 28.207 68.035 38.93 11.813 5.288 23.99 10.82 36.37 17.69-24.702-70.606-62.676-117.77-118.626-164.93zM27.122 25.887C24.958 45.21 27.53 71.24 34.12 97.38c6.96 18.72 16.942 37.974 27.595 54.67 15.003 23.516 32.422 42.276 40.48 46.868l-9.27 16.244c-14.91-8.496-31.08-28.122-46.978-53.037-9.383-14.708-18.273-31.144-25.328-47.943v196.584l43.17 1.76c-2.8-23.054-4.248-45.878-2.73-66.516l18.614 1.382c-2.313 31.474 3.16 71.293 9.656 108.65 110.615 90.673 195.362 124.516 260.695 131.175l-95.107-66.8 40.053-15.876L152.44 332.58l38.505-1.738c-28.377-14.028-48.9-32.894-63.144-55.63l1.464-22.964c35.81 41.623 89.82 73.71 151.373 98.096l-43.164 6.068 112.765 52.193-22.39 25.518 119.7 42.32c16.61-5.68 31.058-12.678 43.66-19.464-97.364-69.615-123.58-131.642-168.034-193.962l-.008-.01c-34.93-45.653-68.47-60.9-103.4-76.534-33.725-15.094-68.975-30.612-101.788-72.558L27.123 25.887zm156.344 175.59l89.894 46.75-24.032 17.57c18.66 30.458 55.134 55.834 91.12 72.86-50.826-7.884-103.33-32.248-148.212-69.427l29.815-20.224-38.583-47.53z"
-                                key="0"
-                              />
-                            </svg>
-                          </IconBase>
-                        </GiDirewolf>
-                        <strong>
-                          Israel Deorce
-                        </strong>
-                      </div>
-                    </styled.div>
-                  </a>
-                </LinkAnchor>
+                            <path
+                              d="M145.14 22.185c9.508 36.595 15.32 71.885 14.22 108.31 21.73 18.495 44.074 28.207 68.035 38.93 11.813 5.288 23.99 10.82 36.37 17.69-24.702-70.606-62.676-117.77-118.626-164.93zM27.122 25.887C24.958 45.21 27.53 71.24 34.12 97.38c6.96 18.72 16.942 37.974 27.595 54.67 15.003 23.516 32.422 42.276 40.48 46.868l-9.27 16.244c-14.91-8.496-31.08-28.122-46.978-53.037-9.383-14.708-18.273-31.144-25.328-47.943v196.584l43.17 1.76c-2.8-23.054-4.248-45.878-2.73-66.516l18.614 1.382c-2.313 31.474 3.16 71.293 9.656 108.65 110.615 90.673 195.362 124.516 260.695 131.175l-95.107-66.8 40.053-15.876L152.44 332.58l38.505-1.738c-28.377-14.028-48.9-32.894-63.144-55.63l1.464-22.964c35.81 41.623 89.82 73.71 151.373 98.096l-43.164 6.068 112.765 52.193-22.39 25.518 119.7 42.32c16.61-5.68 31.058-12.678 43.66-19.464-97.364-69.615-123.58-131.642-168.034-193.962l-.008-.01c-34.93-45.653-68.47-60.9-103.4-76.534-33.725-15.094-68.975-30.612-101.788-72.558L27.123 25.887zm156.344 175.59l89.894 46.75-24.032 17.57c18.66 30.458 55.134 55.834 91.12 72.86-50.826-7.884-103.33-32.248-148.212-69.427l29.815-20.224-38.583-47.53z"
+                              key="0"
+                            />
+                          </svg>
+                        </IconBase>
+                      </GiDirewolf>
+                      <strong>
+                        Israel Deorce
+                      </strong>
+                    </div>
+                  </styled.div>
+                </a>
               </Link>
             </HashLink>
           </TitledLogo>
@@ -276,18 +285,12 @@ exports[`<NavBar/> Snapshot renders without crashing using mount 1`] = `
                         onClick={[Function]}
                         to="#about"
                       >
-                        <LinkAnchor
+                        <a
                           href="#/#about"
-                          navigate={[Function]}
                           onClick={[Function]}
                         >
-                          <a
-                            href="#/#about"
-                            onClick={[Function]}
-                          >
-                            button.about
-                          </a>
-                        </LinkAnchor>
+                          button.about
+                        </a>
                       </Link>
                     </HashLink>
                     <HashLink
@@ -297,18 +300,12 @@ exports[`<NavBar/> Snapshot renders without crashing using mount 1`] = `
                         onClick={[Function]}
                         to="#skills"
                       >
-                        <LinkAnchor
+                        <a
                           href="#/#skills"
-                          navigate={[Function]}
                           onClick={[Function]}
                         >
-                          <a
-                            href="#/#skills"
-                            onClick={[Function]}
-                          >
-                            button.skills
-                          </a>
-                        </LinkAnchor>
+                          button.skills
+                        </a>
                       </Link>
                     </HashLink>
                     <HashLink
@@ -318,18 +315,12 @@ exports[`<NavBar/> Snapshot renders without crashing using mount 1`] = `
                         onClick={[Function]}
                         to="#experience"
                       >
-                        <LinkAnchor
+                        <a
                           href="#/#experience"
-                          navigate={[Function]}
                           onClick={[Function]}
                         >
-                          <a
-                            href="#/#experience"
-                            onClick={[Function]}
-                          >
-                            button.experience
-                          </a>
-                        </LinkAnchor>
+                          button.experience
+                        </a>
                       </Link>
                     </HashLink>
                     <HashLink
@@ -339,18 +330,12 @@ exports[`<NavBar/> Snapshot renders without crashing using mount 1`] = `
                         onClick={[Function]}
                         to="#contact"
                       >
-                        <LinkAnchor
+                        <a
                           href="#/#contact"
-                          navigate={[Function]}
                           onClick={[Function]}
                         >
-                          <a
-                            href="#/#contact"
-                            onClick={[Function]}
-                          >
-                            button.contact
-                          </a>
-                        </LinkAnchor>
+                          button.contact
+                        </a>
                       </Link>
                     </HashLink>
                   </div>
@@ -493,8 +478,13 @@ exports[`<NavBar/> Snapshot renders without crashing using mount 1`] = `
                               xmlns="http://www.w3.org/2000/svg"
                             >
                               <path
-                                d="M7.41 7.84L12 12.42l4.59-4.58L18 9.25l-6 6-6-6z"
+                                d="M0 0h24v24H0V0z"
+                                fill="none"
                                 key="0"
+                              />
+                              <path
+                                d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"
+                                key="1"
                               />
                             </svg>
                           </IconBase>
@@ -507,22 +497,19 @@ exports[`<NavBar/> Snapshot renders without crashing using mount 1`] = `
                     >
                       <svg
                         className="flag"
-                        viewBox="0 0 512 341.3"
+                        viewBox="0 0 513 342"
                       >
                         <title>
                           Canada
                         </title>
                         <path
-                          d="M0 0h512v341.3H0z"
+                          d="M0 0h513v342H0z"
                           fill="#FFF"
                         />
-                        <g
-                          fill="#D80027"
-                        >
-                          <path
-                            d="M0 0h142v341.3H0zM370 0h142v341.3H370zM306.5 206l50.4-25.2-25.2-12.6V143l-50.4 25.2 25.2-50.4h-25.2L256.1 80l-25.2 37.8h-25.2l25.2 50.4-50.4-25.2v25.2l-25.2 12.6 50.4 25.2-12.6 25.2h50.4V269h25.2v-37.8h50.4z"
-                          />
-                        </g>
+                        <path
+                          d="M0 0h142v342H0zm371 0h142v342H371zm-64.5 206l50.4-25.2-25.2-12.6V143l-50.4 25.2 25.2-50.4h-25.2L256.1 80l-25.2 37.8h-25.2l25.2 50.4-50.4-25.2v25.2l-25.2 12.6 50.4 25.2-12.6 25.2h50.4V269h25.2v-37.8h50.4z"
+                          fill="red"
+                        />
                       </svg>
                     </CA>
                   </div>
@@ -606,7 +593,7 @@ exports[`<NavBar/> Snapshot renders without crashing using render 1`] = `
   align-items: center;
   font-weight: 700;
   padding: 0 1.5em;
-  min-height: 60px;
+  min-height: 56px;
 }
 
 .c0 > *:not(:last-child) {
@@ -677,6 +664,10 @@ exports[`<NavBar/> Snapshot renders without crashing using render 1`] = `
       width="32"
       xmlns="http://www.w3.org/2000/svg"
     >
+      <path
+        d="M0 0h24v24H0z"
+        fill="none"
+      />
       <path
         d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
       />
@@ -799,7 +790,11 @@ exports[`<NavBar/> Snapshot renders without crashing using render 1`] = `
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            d="M7.41 7.84L12 12.42l4.59-4.58L18 9.25l-6 6-6-6z"
+            d="M0 0h24v24H0V0z"
+            fill="none"
+          />
+          <path
+            d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"
           />
         </svg>
       </div>
