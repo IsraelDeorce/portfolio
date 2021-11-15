@@ -3,6 +3,8 @@ import { FaGoogleDrive } from 'react-icons/fa'
 import ExternalButtons from './ExternalButtons'
 import { LINKS } from '../../utils/constants'
 
+jest.mock('react-router-dom')
+
 describe('<ExternalButtons/>', () => {
   afterEach(() => jest.clearAllMocks())
 
