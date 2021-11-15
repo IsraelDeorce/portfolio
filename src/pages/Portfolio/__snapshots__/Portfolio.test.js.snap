@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Portfolio/> Snapshot renders without crashing using mount 1`] = `
-.c10 {
+.c11 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -17,7 +17,7 @@ exports[`<Portfolio/> Snapshot renders without crashing using mount 1`] = `
   font-size: 1.25em;
 }
 
-.c10 > * {
+.c11 > * {
   margin-bottom: 0.3em;
 }
 
@@ -63,7 +63,7 @@ exports[`<Portfolio/> Snapshot renders without crashing using mount 1`] = `
   align-items: center;
   font-weight: 700;
   padding: 0 1.5em;
-  min-height: 56px;
+  min-height: 60px;
 }
 
 .c0 > *:not(:last-child) {
@@ -118,7 +118,7 @@ exports[`<Portfolio/> Snapshot renders without crashing using mount 1`] = `
   margin-right: 2em;
 }
 
-.c24 {
+.c27 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -133,11 +133,11 @@ exports[`<Portfolio/> Snapshot renders without crashing using mount 1`] = `
   justify-content: center;
 }
 
-.c24 > * {
+.c27 > * {
   cursor: pointer;
 }
 
-.c24 > *:not(:last-child) {
+.c27 > *:not(:last-child) {
   margin-right: 0.75em;
 }
 
@@ -154,23 +154,6 @@ exports[`<Portfolio/> Snapshot renders without crashing using mount 1`] = `
 
 .c2 > *:not(:last-child) {
   margin-right: 0.5em;
-}
-
-.c11 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  padding: .75rem 1.25rem;
-  cursor: pointer;
-}
-
-.c11 > *:not(:last-child) {
-  padding-right: 0.25em;
 }
 
 .c12 {
@@ -190,7 +173,24 @@ exports[`<Portfolio/> Snapshot renders without crashing using mount 1`] = `
   padding-right: 0.25em;
 }
 
-.c15 {
+.c13 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: .75rem 1.25rem;
+  cursor: pointer;
+}
+
+.c13 > *:not(:last-child) {
+  padding-right: 0.25em;
+}
+
+.c16 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -201,7 +201,7 @@ exports[`<Portfolio/> Snapshot renders without crashing using mount 1`] = `
   align-items: center;
 }
 
-.c16 {
+.c17 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -214,27 +214,27 @@ exports[`<Portfolio/> Snapshot renders without crashing using mount 1`] = `
   margin-right: 0.5em;
 }
 
-.c17 {
+.c18 {
   border-radius: 25px;
   min-width: 99%;
 }
 
-.c18 {
+.c19 {
   border-radius: 25px;
   min-width: 90%;
 }
 
-.c19 {
+.c20 {
   border-radius: 25px;
   min-width: 50%;
 }
 
-.c20 {
+.c21 {
   border-radius: 25px;
   min-width: 25%;
 }
 
-.c22 {
+.c23 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -249,12 +249,27 @@ exports[`<Portfolio/> Snapshot renders without crashing using mount 1`] = `
   max-width: 300px;
 }
 
-.c22 :first-child {
+.c23 :first-child {
   width: 100px;
   height: 100px;
 }
 
-.c26 {
+.c24 {
+  font-size: 1.5em;
+  font-weight: 700;
+  margin: 0.5em;
+  text-align: center;
+}
+
+.c25 {
+  font-size: 0.9em;
+  font-weight: 400;
+  margin: 0;
+  margin-bottom: 0.5em;
+  text-align: center;
+}
+
+.c29 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -287,10 +302,18 @@ exports[`<Portfolio/> Snapshot renders without crashing using mount 1`] = `
 }
 
 .c9 {
+  font-family: 'Dancing Script',cursive;
+  font-size: 4em;
+  font-weight: 400;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.c10 {
   font-size: 30px;
 }
 
-.c13 {
+.c14 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -300,7 +323,7 @@ exports[`<Portfolio/> Snapshot renders without crashing using mount 1`] = `
   flex-direction: column;
 }
 
-.c14 {
+.c15 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -314,11 +337,11 @@ exports[`<Portfolio/> Snapshot renders without crashing using mount 1`] = `
   max-width: 600px;
 }
 
-.c14 > *:not(:last-child) {
+.c15 > *:not(:last-child) {
   margin-bottom: 1em;
 }
 
-.c21 {
+.c22 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -332,11 +355,11 @@ exports[`<Portfolio/> Snapshot renders without crashing using mount 1`] = `
   flex-wrap: wrap;
 }
 
-.c21 > * {
+.c22 > * {
   padding: 0 1em 1em 1em;
 }
 
-.c23 {
+.c26 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -351,11 +374,11 @@ exports[`<Portfolio/> Snapshot renders without crashing using mount 1`] = `
   padding: 3em;
 }
 
-.c23 > :first-child {
+.c26 > :first-child {
   padding-bottom: 2em;
 }
 
-.c25 {
+.c28 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -369,7 +392,7 @@ exports[`<Portfolio/> Snapshot renders without crashing using mount 1`] = `
   align-items: center;
 }
 
-.c25 p:last-of-type {
+.c28 p:last-of-type {
   margin-bottom: 0;
 }
 
@@ -406,35 +429,35 @@ exports[`<Portfolio/> Snapshot renders without crashing using mount 1`] = `
 }
 
 @media (min-width:576px) {
-  .c16 {
+  .c17 {
     min-width: 350px;
   }
 }
 
 @media (min-width:992px) {
-  .c13 {
+  .c14 {
     padding: 0 10%;
   }
 }
 
 @media (min-width:992px) {
-  .c21 {
+  .c22 {
     margin: 0 10%;
   }
 }
 
 @media (min-width:992px) {
-  .c25 {
+  .c28 {
     -webkit-flex-direction: row;
     -ms-flex-direction: row;
     flex-direction: row;
   }
 
-  .c25 p {
+  .c28 p {
     margin: 0;
   }
 
-  .c25 p:not(:last-of-type) {
+  .c28 p:not(:last-of-type) {
     margin-right: 2em;
   }
 }
@@ -848,14 +871,18 @@ exports[`<Portfolio/> Snapshot renders without crashing using mount 1`] = `
                 className="c8"
                 id="home"
               >
-                <h1>
-                  Israel Deorce
-                </h1>
+                <styled.h1>
+                  <h1
+                    className="c9"
+                  >
+                    Israel Deorce
+                  </h1>
+                </styled.h1>
                 <styled.p
                   className="subtitle"
                 >
                   <p
-                    className="c9 subtitle"
+                    className="c10 subtitle"
                   >
                     subtitle
                   </p>
@@ -863,7 +890,7 @@ exports[`<Portfolio/> Snapshot renders without crashing using mount 1`] = `
                 <ExternalButtons>
                   <styled.div>
                     <div
-                      className="c10"
+                      className="c11"
                     >
                       <UIButton
                         id="blog-button"
@@ -875,7 +902,7 @@ exports[`<Portfolio/> Snapshot renders without crashing using mount 1`] = `
                           secondary={false}
                         >
                           <button
-                            className="c11"
+                            className="c12"
                             onClick={[Function]}
                           >
                             <span>
@@ -896,7 +923,7 @@ exports[`<Portfolio/> Snapshot renders without crashing using mount 1`] = `
                           secondary={true}
                         >
                           <button
-                            className="c12"
+                            className="c13"
                             onClick={[Function]}
                           >
                             <span>
@@ -949,7 +976,7 @@ exports[`<Portfolio/> Snapshot renders without crashing using mount 1`] = `
               </h2>
               <styled.div>
                 <div
-                  className="c13"
+                  className="c14"
                 >
                   <p>
                     desc.about_1
@@ -970,7 +997,7 @@ exports[`<Portfolio/> Snapshot renders without crashing using mount 1`] = `
               </h2>
               <styled.div>
                 <div
-                  className="c14"
+                  className="c15"
                 >
                   <ProgressIndicator
                     description="skills.software_engineering"
@@ -978,17 +1005,17 @@ exports[`<Portfolio/> Snapshot renders without crashing using mount 1`] = `
                   >
                     <styled.div>
                       <div
-                        className="c15"
+                        className="c16"
                       >
                         <styled.div>
                           <div
-                            className="c16"
+                            className="c17"
                           >
                             <styled.div
                               percentage={99}
                             >
                               <div
-                                className="c17"
+                                className="c18"
                               />
                             </styled.div>
                           </div>
@@ -1005,17 +1032,17 @@ exports[`<Portfolio/> Snapshot renders without crashing using mount 1`] = `
                   >
                     <styled.div>
                       <div
-                        className="c15"
+                        className="c16"
                       >
                         <styled.div>
                           <div
-                            className="c16"
+                            className="c17"
                           >
                             <styled.div
                               percentage={90}
                             >
                               <div
-                                className="c18"
+                                className="c19"
                               />
                             </styled.div>
                           </div>
@@ -1032,17 +1059,17 @@ exports[`<Portfolio/> Snapshot renders without crashing using mount 1`] = `
                   >
                     <styled.div>
                       <div
-                        className="c15"
+                        className="c16"
                       >
                         <styled.div>
                           <div
-                            className="c16"
+                            className="c17"
                           >
                             <styled.div
                               percentage={50}
                             >
                               <div
-                                className="c19"
+                                className="c20"
                               />
                             </styled.div>
                           </div>
@@ -1059,17 +1086,17 @@ exports[`<Portfolio/> Snapshot renders without crashing using mount 1`] = `
                   >
                     <styled.div>
                       <div
-                        className="c15"
+                        className="c16"
                       >
                         <styled.div>
                           <div
-                            className="c16"
+                            className="c17"
                           >
                             <styled.div
                               percentage={25}
                             >
                               <div
-                                className="c20"
+                                className="c21"
                               />
                             </styled.div>
                           </div>
@@ -1086,17 +1113,17 @@ exports[`<Portfolio/> Snapshot renders without crashing using mount 1`] = `
                   >
                     <styled.div>
                       <div
-                        className="c15"
+                        className="c16"
                       >
                         <styled.div>
                           <div
-                            className="c16"
+                            className="c17"
                           >
                             <styled.div
                               percentage={50}
                             >
                               <div
-                                className="c19"
+                                className="c20"
                               />
                             </styled.div>
                           </div>
@@ -1113,17 +1140,17 @@ exports[`<Portfolio/> Snapshot renders without crashing using mount 1`] = `
                   >
                     <styled.div>
                       <div
-                        className="c15"
+                        className="c16"
                       >
                         <styled.div>
                           <div
-                            className="c16"
+                            className="c17"
                           >
                             <styled.div
                               percentage={90}
                             >
                               <div
-                                className="c18"
+                                className="c19"
                               />
                             </styled.div>
                           </div>
@@ -1147,7 +1174,7 @@ exports[`<Portfolio/> Snapshot renders without crashing using mount 1`] = `
               </h2>
               <styled.div>
                 <div
-                  className="c21"
+                  className="c22"
                 >
                   <Project
                     description="desc.hp"
@@ -1162,7 +1189,7 @@ exports[`<Portfolio/> Snapshot renders without crashing using mount 1`] = `
                   >
                     <styled.div>
                       <div
-                        className="c22"
+                        className="c23"
                       >
                         <div>
                           <SiHp
@@ -1204,12 +1231,20 @@ exports[`<Portfolio/> Snapshot renders without crashing using mount 1`] = `
                             </IconBase>
                           </SiHp>
                         </div>
-                        <h3>
-                          HP Inc.
-                        </h3>
-                        <h4>
-                          subtitle
-                        </h4>
+                        <styled.h3>
+                          <h3
+                            className="c24"
+                          >
+                            HP Inc.
+                          </h3>
+                        </styled.h3>
+                        <styled.h4>
+                          <h4
+                            className="c25"
+                          >
+                            subtitle
+                          </h4>
+                        </styled.h4>
                         <p>
                           desc.hp
                         </p>
@@ -1229,7 +1264,7 @@ exports[`<Portfolio/> Snapshot renders without crashing using mount 1`] = `
                   >
                     <styled.div>
                       <div
-                        className="c22"
+                        className="c23"
                       >
                         <div>
                           <SiDell
@@ -1271,12 +1306,20 @@ exports[`<Portfolio/> Snapshot renders without crashing using mount 1`] = `
                             </IconBase>
                           </SiDell>
                         </div>
-                        <h3>
-                          Dell Inc.
-                        </h3>
-                        <h4>
-                          subtitle
-                        </h4>
+                        <styled.h3>
+                          <h3
+                            className="c24"
+                          >
+                            Dell Inc.
+                          </h3>
+                        </styled.h3>
+                        <styled.h4>
+                          <h4
+                            className="c25"
+                          >
+                            subtitle
+                          </h4>
+                        </styled.h4>
                         <p>
                           desc.dell
                         </p>
@@ -1296,19 +1339,27 @@ exports[`<Portfolio/> Snapshot renders without crashing using mount 1`] = `
                   >
                     <styled.div>
                       <div
-                        className="c22"
+                        className="c23"
                       >
                         <div>
                           <img
                             src="test-file-stub"
                           />
                         </div>
-                        <h3>
-                          PUCRS
-                        </h3>
-                        <h4>
-                          desc.research_intern
-                        </h4>
+                        <styled.h3>
+                          <h3
+                            className="c24"
+                          >
+                            PUCRS
+                          </h3>
+                        </styled.h3>
+                        <styled.h4>
+                          <h4
+                            className="c25"
+                          >
+                            desc.research_intern
+                          </h4>
+                        </styled.h4>
                         <p>
                           desc.intern
                         </p>
@@ -1328,7 +1379,7 @@ exports[`<Portfolio/> Snapshot renders without crashing using mount 1`] = `
                   >
                     <styled.div>
                       <div
-                        className="c22"
+                        className="c23"
                       >
                         <div>
                           <GiClapperboard
@@ -1365,12 +1416,20 @@ exports[`<Portfolio/> Snapshot renders without crashing using mount 1`] = `
                             </IconBase>
                           </GiClapperboard>
                         </div>
-                        <h3>
-                          Gina Tells
-                        </h3>
-                        <h4>
-                          desc.personal_project
-                        </h4>
+                        <styled.h3>
+                          <h3
+                            className="c24"
+                          >
+                            Gina Tells
+                          </h3>
+                        </styled.h3>
+                        <styled.h4>
+                          <h4
+                            className="c25"
+                          >
+                            desc.personal_project
+                          </h4>
+                        </styled.h4>
                         <p>
                           desc.ginatells
                         </p>
@@ -1390,7 +1449,7 @@ exports[`<Portfolio/> Snapshot renders without crashing using mount 1`] = `
                   >
                     <styled.div>
                       <div
-                        className="c22"
+                        className="c23"
                       >
                         <div>
                           <GiProgression
@@ -1427,12 +1486,20 @@ exports[`<Portfolio/> Snapshot renders without crashing using mount 1`] = `
                             </IconBase>
                           </GiProgression>
                         </div>
-                        <h3>
-                          Software KPIs
-                        </h3>
-                        <h4>
-                          desc.personal_project
-                        </h4>
+                        <styled.h3>
+                          <h3
+                            className="c24"
+                          >
+                            Software KPIs
+                          </h3>
+                        </styled.h3>
+                        <styled.h4>
+                          <h4
+                            className="c25"
+                          >
+                            desc.personal_project
+                          </h4>
+                        </styled.h4>
                         <p>
                           desc.kpis
                         </p>
@@ -1452,19 +1519,27 @@ exports[`<Portfolio/> Snapshot renders without crashing using mount 1`] = `
                   >
                     <styled.div>
                       <div
-                        className="c22"
+                        className="c23"
                       >
                         <div>
                           <img
                             src="test-file-stub"
                           />
                         </div>
-                        <h3>
-                          AGES
-                        </h3>
-                        <h4>
-                          desc.nonprofit_engineer
-                        </h4>
+                        <styled.h3>
+                          <h3
+                            className="c24"
+                          >
+                            AGES
+                          </h3>
+                        </styled.h3>
+                        <styled.h4>
+                          <h4
+                            className="c25"
+                          >
+                            desc.nonprofit_engineer
+                          </h4>
+                        </styled.h4>
                         <p>
                           desc.ages
                         </p>
@@ -1481,12 +1556,12 @@ exports[`<Portfolio/> Snapshot renders without crashing using mount 1`] = `
             >
               <styled.div>
                 <div
-                  className="c23"
+                  className="c26"
                 >
                   <SocialNetworks>
                     <styled.div>
                       <div
-                        className="c24"
+                        className="c27"
                       >
                         <a
                           href="https://wa.me/5551980254545"
@@ -1645,7 +1720,7 @@ exports[`<Portfolio/> Snapshot renders without crashing using mount 1`] = `
                   </SocialNetworks>
                   <styled.div>
                     <div
-                      className="c25"
+                      className="c28"
                     >
                       <p>
                         israel.idvj@gmail.com
@@ -1663,7 +1738,7 @@ exports[`<Portfolio/> Snapshot renders without crashing using mount 1`] = `
               <Copyright>
                 <styled.div>
                   <div
-                    className="c26"
+                    className="c29"
                   >
                     Copyright 
                     <FaRegCopyright>
@@ -1753,7 +1828,7 @@ Array [
   align-items: center;
   font-weight: 700;
   padding: 0 1.5em;
-  min-height: 56px;
+  min-height: 60px;
 }
 
 .c0 > *:not(:last-child) {
@@ -2003,7 +2078,7 @@ Array [
       </div>
     </div>
   </nav>,
-  .c3 {
+  .c4 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2019,11 +2094,11 @@ Array [
   font-size: 1.25em;
 }
 
-.c3 > * {
+.c4 > * {
   margin-bottom: 0.3em;
 }
 
-.c17 {
+.c20 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2038,29 +2113,12 @@ Array [
   justify-content: center;
 }
 
-.c17 > * {
+.c20 > * {
   cursor: pointer;
 }
 
-.c17 > *:not(:last-child) {
+.c20 > *:not(:last-child) {
   margin-right: 0.75em;
-}
-
-.c4 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  padding: .75rem 1.25rem;
-  cursor: pointer;
-}
-
-.c4 > *:not(:last-child) {
-  padding-right: 0.25em;
 }
 
 .c5 {
@@ -2080,7 +2138,24 @@ Array [
   padding-right: 0.25em;
 }
 
-.c8 {
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: .75rem 1.25rem;
+  cursor: pointer;
+}
+
+.c6 > *:not(:last-child) {
+  padding-right: 0.25em;
+}
+
+.c9 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2091,7 +2166,7 @@ Array [
   align-items: center;
 }
 
-.c9 {
+.c10 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2104,27 +2179,27 @@ Array [
   margin-right: 0.5em;
 }
 
-.c10 {
+.c11 {
   border-radius: 25px;
   min-width: 99%;
 }
 
-.c11 {
+.c12 {
   border-radius: 25px;
   min-width: 90%;
 }
 
-.c12 {
+.c13 {
   border-radius: 25px;
   min-width: 50%;
 }
 
-.c13 {
+.c14 {
   border-radius: 25px;
   min-width: 25%;
 }
 
-.c15 {
+.c16 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2139,12 +2214,27 @@ Array [
   max-width: 300px;
 }
 
-.c15 :first-child {
+.c16 :first-child {
   width: 100px;
   height: 100px;
 }
 
-.c19 {
+.c17 {
+  font-size: 1.5em;
+  font-weight: 700;
+  margin: 0.5em;
+  text-align: center;
+}
+
+.c18 {
+  font-size: 0.9em;
+  font-weight: 400;
+  margin: 0;
+  margin-bottom: 0.5em;
+  text-align: center;
+}
+
+.c22 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2177,10 +2267,18 @@ Array [
 }
 
 .c2 {
+  font-family: 'Dancing Script',cursive;
+  font-size: 4em;
+  font-weight: 400;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.c3 {
   font-size: 30px;
 }
 
-.c6 {
+.c7 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2190,7 +2288,7 @@ Array [
   flex-direction: column;
 }
 
-.c7 {
+.c8 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2204,11 +2302,11 @@ Array [
   max-width: 600px;
 }
 
-.c7 > *:not(:last-child) {
+.c8 > *:not(:last-child) {
   margin-bottom: 1em;
 }
 
-.c14 {
+.c15 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2222,11 +2320,11 @@ Array [
   flex-wrap: wrap;
 }
 
-.c14 > * {
+.c15 > * {
   padding: 0 1em 1em 1em;
 }
 
-.c16 {
+.c19 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2241,11 +2339,11 @@ Array [
   padding: 3em;
 }
 
-.c16 > :first-child {
+.c19 > :first-child {
   padding-bottom: 2em;
 }
 
-.c18 {
+.c21 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2259,7 +2357,7 @@ Array [
   align-items: center;
 }
 
-.c18 p:last-of-type {
+.c21 p:last-of-type {
   margin-bottom: 0;
 }
 
@@ -2292,35 +2390,35 @@ Array [
 }
 
 @media (min-width:576px) {
-  .c9 {
+  .c10 {
     min-width: 350px;
   }
 }
 
 @media (min-width:992px) {
-  .c6 {
+  .c7 {
     padding: 0 10%;
   }
 }
 
 @media (min-width:992px) {
-  .c14 {
+  .c15 {
     margin: 0 10%;
   }
 }
 
 @media (min-width:992px) {
-  .c18 {
+  .c21 {
     -webkit-flex-direction: row;
     -ms-flex-direction: row;
     flex-direction: row;
   }
 
-  .c18 p {
+  .c21 p {
     margin: 0;
   }
 
-  .c18 p:not(:last-of-type) {
+  .c21 p:not(:last-of-type) {
     margin-right: 2em;
   }
 }
@@ -2332,26 +2430,28 @@ Array [
       class="c1"
       id="home"
     >
-      <h1>
+      <h1
+        class="c2"
+      >
         Israel Deorce
       </h1>
       <p
-        class="c2 subtitle"
+        class="c3 subtitle"
       >
         subtitle
       </p>
       <div
-        class="c3"
+        class="c4"
       >
         <button
-          class="c4"
+          class="c5"
         >
           <span>
             button.visit_my_blog
           </span>
         </button>
         <button
-          class="c5"
+          class="c6"
         >
           <span>
             button.resume
@@ -2379,7 +2479,7 @@ Array [
         button.about_me
       </h2>
       <div
-        class="c6"
+        class="c7"
       >
         <p>
           desc.about_1
@@ -2396,16 +2496,16 @@ Array [
         button.skills
       </h2>
       <div
-        class="c7"
+        class="c8"
       >
         <div
-          class="c8"
+          class="c9"
         >
           <div
-            class="c9"
+            class="c10"
           >
             <div
-              class="c10"
+              class="c11"
             />
           </div>
           <div>
@@ -2413,13 +2513,13 @@ Array [
           </div>
         </div>
         <div
-          class="c8"
+          class="c9"
         >
           <div
-            class="c9"
+            class="c10"
           >
             <div
-              class="c11"
+              class="c12"
             />
           </div>
           <div>
@@ -2427,13 +2527,13 @@ Array [
           </div>
         </div>
         <div
-          class="c8"
+          class="c9"
         >
           <div
-            class="c9"
+            class="c10"
           >
             <div
-              class="c12"
+              class="c13"
             />
           </div>
           <div>
@@ -2441,13 +2541,13 @@ Array [
           </div>
         </div>
         <div
-          class="c8"
+          class="c9"
         >
           <div
-            class="c9"
+            class="c10"
           >
             <div
-              class="c13"
+              class="c14"
             />
           </div>
           <div>
@@ -2455,13 +2555,13 @@ Array [
           </div>
         </div>
         <div
-          class="c8"
+          class="c9"
         >
           <div
-            class="c9"
+            class="c10"
           >
             <div
-              class="c12"
+              class="c13"
             />
           </div>
           <div>
@@ -2469,13 +2569,13 @@ Array [
           </div>
         </div>
         <div
-          class="c8"
+          class="c9"
         >
           <div
-            class="c9"
+            class="c10"
           >
             <div
-              class="c11"
+              class="c12"
             />
           </div>
           <div>
@@ -2491,10 +2591,10 @@ Array [
         button.experience
       </h2>
       <div
-        class="c14"
+        class="c15"
       >
         <div
-          class="c15"
+          class="c16"
         >
           <div>
             <svg
@@ -2515,10 +2615,14 @@ Array [
               />
             </svg>
           </div>
-          <h3>
+          <h3
+            class="c17"
+          >
             HP Inc.
           </h3>
-          <h4>
+          <h4
+            class="c18"
+          >
             subtitle
           </h4>
           <p>
@@ -2526,7 +2630,7 @@ Array [
           </p>
         </div>
         <div
-          class="c15"
+          class="c16"
         >
           <div>
             <svg
@@ -2547,10 +2651,14 @@ Array [
               />
             </svg>
           </div>
-          <h3>
+          <h3
+            class="c17"
+          >
             Dell Inc.
           </h3>
-          <h4>
+          <h4
+            class="c18"
+          >
             subtitle
           </h4>
           <p>
@@ -2558,17 +2666,21 @@ Array [
           </p>
         </div>
         <div
-          class="c15"
+          class="c16"
         >
           <div>
             <img
               src="test-file-stub"
             />
           </div>
-          <h3>
+          <h3
+            class="c17"
+          >
             PUCRS
           </h3>
-          <h4>
+          <h4
+            class="c18"
+          >
             desc.research_intern
           </h4>
           <p>
@@ -2576,7 +2688,7 @@ Array [
           </p>
         </div>
         <div
-          class="c15"
+          class="c16"
         >
           <div>
             <svg
@@ -2595,10 +2707,14 @@ Array [
               />
             </svg>
           </div>
-          <h3>
+          <h3
+            class="c17"
+          >
             Gina Tells
           </h3>
-          <h4>
+          <h4
+            class="c18"
+          >
             desc.personal_project
           </h4>
           <p>
@@ -2606,7 +2722,7 @@ Array [
           </p>
         </div>
         <div
-          class="c15"
+          class="c16"
         >
           <div>
             <svg
@@ -2625,10 +2741,14 @@ Array [
               />
             </svg>
           </div>
-          <h3>
+          <h3
+            class="c17"
+          >
             Software KPIs
           </h3>
-          <h4>
+          <h4
+            class="c18"
+          >
             desc.personal_project
           </h4>
           <p>
@@ -2636,17 +2756,21 @@ Array [
           </p>
         </div>
         <div
-          class="c15"
+          class="c16"
         >
           <div>
             <img
               src="test-file-stub"
             />
           </div>
-          <h3>
+          <h3
+            class="c17"
+          >
             AGES
           </h3>
-          <h4>
+          <h4
+            class="c18"
+          >
             desc.nonprofit_engineer
           </h4>
           <p>
@@ -2659,10 +2783,10 @@ Array [
       id="contact"
     >
       <div
-        class="c16"
+        class="c19"
       >
         <div
-          class="c17"
+          class="c20"
         >
           <a
             href="https://wa.me/5551980254545"
@@ -2742,7 +2866,7 @@ Array [
           </a>
         </div>
         <div
-          class="c18"
+          class="c21"
         >
           <p>
             israel.idvj@gmail.com
@@ -2756,7 +2880,7 @@ Array [
         </div>
       </div>
       <div
-        class="c19"
+        class="c22"
       >
         Copyright 
         <svg

@@ -21,6 +21,21 @@ exports[`<Experience/> Snapshot renders without crashing using mount 1`] = `
   height: 100px;
 }
 
+.c2 {
+  font-size: 1.5em;
+  font-weight: 700;
+  margin: 0.5em;
+  text-align: center;
+}
+
+.c3 {
+  font-size: 0.9em;
+  font-weight: 400;
+  margin: 0;
+  margin-bottom: 0.5em;
+  text-align: center;
+}
+
 .c0 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -111,12 +126,20 @@ exports[`<Experience/> Snapshot renders without crashing using mount 1`] = `
                   </IconBase>
                 </SiHp>
               </div>
-              <h3>
-                HP Inc.
-              </h3>
-              <h4>
-                subtitle
-              </h4>
+              <styled.h3>
+                <h3
+                  className="c2"
+                >
+                  HP Inc.
+                </h3>
+              </styled.h3>
+              <styled.h4>
+                <h4
+                  className="c3"
+                >
+                  subtitle
+                </h4>
+              </styled.h4>
               <p>
                 desc.hp
               </p>
@@ -178,12 +201,20 @@ exports[`<Experience/> Snapshot renders without crashing using mount 1`] = `
                   </IconBase>
                 </SiDell>
               </div>
-              <h3>
-                Dell Inc.
-              </h3>
-              <h4>
-                subtitle
-              </h4>
+              <styled.h3>
+                <h3
+                  className="c2"
+                >
+                  Dell Inc.
+                </h3>
+              </styled.h3>
+              <styled.h4>
+                <h4
+                  className="c3"
+                >
+                  subtitle
+                </h4>
+              </styled.h4>
               <p>
                 desc.dell
               </p>
@@ -210,12 +241,20 @@ exports[`<Experience/> Snapshot renders without crashing using mount 1`] = `
                   src="test-file-stub"
                 />
               </div>
-              <h3>
-                PUCRS
-              </h3>
-              <h4>
-                desc.research_intern
-              </h4>
+              <styled.h3>
+                <h3
+                  className="c2"
+                >
+                  PUCRS
+                </h3>
+              </styled.h3>
+              <styled.h4>
+                <h4
+                  className="c3"
+                >
+                  desc.research_intern
+                </h4>
+              </styled.h4>
               <p>
                 desc.intern
               </p>
@@ -272,12 +311,20 @@ exports[`<Experience/> Snapshot renders without crashing using mount 1`] = `
                   </IconBase>
                 </GiClapperboard>
               </div>
-              <h3>
-                Gina Tells
-              </h3>
-              <h4>
-                desc.personal_project
-              </h4>
+              <styled.h3>
+                <h3
+                  className="c2"
+                >
+                  Gina Tells
+                </h3>
+              </styled.h3>
+              <styled.h4>
+                <h4
+                  className="c3"
+                >
+                  desc.personal_project
+                </h4>
+              </styled.h4>
               <p>
                 desc.ginatells
               </p>
@@ -334,12 +381,20 @@ exports[`<Experience/> Snapshot renders without crashing using mount 1`] = `
                   </IconBase>
                 </GiProgression>
               </div>
-              <h3>
-                Software KPIs
-              </h3>
-              <h4>
-                desc.personal_project
-              </h4>
+              <styled.h3>
+                <h3
+                  className="c2"
+                >
+                  Software KPIs
+                </h3>
+              </styled.h3>
+              <styled.h4>
+                <h4
+                  className="c3"
+                >
+                  desc.personal_project
+                </h4>
+              </styled.h4>
               <p>
                 desc.kpis
               </p>
@@ -366,12 +421,20 @@ exports[`<Experience/> Snapshot renders without crashing using mount 1`] = `
                   src="test-file-stub"
                 />
               </div>
-              <h3>
-                AGES
-              </h3>
-              <h4>
-                desc.nonprofit_engineer
-              </h4>
+              <styled.h3>
+                <h3
+                  className="c2"
+                >
+                  AGES
+                </h3>
+              </styled.h3>
+              <styled.h4>
+                <h4
+                  className="c3"
+                >
+                  desc.nonprofit_engineer
+                </h4>
+              </styled.h4>
               <p>
                 desc.ages
               </p>
@@ -403,6 +466,21 @@ exports[`<Experience/> Snapshot renders without crashing using render 1`] = `
 .c1 :first-child {
   width: 100px;
   height: 100px;
+}
+
+.c2 {
+  font-size: 1.5em;
+  font-weight: 700;
+  margin: 0.5em;
+  text-align: center;
+}
+
+.c3 {
+  font-size: 0.9em;
+  font-weight: 400;
+  margin: 0;
+  margin-bottom: 0.5em;
+  text-align: center;
 }
 
 .c0 {
@@ -460,10 +538,14 @@ exports[`<Experience/> Snapshot renders without crashing using render 1`] = `
           />
         </svg>
       </div>
-      <h3>
+      <h3
+        class="c2"
+      >
         HP Inc.
       </h3>
-      <h4>
+      <h4
+        class="c3"
+      >
         subtitle
       </h4>
       <p>
@@ -492,10 +574,14 @@ exports[`<Experience/> Snapshot renders without crashing using render 1`] = `
           />
         </svg>
       </div>
-      <h3>
+      <h3
+        class="c2"
+      >
         Dell Inc.
       </h3>
-      <h4>
+      <h4
+        class="c3"
+      >
         subtitle
       </h4>
       <p>
@@ -510,10 +596,14 @@ exports[`<Experience/> Snapshot renders without crashing using render 1`] = `
           src="test-file-stub"
         />
       </div>
-      <h3>
+      <h3
+        class="c2"
+      >
         PUCRS
       </h3>
-      <h4>
+      <h4
+        class="c3"
+      >
         desc.research_intern
       </h4>
       <p>
@@ -540,10 +630,14 @@ exports[`<Experience/> Snapshot renders without crashing using render 1`] = `
           />
         </svg>
       </div>
-      <h3>
+      <h3
+        class="c2"
+      >
         Gina Tells
       </h3>
-      <h4>
+      <h4
+        class="c3"
+      >
         desc.personal_project
       </h4>
       <p>
@@ -570,10 +664,14 @@ exports[`<Experience/> Snapshot renders without crashing using render 1`] = `
           />
         </svg>
       </div>
-      <h3>
+      <h3
+        class="c2"
+      >
         Software KPIs
       </h3>
-      <h4>
+      <h4
+        class="c3"
+      >
         desc.personal_project
       </h4>
       <p>
@@ -588,10 +686,14 @@ exports[`<Experience/> Snapshot renders without crashing using render 1`] = `
           src="test-file-stub"
         />
       </div>
-      <h3>
+      <h3
+        class="c2"
+      >
         AGES
       </h3>
-      <h4>
+      <h4
+        class="c3"
+      >
         desc.nonprofit_engineer
       </h4>
       <p>

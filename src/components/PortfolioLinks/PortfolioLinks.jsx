@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types'
 import { useTranslation } from 'react-i18next'
-import { HashLink } from 'react-router-hash-link';
+import { HashLink } from 'react-router-hash-link'
 import * as S from './styles'
 
 const propTypes = {

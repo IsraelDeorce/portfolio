@@ -70,80 +70,14 @@ exports[`<Blog/> Snapshot renders without crashing using mount 1`] = `
           </button>
         </styled.button>
       </UIButton>
-      <FcClock
-        size="46"
-      >
-        <IconBase
-          attr={
-            Object {
-              "enableBackground": "new 0 0 48 48",
-              "version": "1",
-              "viewBox": "0 0 48 48",
-            }
-          }
-          size="46"
+      <Te>
+        <h1
+          id="hello-world"
+          key="0"
         >
-          <svg
-            enableBackground="new 0 0 48 48"
-            fill="currentColor"
-            height="46"
-            stroke="currentColor"
-            strokeWidth="0"
-            style={
-              Object {
-                "color": undefined,
-              }
-            }
-            version="1"
-            viewBox="0 0 48 48"
-            width="46"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <circle
-              cx="24"
-              cy="24"
-              fill="#00ACC1"
-              key="0"
-              r="20"
-            />
-            <circle
-              cx="24"
-              cy="24"
-              fill="#eee"
-              key="1"
-              r="16"
-            />
-            <rect
-              height="13"
-              key="2"
-              width="2"
-              x="23"
-              y="11"
-            />
-            <rect
-              height="9.2"
-              key="3"
-              transform="matrix(-.707 .707 -.707 -.707 65.787 27.25)"
-              width="2.3"
-              x="26.1"
-              y="22.7"
-            />
-            <circle
-              cx="24"
-              cy="24"
-              key="4"
-              r="2"
-            />
-            <circle
-              cx="24"
-              cy="24"
-              fill="#00ACC1"
-              key="5"
-              r="1"
-            />
-          </svg>
-        </IconBase>
-      </FcClock>
+          Hello world!
+        </h1>
+      </Te>
     </div>
   </styled.div>
 </Blog>
@@ -206,54 +140,11 @@ exports[`<Blog/> Snapshot renders without crashing using render 1`] = `
       Go Back
     </span>
   </button>
-  <svg
-    enable-background="new 0 0 48 48"
-    fill="currentColor"
-    height="46"
-    stroke="currentColor"
-    stroke-width="0"
-    version="1"
-    viewBox="0 0 48 48"
-    width="46"
-    xmlns="http://www.w3.org/2000/svg"
+  <h1
+    id="hello-world"
   >
-    <circle
-      cx="24"
-      cy="24"
-      fill="#00ACC1"
-      r="20"
-    />
-    <circle
-      cx="24"
-      cy="24"
-      fill="#eee"
-      r="16"
-    />
-    <rect
-      height="13"
-      width="2"
-      x="23"
-      y="11"
-    />
-    <rect
-      height="9.2"
-      transform="matrix(-.707 .707 -.707 -.707 65.787 27.25)"
-      width="2.3"
-      x="26.1"
-      y="22.7"
-    />
-    <circle
-      cx="24"
-      cy="24"
-      r="2"
-    />
-    <circle
-      cx="24"
-      cy="24"
-      fill="#00ACC1"
-      r="1"
-    />
-  </svg>
+    Hello world!
+  </h1>
 </div>
 `;
 
@@ -266,8 +157,8 @@ exports[`<Blog/> Snapshot renders without crashing using shallow 1`] = `
     label="Go Back"
     onClick={[Function]}
   />
-  <FcClock
-    size="46"
-  />
+  <Te>
+    # Hello world!
+  </Te>
 </styled.div>
 `;

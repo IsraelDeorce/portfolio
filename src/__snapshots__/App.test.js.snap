@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<App/> Snapshot renders without crashing using mount 1`] = `
-.c11 {
+.c12 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -17,7 +17,7 @@ exports[`<App/> Snapshot renders without crashing using mount 1`] = `
   font-size: 1.25em;
 }
 
-.c11 > * {
+.c12 > * {
   margin-bottom: 0.3em;
 }
 
@@ -70,7 +70,7 @@ exports[`<App/> Snapshot renders without crashing using mount 1`] = `
   background-color: #252526;
   color: #D4D4C8;
   padding: 0 1.5em;
-  min-height: 56px;
+  min-height: 60px;
 }
 
 .c1 > *:not(:last-child) {
@@ -134,7 +134,7 @@ exports[`<App/> Snapshot renders without crashing using mount 1`] = `
   margin-right: 2em;
 }
 
-.c25 {
+.c28 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -150,15 +150,15 @@ exports[`<App/> Snapshot renders without crashing using mount 1`] = `
   color: #D4D4C8;
 }
 
-.c25 > * {
+.c28 > * {
   cursor: pointer;
 }
 
-.c25 > *:not(:last-child) {
+.c28 > *:not(:last-child) {
   margin-right: 0.75em;
 }
 
-.c25 > *:hover {
+.c28 > *:hover {
   color: #569CD6;
 }
 
@@ -182,7 +182,7 @@ exports[`<App/> Snapshot renders without crashing using mount 1`] = `
   margin-right: 0.5em;
 }
 
-.c12 {
+.c13 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -197,15 +197,15 @@ exports[`<App/> Snapshot renders without crashing using mount 1`] = `
   color: #1E1E1E;
 }
 
-.c12 > *:not(:last-child) {
+.c13 > *:not(:last-child) {
   padding-right: 0.25em;
 }
 
-.c12:hover {
+.c13:hover {
   background-color: #569CD6;
 }
 
-.c13 {
+.c14 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -219,15 +219,15 @@ exports[`<App/> Snapshot renders without crashing using mount 1`] = `
   color: #4EC9B0;
 }
 
-.c13 > *:not(:last-child) {
+.c14 > *:not(:last-child) {
   padding-right: 0.25em;
 }
 
-.c13:hover {
+.c14:hover {
   color: #569CD6;
 }
 
-.c16 {
+.c17 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -238,7 +238,7 @@ exports[`<App/> Snapshot renders without crashing using mount 1`] = `
   align-items: center;
 }
 
-.c17 {
+.c18 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -251,31 +251,31 @@ exports[`<App/> Snapshot renders without crashing using mount 1`] = `
   margin-right: 0.5em;
 }
 
-.c18 {
+.c19 {
   background-color: #4FC1DB;
   border-radius: 25px;
   min-width: 99%;
 }
 
-.c19 {
+.c20 {
   background-color: #4FC1DB;
   border-radius: 25px;
   min-width: 90%;
 }
 
-.c20 {
+.c21 {
   background-color: #4FC1DB;
   border-radius: 25px;
   min-width: 50%;
 }
 
-.c21 {
+.c22 {
   background-color: #4FC1DB;
   border-radius: 25px;
   min-width: 25%;
 }
 
-.c23 {
+.c24 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -290,12 +290,27 @@ exports[`<App/> Snapshot renders without crashing using mount 1`] = `
   max-width: 300px;
 }
 
-.c23 :first-child {
+.c24 :first-child {
   width: 100px;
   height: 100px;
 }
 
-.c27 {
+.c25 {
+  font-size: 1.5em;
+  font-weight: 700;
+  margin: 0.5em;
+  text-align: center;
+}
+
+.c26 {
+  font-size: 0.9em;
+  font-weight: 400;
+  margin: 0;
+  margin-bottom: 0.5em;
+  text-align: center;
+}
+
+.c30 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -330,10 +345,18 @@ exports[`<App/> Snapshot renders without crashing using mount 1`] = `
 }
 
 .c10 {
+  font-family: 'Dancing Script',cursive;
+  font-size: 4em;
+  font-weight: 400;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.c11 {
   font-size: 30px;
 }
 
-.c14 {
+.c15 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -343,7 +366,7 @@ exports[`<App/> Snapshot renders without crashing using mount 1`] = `
   flex-direction: column;
 }
 
-.c15 {
+.c16 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -357,11 +380,11 @@ exports[`<App/> Snapshot renders without crashing using mount 1`] = `
   max-width: 600px;
 }
 
-.c15 > *:not(:last-child) {
+.c16 > *:not(:last-child) {
   margin-bottom: 1em;
 }
 
-.c22 {
+.c23 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -375,11 +398,11 @@ exports[`<App/> Snapshot renders without crashing using mount 1`] = `
   flex-wrap: wrap;
 }
 
-.c22 > * {
+.c23 > * {
   padding: 0 1em 1em 1em;
 }
 
-.c24 {
+.c27 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -394,11 +417,11 @@ exports[`<App/> Snapshot renders without crashing using mount 1`] = `
   padding: 3em;
 }
 
-.c24 > :first-child {
+.c27 > :first-child {
   padding-bottom: 2em;
 }
 
-.c26 {
+.c29 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -412,7 +435,7 @@ exports[`<App/> Snapshot renders without crashing using mount 1`] = `
   align-items: center;
 }
 
-.c26 p:last-of-type {
+.c29 p:last-of-type {
   margin-bottom: 0;
 }
 
@@ -462,35 +485,35 @@ exports[`<App/> Snapshot renders without crashing using mount 1`] = `
 }
 
 @media (min-width:576px) {
-  .c17 {
+  .c18 {
     min-width: 350px;
   }
 }
 
 @media (min-width:992px) {
-  .c14 {
+  .c15 {
     padding: 0 10%;
   }
 }
 
 @media (min-width:992px) {
-  .c22 {
+  .c23 {
     margin: 0 10%;
   }
 }
 
 @media (min-width:992px) {
-  .c26 {
+  .c29 {
     -webkit-flex-direction: row;
     -ms-flex-direction: row;
     flex-direction: row;
   }
 
-  .c26 p {
+  .c29 p {
     margin: 0;
   }
 
-  .c26 p:not(:last-of-type) {
+  .c29 p:not(:last-of-type) {
     margin-right: 2em;
   }
 }
@@ -934,14 +957,18 @@ exports[`<App/> Snapshot renders without crashing using mount 1`] = `
                           className="c9"
                           id="home"
                         >
-                          <h1>
-                            Israel Deorce
-                          </h1>
+                          <styled.h1>
+                            <h1
+                              className="c10"
+                            >
+                              Israel Deorce
+                            </h1>
+                          </styled.h1>
                           <styled.p
                             className="subtitle"
                           >
                             <p
-                              className="c10 subtitle"
+                              className="c11 subtitle"
                             >
                               subtitle
                             </p>
@@ -949,7 +976,7 @@ exports[`<App/> Snapshot renders without crashing using mount 1`] = `
                           <ExternalButtons>
                             <styled.div>
                               <div
-                                className="c11"
+                                className="c12"
                               >
                                 <UIButton
                                   id="blog-button"
@@ -961,7 +988,7 @@ exports[`<App/> Snapshot renders without crashing using mount 1`] = `
                                     secondary={false}
                                   >
                                     <button
-                                      className="c12"
+                                      className="c13"
                                       onClick={[Function]}
                                     >
                                       <span>
@@ -982,7 +1009,7 @@ exports[`<App/> Snapshot renders without crashing using mount 1`] = `
                                     secondary={true}
                                   >
                                     <button
-                                      className="c13"
+                                      className="c14"
                                       onClick={[Function]}
                                     >
                                       <span>
@@ -1035,7 +1062,7 @@ exports[`<App/> Snapshot renders without crashing using mount 1`] = `
                         </h2>
                         <styled.div>
                           <div
-                            className="c14"
+                            className="c15"
                           >
                             <p>
                               desc.about_1
@@ -1056,7 +1083,7 @@ exports[`<App/> Snapshot renders without crashing using mount 1`] = `
                         </h2>
                         <styled.div>
                           <div
-                            className="c15"
+                            className="c16"
                           >
                             <ProgressIndicator
                               description="skills.software_engineering"
@@ -1064,17 +1091,17 @@ exports[`<App/> Snapshot renders without crashing using mount 1`] = `
                             >
                               <styled.div>
                                 <div
-                                  className="c16"
+                                  className="c17"
                                 >
                                   <styled.div>
                                     <div
-                                      className="c17"
+                                      className="c18"
                                     >
                                       <styled.div
                                         percentage={99}
                                       >
                                         <div
-                                          className="c18"
+                                          className="c19"
                                         />
                                       </styled.div>
                                     </div>
@@ -1091,17 +1118,17 @@ exports[`<App/> Snapshot renders without crashing using mount 1`] = `
                             >
                               <styled.div>
                                 <div
-                                  className="c16"
+                                  className="c17"
                                 >
                                   <styled.div>
                                     <div
-                                      className="c17"
+                                      className="c18"
                                     >
                                       <styled.div
                                         percentage={90}
                                       >
                                         <div
-                                          className="c19"
+                                          className="c20"
                                         />
                                       </styled.div>
                                     </div>
@@ -1118,17 +1145,17 @@ exports[`<App/> Snapshot renders without crashing using mount 1`] = `
                             >
                               <styled.div>
                                 <div
-                                  className="c16"
+                                  className="c17"
                                 >
                                   <styled.div>
                                     <div
-                                      className="c17"
+                                      className="c18"
                                     >
                                       <styled.div
                                         percentage={50}
                                       >
                                         <div
-                                          className="c20"
+                                          className="c21"
                                         />
                                       </styled.div>
                                     </div>
@@ -1145,17 +1172,17 @@ exports[`<App/> Snapshot renders without crashing using mount 1`] = `
                             >
                               <styled.div>
                                 <div
-                                  className="c16"
+                                  className="c17"
                                 >
                                   <styled.div>
                                     <div
-                                      className="c17"
+                                      className="c18"
                                     >
                                       <styled.div
                                         percentage={25}
                                       >
                                         <div
-                                          className="c21"
+                                          className="c22"
                                         />
                                       </styled.div>
                                     </div>
@@ -1172,17 +1199,17 @@ exports[`<App/> Snapshot renders without crashing using mount 1`] = `
                             >
                               <styled.div>
                                 <div
-                                  className="c16"
+                                  className="c17"
                                 >
                                   <styled.div>
                                     <div
-                                      className="c17"
+                                      className="c18"
                                     >
                                       <styled.div
                                         percentage={50}
                                       >
                                         <div
-                                          className="c20"
+                                          className="c21"
                                         />
                                       </styled.div>
                                     </div>
@@ -1199,17 +1226,17 @@ exports[`<App/> Snapshot renders without crashing using mount 1`] = `
                             >
                               <styled.div>
                                 <div
-                                  className="c16"
+                                  className="c17"
                                 >
                                   <styled.div>
                                     <div
-                                      className="c17"
+                                      className="c18"
                                     >
                                       <styled.div
                                         percentage={90}
                                       >
                                         <div
-                                          className="c19"
+                                          className="c20"
                                         />
                                       </styled.div>
                                     </div>
@@ -1233,7 +1260,7 @@ exports[`<App/> Snapshot renders without crashing using mount 1`] = `
                         </h2>
                         <styled.div>
                           <div
-                            className="c22"
+                            className="c23"
                           >
                             <Project
                               description="desc.hp"
@@ -1248,7 +1275,7 @@ exports[`<App/> Snapshot renders without crashing using mount 1`] = `
                             >
                               <styled.div>
                                 <div
-                                  className="c23"
+                                  className="c24"
                                 >
                                   <div>
                                     <SiHp
@@ -1290,12 +1317,20 @@ exports[`<App/> Snapshot renders without crashing using mount 1`] = `
                                       </IconBase>
                                     </SiHp>
                                   </div>
-                                  <h3>
-                                    HP Inc.
-                                  </h3>
-                                  <h4>
-                                    subtitle
-                                  </h4>
+                                  <styled.h3>
+                                    <h3
+                                      className="c25"
+                                    >
+                                      HP Inc.
+                                    </h3>
+                                  </styled.h3>
+                                  <styled.h4>
+                                    <h4
+                                      className="c26"
+                                    >
+                                      subtitle
+                                    </h4>
+                                  </styled.h4>
                                   <p>
                                     desc.hp
                                   </p>
@@ -1315,7 +1350,7 @@ exports[`<App/> Snapshot renders without crashing using mount 1`] = `
                             >
                               <styled.div>
                                 <div
-                                  className="c23"
+                                  className="c24"
                                 >
                                   <div>
                                     <SiDell
@@ -1357,12 +1392,20 @@ exports[`<App/> Snapshot renders without crashing using mount 1`] = `
                                       </IconBase>
                                     </SiDell>
                                   </div>
-                                  <h3>
-                                    Dell Inc.
-                                  </h3>
-                                  <h4>
-                                    subtitle
-                                  </h4>
+                                  <styled.h3>
+                                    <h3
+                                      className="c25"
+                                    >
+                                      Dell Inc.
+                                    </h3>
+                                  </styled.h3>
+                                  <styled.h4>
+                                    <h4
+                                      className="c26"
+                                    >
+                                      subtitle
+                                    </h4>
+                                  </styled.h4>
                                   <p>
                                     desc.dell
                                   </p>
@@ -1382,19 +1425,27 @@ exports[`<App/> Snapshot renders without crashing using mount 1`] = `
                             >
                               <styled.div>
                                 <div
-                                  className="c23"
+                                  className="c24"
                                 >
                                   <div>
                                     <img
                                       src="test-file-stub"
                                     />
                                   </div>
-                                  <h3>
-                                    PUCRS
-                                  </h3>
-                                  <h4>
-                                    desc.research_intern
-                                  </h4>
+                                  <styled.h3>
+                                    <h3
+                                      className="c25"
+                                    >
+                                      PUCRS
+                                    </h3>
+                                  </styled.h3>
+                                  <styled.h4>
+                                    <h4
+                                      className="c26"
+                                    >
+                                      desc.research_intern
+                                    </h4>
+                                  </styled.h4>
                                   <p>
                                     desc.intern
                                   </p>
@@ -1414,7 +1465,7 @@ exports[`<App/> Snapshot renders without crashing using mount 1`] = `
                             >
                               <styled.div>
                                 <div
-                                  className="c23"
+                                  className="c24"
                                 >
                                   <div>
                                     <GiClapperboard
@@ -1451,12 +1502,20 @@ exports[`<App/> Snapshot renders without crashing using mount 1`] = `
                                       </IconBase>
                                     </GiClapperboard>
                                   </div>
-                                  <h3>
-                                    Gina Tells
-                                  </h3>
-                                  <h4>
-                                    desc.personal_project
-                                  </h4>
+                                  <styled.h3>
+                                    <h3
+                                      className="c25"
+                                    >
+                                      Gina Tells
+                                    </h3>
+                                  </styled.h3>
+                                  <styled.h4>
+                                    <h4
+                                      className="c26"
+                                    >
+                                      desc.personal_project
+                                    </h4>
+                                  </styled.h4>
                                   <p>
                                     desc.ginatells
                                   </p>
@@ -1476,7 +1535,7 @@ exports[`<App/> Snapshot renders without crashing using mount 1`] = `
                             >
                               <styled.div>
                                 <div
-                                  className="c23"
+                                  className="c24"
                                 >
                                   <div>
                                     <GiProgression
@@ -1513,12 +1572,20 @@ exports[`<App/> Snapshot renders without crashing using mount 1`] = `
                                       </IconBase>
                                     </GiProgression>
                                   </div>
-                                  <h3>
-                                    Software KPIs
-                                  </h3>
-                                  <h4>
-                                    desc.personal_project
-                                  </h4>
+                                  <styled.h3>
+                                    <h3
+                                      className="c25"
+                                    >
+                                      Software KPIs
+                                    </h3>
+                                  </styled.h3>
+                                  <styled.h4>
+                                    <h4
+                                      className="c26"
+                                    >
+                                      desc.personal_project
+                                    </h4>
+                                  </styled.h4>
                                   <p>
                                     desc.kpis
                                   </p>
@@ -1538,19 +1605,27 @@ exports[`<App/> Snapshot renders without crashing using mount 1`] = `
                             >
                               <styled.div>
                                 <div
-                                  className="c23"
+                                  className="c24"
                                 >
                                   <div>
                                     <img
                                       src="test-file-stub"
                                     />
                                   </div>
-                                  <h3>
-                                    AGES
-                                  </h3>
-                                  <h4>
-                                    desc.nonprofit_engineer
-                                  </h4>
+                                  <styled.h3>
+                                    <h3
+                                      className="c25"
+                                    >
+                                      AGES
+                                    </h3>
+                                  </styled.h3>
+                                  <styled.h4>
+                                    <h4
+                                      className="c26"
+                                    >
+                                      desc.nonprofit_engineer
+                                    </h4>
+                                  </styled.h4>
                                   <p>
                                     desc.ages
                                   </p>
@@ -1567,12 +1642,12 @@ exports[`<App/> Snapshot renders without crashing using mount 1`] = `
                       >
                         <styled.div>
                           <div
-                            className="c24"
+                            className="c27"
                           >
                             <SocialNetworks>
                               <styled.div>
                                 <div
-                                  className="c25"
+                                  className="c28"
                                 >
                                   <a
                                     href="https://wa.me/5551980254545"
@@ -1731,7 +1806,7 @@ exports[`<App/> Snapshot renders without crashing using mount 1`] = `
                             </SocialNetworks>
                             <styled.div>
                               <div
-                                className="c26"
+                                className="c29"
                               >
                                 <p>
                                   israel.idvj@gmail.com
@@ -1749,7 +1824,7 @@ exports[`<App/> Snapshot renders without crashing using mount 1`] = `
                         <Copyright>
                           <styled.div>
                             <div
-                              className="c27"
+                              className="c30"
                             >
                               Copyright 
                               <FaRegCopyright>
@@ -1801,7 +1876,7 @@ exports[`<App/> Snapshot renders without crashing using mount 1`] = `
 `;
 
 exports[`<App/> Snapshot renders without crashing using render 1`] = `
-.c11 {
+.c12 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1817,7 +1892,7 @@ exports[`<App/> Snapshot renders without crashing using render 1`] = `
   font-size: 1.25em;
 }
 
-.c11 > * {
+.c12 > * {
   margin-bottom: 0.3em;
 }
 
@@ -1870,7 +1945,7 @@ exports[`<App/> Snapshot renders without crashing using render 1`] = `
   background-color: #252526;
   color: #D4D4C8;
   padding: 0 1.5em;
-  min-height: 56px;
+  min-height: 60px;
 }
 
 .c1 > *:not(:last-child) {
@@ -1934,7 +2009,7 @@ exports[`<App/> Snapshot renders without crashing using render 1`] = `
   margin-right: 2em;
 }
 
-.c25 {
+.c28 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1950,15 +2025,15 @@ exports[`<App/> Snapshot renders without crashing using render 1`] = `
   color: #D4D4C8;
 }
 
-.c25 > * {
+.c28 > * {
   cursor: pointer;
 }
 
-.c25 > *:not(:last-child) {
+.c28 > *:not(:last-child) {
   margin-right: 0.75em;
 }
 
-.c25 > *:hover {
+.c28 > *:hover {
   color: #569CD6;
 }
 
@@ -1982,7 +2057,7 @@ exports[`<App/> Snapshot renders without crashing using render 1`] = `
   margin-right: 0.5em;
 }
 
-.c12 {
+.c13 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1997,15 +2072,15 @@ exports[`<App/> Snapshot renders without crashing using render 1`] = `
   color: #1E1E1E;
 }
 
-.c12 > *:not(:last-child) {
+.c13 > *:not(:last-child) {
   padding-right: 0.25em;
 }
 
-.c12:hover {
+.c13:hover {
   background-color: #569CD6;
 }
 
-.c13 {
+.c14 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2019,15 +2094,15 @@ exports[`<App/> Snapshot renders without crashing using render 1`] = `
   color: #4EC9B0;
 }
 
-.c13 > *:not(:last-child) {
+.c14 > *:not(:last-child) {
   padding-right: 0.25em;
 }
 
-.c13:hover {
+.c14:hover {
   color: #569CD6;
 }
 
-.c16 {
+.c17 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2038,7 +2113,7 @@ exports[`<App/> Snapshot renders without crashing using render 1`] = `
   align-items: center;
 }
 
-.c17 {
+.c18 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2051,31 +2126,31 @@ exports[`<App/> Snapshot renders without crashing using render 1`] = `
   margin-right: 0.5em;
 }
 
-.c18 {
+.c19 {
   background-color: #4FC1DB;
   border-radius: 25px;
   min-width: 99%;
 }
 
-.c19 {
+.c20 {
   background-color: #4FC1DB;
   border-radius: 25px;
   min-width: 90%;
 }
 
-.c20 {
+.c21 {
   background-color: #4FC1DB;
   border-radius: 25px;
   min-width: 50%;
 }
 
-.c21 {
+.c22 {
   background-color: #4FC1DB;
   border-radius: 25px;
   min-width: 25%;
 }
 
-.c23 {
+.c24 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2090,12 +2165,27 @@ exports[`<App/> Snapshot renders without crashing using render 1`] = `
   max-width: 300px;
 }
 
-.c23 :first-child {
+.c24 :first-child {
   width: 100px;
   height: 100px;
 }
 
-.c27 {
+.c25 {
+  font-size: 1.5em;
+  font-weight: 700;
+  margin: 0.5em;
+  text-align: center;
+}
+
+.c26 {
+  font-size: 0.9em;
+  font-weight: 400;
+  margin: 0;
+  margin-bottom: 0.5em;
+  text-align: center;
+}
+
+.c30 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2130,10 +2220,18 @@ exports[`<App/> Snapshot renders without crashing using render 1`] = `
 }
 
 .c10 {
+  font-family: 'Dancing Script',cursive;
+  font-size: 4em;
+  font-weight: 400;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.c11 {
   font-size: 30px;
 }
 
-.c14 {
+.c15 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2143,7 +2241,7 @@ exports[`<App/> Snapshot renders without crashing using render 1`] = `
   flex-direction: column;
 }
 
-.c15 {
+.c16 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2157,11 +2255,11 @@ exports[`<App/> Snapshot renders without crashing using render 1`] = `
   max-width: 600px;
 }
 
-.c15 > *:not(:last-child) {
+.c16 > *:not(:last-child) {
   margin-bottom: 1em;
 }
 
-.c22 {
+.c23 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2175,11 +2273,11 @@ exports[`<App/> Snapshot renders without crashing using render 1`] = `
   flex-wrap: wrap;
 }
 
-.c22 > * {
+.c23 > * {
   padding: 0 1em 1em 1em;
 }
 
-.c24 {
+.c27 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2194,11 +2292,11 @@ exports[`<App/> Snapshot renders without crashing using render 1`] = `
   padding: 3em;
 }
 
-.c24 > :first-child {
+.c27 > :first-child {
   padding-bottom: 2em;
 }
 
-.c26 {
+.c29 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2212,7 +2310,7 @@ exports[`<App/> Snapshot renders without crashing using render 1`] = `
   align-items: center;
 }
 
-.c26 p:last-of-type {
+.c29 p:last-of-type {
   margin-bottom: 0;
 }
 
@@ -2262,35 +2360,35 @@ exports[`<App/> Snapshot renders without crashing using render 1`] = `
 }
 
 @media (min-width:576px) {
-  .c17 {
+  .c18 {
     min-width: 350px;
   }
 }
 
 @media (min-width:992px) {
-  .c14 {
+  .c15 {
     padding: 0 10%;
   }
 }
 
 @media (min-width:992px) {
-  .c22 {
+  .c23 {
     margin: 0 10%;
   }
 }
 
 @media (min-width:992px) {
-  .c26 {
+  .c29 {
     -webkit-flex-direction: row;
     -ms-flex-direction: row;
     flex-direction: row;
   }
 
-  .c26 p {
+  .c29 p {
     margin: 0;
   }
 
-  .c26 p:not(:last-of-type) {
+  .c29 p:not(:last-of-type) {
     margin-right: 2em;
   }
 }
@@ -2458,26 +2556,28 @@ exports[`<App/> Snapshot renders without crashing using render 1`] = `
       class="c9"
       id="home"
     >
-      <h1>
+      <h1
+        class="c10"
+      >
         Israel Deorce
       </h1>
       <p
-        class="c10 subtitle"
+        class="c11 subtitle"
       >
         subtitle
       </p>
       <div
-        class="c11"
+        class="c12"
       >
         <button
-          class="c12"
+          class="c13"
         >
           <span>
             button.visit_my_blog
           </span>
         </button>
         <button
-          class="c13"
+          class="c14"
         >
           <span>
             button.resume
@@ -2505,7 +2605,7 @@ exports[`<App/> Snapshot renders without crashing using render 1`] = `
         button.about_me
       </h2>
       <div
-        class="c14"
+        class="c15"
       >
         <p>
           desc.about_1
@@ -2522,16 +2622,16 @@ exports[`<App/> Snapshot renders without crashing using render 1`] = `
         button.skills
       </h2>
       <div
-        class="c15"
+        class="c16"
       >
         <div
-          class="c16"
+          class="c17"
         >
           <div
-            class="c17"
+            class="c18"
           >
             <div
-              class="c18"
+              class="c19"
             />
           </div>
           <div>
@@ -2539,13 +2639,13 @@ exports[`<App/> Snapshot renders without crashing using render 1`] = `
           </div>
         </div>
         <div
-          class="c16"
+          class="c17"
         >
           <div
-            class="c17"
+            class="c18"
           >
             <div
-              class="c19"
+              class="c20"
             />
           </div>
           <div>
@@ -2553,13 +2653,13 @@ exports[`<App/> Snapshot renders without crashing using render 1`] = `
           </div>
         </div>
         <div
-          class="c16"
+          class="c17"
         >
           <div
-            class="c17"
+            class="c18"
           >
             <div
-              class="c20"
+              class="c21"
             />
           </div>
           <div>
@@ -2567,13 +2667,13 @@ exports[`<App/> Snapshot renders without crashing using render 1`] = `
           </div>
         </div>
         <div
-          class="c16"
+          class="c17"
         >
           <div
-            class="c17"
+            class="c18"
           >
             <div
-              class="c21"
+              class="c22"
             />
           </div>
           <div>
@@ -2581,13 +2681,13 @@ exports[`<App/> Snapshot renders without crashing using render 1`] = `
           </div>
         </div>
         <div
-          class="c16"
+          class="c17"
         >
           <div
-            class="c17"
+            class="c18"
           >
             <div
-              class="c20"
+              class="c21"
             />
           </div>
           <div>
@@ -2595,13 +2695,13 @@ exports[`<App/> Snapshot renders without crashing using render 1`] = `
           </div>
         </div>
         <div
-          class="c16"
+          class="c17"
         >
           <div
-            class="c17"
+            class="c18"
           >
             <div
-              class="c19"
+              class="c20"
             />
           </div>
           <div>
@@ -2617,10 +2717,10 @@ exports[`<App/> Snapshot renders without crashing using render 1`] = `
         button.experience
       </h2>
       <div
-        class="c22"
+        class="c23"
       >
         <div
-          class="c23"
+          class="c24"
         >
           <div>
             <svg
@@ -2641,10 +2741,14 @@ exports[`<App/> Snapshot renders without crashing using render 1`] = `
               />
             </svg>
           </div>
-          <h3>
+          <h3
+            class="c25"
+          >
             HP Inc.
           </h3>
-          <h4>
+          <h4
+            class="c26"
+          >
             subtitle
           </h4>
           <p>
@@ -2652,7 +2756,7 @@ exports[`<App/> Snapshot renders without crashing using render 1`] = `
           </p>
         </div>
         <div
-          class="c23"
+          class="c24"
         >
           <div>
             <svg
@@ -2673,10 +2777,14 @@ exports[`<App/> Snapshot renders without crashing using render 1`] = `
               />
             </svg>
           </div>
-          <h3>
+          <h3
+            class="c25"
+          >
             Dell Inc.
           </h3>
-          <h4>
+          <h4
+            class="c26"
+          >
             subtitle
           </h4>
           <p>
@@ -2684,17 +2792,21 @@ exports[`<App/> Snapshot renders without crashing using render 1`] = `
           </p>
         </div>
         <div
-          class="c23"
+          class="c24"
         >
           <div>
             <img
               src="test-file-stub"
             />
           </div>
-          <h3>
+          <h3
+            class="c25"
+          >
             PUCRS
           </h3>
-          <h4>
+          <h4
+            class="c26"
+          >
             desc.research_intern
           </h4>
           <p>
@@ -2702,7 +2814,7 @@ exports[`<App/> Snapshot renders without crashing using render 1`] = `
           </p>
         </div>
         <div
-          class="c23"
+          class="c24"
         >
           <div>
             <svg
@@ -2721,10 +2833,14 @@ exports[`<App/> Snapshot renders without crashing using render 1`] = `
               />
             </svg>
           </div>
-          <h3>
+          <h3
+            class="c25"
+          >
             Gina Tells
           </h3>
-          <h4>
+          <h4
+            class="c26"
+          >
             desc.personal_project
           </h4>
           <p>
@@ -2732,7 +2848,7 @@ exports[`<App/> Snapshot renders without crashing using render 1`] = `
           </p>
         </div>
         <div
-          class="c23"
+          class="c24"
         >
           <div>
             <svg
@@ -2751,10 +2867,14 @@ exports[`<App/> Snapshot renders without crashing using render 1`] = `
               />
             </svg>
           </div>
-          <h3>
+          <h3
+            class="c25"
+          >
             Software KPIs
           </h3>
-          <h4>
+          <h4
+            class="c26"
+          >
             desc.personal_project
           </h4>
           <p>
@@ -2762,17 +2882,21 @@ exports[`<App/> Snapshot renders without crashing using render 1`] = `
           </p>
         </div>
         <div
-          class="c23"
+          class="c24"
         >
           <div>
             <img
               src="test-file-stub"
             />
           </div>
-          <h3>
+          <h3
+            class="c25"
+          >
             AGES
           </h3>
-          <h4>
+          <h4
+            class="c26"
+          >
             desc.nonprofit_engineer
           </h4>
           <p>
@@ -2785,10 +2909,10 @@ exports[`<App/> Snapshot renders without crashing using render 1`] = `
       id="contact"
     >
       <div
-        class="c24"
+        class="c27"
       >
         <div
-          class="c25"
+          class="c28"
         >
           <a
             href="https://wa.me/5551980254545"
@@ -2868,7 +2992,7 @@ exports[`<App/> Snapshot renders without crashing using render 1`] = `
           </a>
         </div>
         <div
-          class="c26"
+          class="c29"
         >
           <p>
             israel.idvj@gmail.com
@@ -2882,7 +3006,7 @@ exports[`<App/> Snapshot renders without crashing using render 1`] = `
         </div>
       </div>
       <div
-        class="c27"
+        class="c30"
       >
         Copyright 
         <svg

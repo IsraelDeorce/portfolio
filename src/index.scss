@@ -22,42 +22,6 @@ $lg: 992px;
 $xl: 1200px;
 $xxl: 1400px;
 
-/* Dark Theme */
-$dark-background: #1E1E1E;
-$dark-menu: #252526;
-$dark-tab: #3C3C3C;
-$dark-string: #CE9078;
-$dark-function: #DCDCAA;
-$dark-varType: #569CD6;
-$dark-varDeclaration: #4FC1DB;
-$dark-varProperty: #9CDCFE;
-$dark-brackets: #D4D4C8;
-$dark-component: #4EC9B0;
-$dark-number: #A7CEA8;
-$dark-importExport: #C586C0;
-
-/* Light Theme */
-$light-background: #FFFFFF;
-$light-menu: #F3F3F3;
-$light-tab: #DDDDDD;
-$light-string: #A31515;
-$light-function: #795D26;
-$light-varType: #0000E1;
-$light-varDeclaration: #0071C1;
-$light-varProperty: #000F80;
-$light-brackets: #000000;
-$light-component: #267F5A;
-$light-number: #098658;
-$light-importExport: #AF00DB;
-
-h1 {
-  font-family: 'Dancing Script', cursive;
-  font-size: 4em;
-  font-weight: 700;
-  margin: 0;
-  margin-bottom: 20px;
-}
-
 h2 {
   font-size: 2.5em;
   font-weight: 700;
@@ -66,23 +30,8 @@ h2 {
   text-align: center;
 }
 
-h3 {
-  font-size: 1.5em;
-  font-weight: 700;
-  margin: 0.5em;
-  text-align: center;
-}
-
-h4 {
-  font-size: 0.9em;
-  font-weight: 400;
-  margin: 0;
-  margin-bottom: 0.5em;
-  text-align: center;
-}
-
 section {
-  padding: 3em 2em;
+  padding: 4em 2em 3em 2em;
 }
 
 p {
