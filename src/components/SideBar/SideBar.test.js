@@ -73,13 +73,5 @@ describe('<SideBar/>', () => {
     it('renders without crashing using shallow', () => {
       expect(shallow(<SideBar />)).toMatchSnapshot()
     })
-
-    it('renders without crashing using render', () => {
-      expect(render(<Router><SideBar /></Router>)).toMatchSnapshot()
-    })
-
-    it('renders without crashing using mount', () => {
-      expect(mount(<Router><SideBar /></Router>)).toMatchSnapshot()
-    })
   })
 })

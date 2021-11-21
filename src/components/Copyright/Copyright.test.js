@@ -7,13 +7,5 @@ describe('<Copyright/>', () => {
     it('renders without crashing using shallow', () => {
       expect(shallow(<Copyright />)).toMatchSnapshot()
     })
-
-    it('renders without crashing using render', () => {
-      expect(render(<Copyright />)).toMatchSnapshot()
-    })
-
-    it('renders without crashing using mount', () => {
-      expect(mount(<Copyright />)).toMatchSnapshot()
-    })
   })
 })

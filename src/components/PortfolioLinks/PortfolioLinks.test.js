@@ -43,13 +43,5 @@ describe('<PortfolioLinks/>', () => {
     it('renders without crashing using shallow', () => {
       expect(shallow(<PortfolioLinks />)).toMatchSnapshot()
     })
-
-    it('renders without crashing using render', () => {
-      expect(render(<Router><PortfolioLinks /></Router>)).toMatchSnapshot()
-    })
-
-    it('renders without crashing using mount', () => {
-      expect(mount(<Router><PortfolioLinks /></Router>)).toMatchSnapshot()
-    })
   })
 })

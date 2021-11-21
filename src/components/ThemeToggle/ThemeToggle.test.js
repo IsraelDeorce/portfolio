@@ -25,13 +25,5 @@ describe('<ThemeToggle/>', () => {
     it('renders without crashing using shallow', () => {
       expect(shallow(<ThemeToggle />)).toMatchSnapshot()
     })
-
-    it('renders without crashing using render', () => {
-      expect(render(<Router><ThemeToggle /></Router>)).toMatchSnapshot()
-    })
-
-    it('renders without crashing using mount', () => {
-      expect(mount(<Router><ThemeToggle /></Router>)).toMatchSnapshot()
-    })
   })
 })

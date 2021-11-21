@@ -18,13 +18,5 @@ describe('<NavBar/>', () => {
     it('renders without crashing using shallow', () => {
       expect(shallow(<NavBar />)).toMatchSnapshot()
     })
-
-    it('renders without crashing using render', () => {
-      expect(render(<Router><NavBar /></Router>)).toMatchSnapshot()
-    })
-
-    it('renders without crashing using mount', () => {
-      expect(mount(<Router><NavBar /></Router>)).toMatchSnapshot()
-    })
   })
 })
