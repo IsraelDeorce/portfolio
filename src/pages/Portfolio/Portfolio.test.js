@@ -1,4 +1,3 @@
-import { HashRouter as Router } from 'react-router-dom'
 import Portfolio from './Portfolio'
 
 describe('<Portfolio/>', () => {

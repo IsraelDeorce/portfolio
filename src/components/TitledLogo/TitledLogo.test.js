@@ -1,4 +1,3 @@
-import { HashRouter as Router } from 'react-router-dom'
 import TitledLogo from './TitledLogo'
 import { TEXT } from '../../utils/constants'
 
