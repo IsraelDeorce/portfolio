@@ -9,7 +9,7 @@ exports[`<Blog/> Snapshot renders without crashing using shallow 1`] = `
     label="Go Back"
     onClick={[Function]}
   />
-  <Blog
+  <Article
     md="test-file-stub"
   />
 </styled.div>

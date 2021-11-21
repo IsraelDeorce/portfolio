@@ -1,6 +1,6 @@
 import Markdown from 'markdown-to-jsx'
 
-function Blog({ md }) {
+function Article({ md }) {
   return (
     <Markdown>
       {md}
@@ -8,4 +8,4 @@ function Blog({ md }) {
   )
 }
 
-export default Blog
+export default Article

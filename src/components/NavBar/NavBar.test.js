@@ -1,5 +1,4 @@
 import { useDispatch } from 'react-redux'
-import { HashRouter as Router } from 'react-router-dom'
 import NavBar from './NavBar'
 import * as S from './styles'
 

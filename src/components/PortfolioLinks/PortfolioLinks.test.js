@@ -1,5 +1,4 @@
 import { t } from 'react-i18next'
-import { HashRouter as Router } from 'react-router-dom'
 import PortfolioLinks from './PortfolioLinks'
 import * as S from './styles' 
 

@@ -1,5 +1,4 @@
 import { useDispatch } from 'react-redux'
-import { HashRouter as Router } from 'react-router-dom'
 import { FaMoon, FaSun } from 'react-icons/fa'
 import ThemeToggle from './ThemeToggle'
 
