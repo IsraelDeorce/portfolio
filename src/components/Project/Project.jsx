@@ -4,8 +4,8 @@ function Project({ image, title, subtitle, description }) {
   return (
     <S.Project>
       <div>{image}</div>
-      {title && <h3>{title}</h3>}
-      {subtitle && <h4>{subtitle}</h4>}
+      {title && <S.Title>{title}</S.Title>}
+      {subtitle && <S.Subtitle>{subtitle}</S.Subtitle>}
       {description && <p>{description}</p>}
     </S.Project>
   )

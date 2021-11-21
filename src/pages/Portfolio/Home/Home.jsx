@@ -8,7 +8,7 @@ function Home() {
 
   return (
     <S.Home id='home'>
-      <h1>{TEXT.MYNAME}</h1>
+      <S.Title>{TEXT.MYNAME}</S.Title>
       <S.Subtitle className='subtitle'>{t('subtitle')}</S.Subtitle>
       <ExternalButtons />
     </S.Home>

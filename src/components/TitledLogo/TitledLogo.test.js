@@ -25,13 +25,5 @@ describe('<TitledLogo/>', () => {
     it('renders without crashing using shallow', () => {
       expect(shallow(<TitledLogo />)).toMatchSnapshot()
     })
-
-    it('renders without crashing using render', () => {
-      expect(render(<Router><TitledLogo /></Router>)).toMatchSnapshot()
-    })
-
-    it('renders without crashing using mount', () => {
-      expect(mount(<Router><TitledLogo /></Router>)).toMatchSnapshot()
-    })
   })
 })

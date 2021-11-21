@@ -27,6 +27,7 @@ const rules = [
   { test: /\.s[ac]ss$/i, use: ['style-loader', 'css-loader', 'sass-loader'] }, // Allows use of SASS
   { test: /\.(png|svg|jpg|jpeg|gif)$/i, type: 'asset/resource' }, // Allows use of images
   { test: /\.js$/, enforce: 'pre', use: ['source-map-loader'] }, // Extracts source maps. 3rd-party libraries having their own source maps.
+  { test: /\.md$/i, use: [{ loader: 'html-loader' }, { loader: 'remark-loader'}] } // Alow use of markdown
 ]
 
 const devServer = {

@@ -28,13 +28,5 @@ describe('<ProgressIndicator/>', () => {
     it('renders without crashing using shallow', () => {
       expect(shallow(<ProgressIndicator />)).toMatchSnapshot()
     })
-
-    it('renders without crashing using render', () => {
-      expect(render(<ProgressIndicator />)).toMatchSnapshot()
-    })
-
-    it('renders without crashing using mount', () => {
-      expect(mount(<ProgressIndicator />)).toMatchSnapshot()
-    })
   })
 })

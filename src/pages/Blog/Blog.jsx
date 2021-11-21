@@ -1,16 +1,16 @@
-import { useHistory } from 'react-router-dom'
-import { UIButton } from '../../components'
-import { FcClock } from 'react-icons/fc'
+import { useNavigate } from 'react-router-dom'
+import { Article, UIButton } from '../../components'
+import BigO from '../../assets/markdown/BigO.md'
 import * as S from './styles'
 
 function Blog() {
-  const history = useHistory()
+  const navigate = useNavigate()
 
   return (
     <S.Blog>
       <h1>COMING SOON...</h1>
-      <UIButton label='Go Back' onClick={history.goBack} />
-      <FcClock size='46'/>
+      <UIButton label='Go Back' onClick={() => navigate(-1)} />
+      <Article md={BigO} />
     </S.Blog>
   )
 }

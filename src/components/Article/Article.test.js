@@ -1,11 +1,11 @@
-import Contact from './Contact'
+import Article from './Article'
 
-describe('<Contact/>', () => {
+describe('<Article/>', () => {
   afterEach(() => jest.clearAllMocks())
 
   describe('Snapshot', () => {
     it('renders without crashing using shallow', () => {
-      expect(shallow(<Contact />)).toMatchSnapshot()
+      expect(shallow(<Article />)).toMatchSnapshot()
     })
   })
 })

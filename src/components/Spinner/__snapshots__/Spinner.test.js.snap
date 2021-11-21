@@ -1,19 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<Spinner/> Snapshot renders without crashing using mount 1`] = `
-<Spinner>
-  <div>
-    Loading...
-  </div>
-</Spinner>
-`;
-
-exports[`<Spinner/> Snapshot renders without crashing using render 1`] = `
-<div>
-  Loading...
-</div>
-`;
-
 exports[`<Spinner/> Snapshot renders without crashing using shallow 1`] = `
 <div>
   Loading...
