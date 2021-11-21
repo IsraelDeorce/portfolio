@@ -1,6 +1,6 @@
 import { useNavigate } from 'react-router-dom'
-import Markdown from 'markdown-to-jsx'
-import { UIButton } from '../../components' 
+import { Article, UIButton } from '../../components'
+import BigO from '../../assets/markdown/BigO.md'
 import * as S from './styles'
 
 function Blog() {
@@ -10,9 +10,7 @@ function Blog() {
     <S.Blog>
       <h1>COMING SOON...</h1>
       <UIButton label='Go Back' onClick={() => navigate(-1)} />
-      <Markdown>
-        # Hello world!
-      </Markdown>
+      <Article md={BigO} />
     </S.Blog>
   )
 }
