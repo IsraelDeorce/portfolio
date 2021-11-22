@@ -9,7 +9,7 @@ export const Background = styled.div`
   top:0px;
   left:0px;
 `
-export const SideBar = styled.div`
+export const PortfolioSidebar = styled.div`
   position: fixed;
   top: 0;
   left: 0;

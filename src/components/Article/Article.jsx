@@ -2,7 +2,7 @@ import Markdown from 'markdown-to-jsx'
 
 function Article({ md }) {
   return (
-    <Markdown>
+    <Markdown style={{ padding: '1em' }} >
       {md}
     </Markdown>
   )

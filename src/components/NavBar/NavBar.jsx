@@ -1,31 +1,32 @@
-import { useDispatch } from 'react-redux'
-import { MdMenu } from 'react-icons/md'
-import {
-  TitledLogo,
-  PortfolioLinks,
-  ThemeToggle,
-  LanguageSelector
-} from '../'
-import * as S from './styles'
+import { useState, useEffect } from 'react'
+import { useLocation } from 'react-router-dom'
+import PortfolioHeader from './PortfolioHeader/PortfolioHeader'
+import PortfolioSidebar from './PortfolioSidebar/PortfolioSidebar'
+import BlogHeader from './BlogHeader/BlogHeader'
+import BlogSidebar from './BlogSidebar/BlogSidebar'
 
-function NavBar() {
-  const dispatch = useDispatch()
+function Navbar() {
+  const location = useLocation()
+  const [isBlogPage, setIsBlogPage] = useState(false)
 
-  const openSideBar = () => dispatch.session.update({ isSideBarOpen: true })
+  useEffect(() => {
+    location.pathname.includes('blog') ? setIsBlogPage(true) : setIsBlogPage(false)
+  }, [location.pathname])
 
+  if (isBlogPage) {
+    return (
+      <>
+        <BlogHeader />
+        <BlogSidebar />
+      </>
+    )
+  }
   return (
-    <S.NavBar>
-      <S.Hamburguer onClick={openSideBar}>
-        <MdMenu size='32' />
-      </S.Hamburguer>
-      <TitledLogo/>
-      <S.Menu>
-        <PortfolioLinks />
-        <ThemeToggle />
-        <LanguageSelector />
-      </S.Menu>
-    </S.NavBar>
+    <>
+      <PortfolioHeader />
+      <PortfolioSidebar />
+    </>
   )
 }
 
-export default NavBar
+export default Navbar

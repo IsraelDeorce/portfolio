@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<SideBar/> Snapshot renders without crashing using shallow 1`] = `
+exports[`<PortfolioSidebar/> Snapshot renders without crashing using shallow 1`] = `
 <Fragment>
   <styled.div
     onClick={[Function]}

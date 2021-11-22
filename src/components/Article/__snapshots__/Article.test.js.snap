@@ -1,3 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<Article/> Snapshot renders without crashing using shallow 1`] = `<Te />`;
+exports[`<Article/> Snapshot renders without crashing using shallow 1`] = `
+<Te
+  style={
+    Object {
+      "padding": "1em",
+    }
+  }
+/>
+`;

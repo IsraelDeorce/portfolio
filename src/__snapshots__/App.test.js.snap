@@ -3,6 +3,7 @@
 exports[`<App/> Snapshot renders without crashing using shallow 1`] = `
 <HashRouter
   basename="/"
+  hashType="noslash"
 >
   <Component
     theme={
@@ -25,16 +26,23 @@ exports[`<App/> Snapshot renders without crashing using shallow 1`] = `
     <styled.div
       id="app"
     >
+      <Navbar />
       <Routes>
         <Route
           element={<Portfolio />}
-          exact={true}
           path="/"
         />
         <Route
           element={<Blog />}
-          exact={true}
-          path="/blog"
+          path="blog"
+        />
+        <Route
+          element={<div />}
+          path="blog/big-o"
+        />
+        <Route
+          element={<div />}
+          path="blog/data-structures"
         />
         <Route
           element={<Error />}

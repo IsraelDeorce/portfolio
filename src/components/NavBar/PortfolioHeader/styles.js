@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const NavBar = styled.nav`
+export const PortfolioHeader = styled.nav`
   position: fixed;
   top: 0;
   left: 0;
