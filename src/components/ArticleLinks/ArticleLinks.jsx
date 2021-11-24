@@ -4,7 +4,8 @@ import * as S from './styles'
 function ArticleLinks() {
   return (
     <S.ArticleLinks>
-      <Link to='big-o'>big-o</Link>
+      <Link to='/blog/big-o'><p>Big O</p></Link>
+      <Link to='/blog/data-structures'><p>Data Structures</p></Link>
     </S.ArticleLinks>
   )
 }
