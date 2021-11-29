@@ -7,9 +7,13 @@ exports[`<PortfolioSidebar/> Snapshot renders without crashing using shallow 1`]
   />
   <styled.div>
     <styled.div>
-      <TitledLogo
-        onClick={[Function]}
-      />
+      <HashLink
+        to="#home"
+      >
+        <TitledLogo
+          onClick={[Function]}
+        />
+      </HashLink>
       <styled.div>
         <ThemeToggle />
         <LanguageSelector />

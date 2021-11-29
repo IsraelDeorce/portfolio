@@ -1,11 +1,7 @@
 import { useDispatch } from 'react-redux'
 import { MdMenu } from 'react-icons/md'
-import {
-  TitledLogo,
-  PortfolioLinks,
-  ThemeToggle,
-  LanguageSelector
-} from '../../'
+import { HashLink } from 'react-router-hash-link'
+import { TitledLogo, PortfolioLinks, ThemeToggle, LanguageSelector } from '../../'
 import * as S from './styles'
 
 function PortfolioHeader() {
@@ -18,7 +14,9 @@ function PortfolioHeader() {
       <S.Hamburguer onClick={openPortfolioSidebar}>
         <MdMenu size='32' />
       </S.Hamburguer>
-      <TitledLogo/>
+      <HashLink to='#home'>
+        <TitledLogo/>
+      </HashLink>
       <S.Menu>
         <PortfolioLinks />
         <ThemeToggle />

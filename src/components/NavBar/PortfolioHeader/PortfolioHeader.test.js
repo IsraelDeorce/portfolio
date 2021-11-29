@@ -13,6 +13,10 @@ describe('<PortfolioHeader/>', () => {
     expect(dispatch.session.update).toHaveBeenCalledWith({ isPortfolioSidebarOpen: true })
   })
 
+  it('renders the titled logo as a link that redirects to the home section', () => {
+    expect(shallow(<PortfolioSidebar />).find('HashLink').prop('to')).toBe('#home')
+  })
+
   describe('Snapshot', () => {
     it('renders without crashing using shallow', () => {
       expect(shallow(<PortfolioHeader />)).toMatchSnapshot()

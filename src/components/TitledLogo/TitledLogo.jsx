@@ -1,7 +1,6 @@
 import { GiDirewolf } from 'react-icons/gi'
 import PropTypes from 'prop-types'
 import { TEXT } from '../../utils/constants'
-import { HashLink } from 'react-router-hash-link'
 import * as S from './styles'
 
 const propTypes = {
@@ -10,12 +9,10 @@ const propTypes = {
 
 function TitledLogo({ onClick }) {
   return (
-    <HashLink onClick={onClick} to='#home'>
-      <S.TitledLogo>
-        {<GiDirewolf size='32' />}
-        <strong>{TEXT.MYNAME}</strong>
-      </S.TitledLogo>
-    </HashLink >
+    <S.TitledLogo onClick={onClick}>
+      {<GiDirewolf size='32' />}
+      <strong>{TEXT.MYNAME}</strong>
+    </S.TitledLogo>
   )
 }
 

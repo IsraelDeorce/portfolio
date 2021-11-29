@@ -21,6 +21,10 @@ describe('<PortfolioSidebar/>', () => {
     expect(dispatch.session.update).toHaveBeenCalledWith({ isPortfolioSidebarOpen: false })
   })
 
+  it('renders the titled logo as a link that redirects to the home section', () => {
+    expect(shallow(<PortfolioSidebar />).find('HashLink').prop('to')).toBe('#home')
+  })
+
   it('closes the PortfolioSidebar when the user clicks on the titled logo', () => {
     shallow(<PortfolioSidebar />).find('TitledLogo').simulate('click')
     expect(dispatch.session.update).toHaveBeenCalledTimes(1)

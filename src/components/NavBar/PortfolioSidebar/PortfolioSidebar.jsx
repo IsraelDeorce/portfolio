@@ -1,5 +1,6 @@
 import { useEffect } from 'react'
 import { useSelector, useDispatch } from 'react-redux'
+import { HashLink } from 'react-router-hash-link'
 import 'react-toggle/style.css'
 import { useWindowSize } from '../../../utils/hooks'
 import {
@@ -35,15 +36,17 @@ function PortfolioSidebar() {
       <S.Background onClick={closePortfolioSidebar} />
       <S.PortfolioSidebar>
         <S.Header>
-          <TitledLogo onClick={closePortfolioSidebar} />
+          <HashLink to='#home'>
+            <TitledLogo onClick={closePortfolioSidebar} />
+          </HashLink>
           <S.Preferences>
             <ThemeToggle />
             <LanguageSelector />
           </S.Preferences>
         </S.Header>
         <PortfolioLinks orientation='vertical' onClick={closePortfolioSidebar} />
-        <ExternalButtons/>
-        <SocialNetworks/>
+        <ExternalButtons />
+        <SocialNetworks />
       </S.PortfolioSidebar>
     </>
   )

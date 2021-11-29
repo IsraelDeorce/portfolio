@@ -9,7 +9,11 @@ exports[`<PortfolioHeader/> Snapshot renders without crashing using shallow 1`] 
       size="32"
     />
   </styled.span>
-  <TitledLogo />
+  <HashLink
+    to="#home"
+  >
+    <TitledLogo />
+  </HashLink>
   <styled.div>
     <PortfolioLinks />
     <ThemeToggle />
