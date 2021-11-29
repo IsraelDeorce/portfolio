@@ -4,7 +4,8 @@ const session = {
   state: {
     language: i18n.language,
     theme: 'dark',
-    isPortfolioSidebarOpen: false
+    isPortfolioSidebarOpen: false,
+    isBlogSidebarOpen: false
   },
   reducers: {
     update (state, payload) {

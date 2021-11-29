@@ -1,12 +1,45 @@
 import styled from 'styled-components'
 
-export const PortfolioSidebar = styled.div`
+export const Background = styled.div`
+  opacity: 0.7;
+  background-color: ${({ theme }) => theme.c_background};
+  position:fixed;
+  width:100%;
+  height:100%;
+  top:0px;
+  left:0px;
+  @media (min-width: 992px) {
+    display: none;
+  }
+`
+
+export const BlogSidebar = styled.div`
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
   display: flex;
   flex-direction: column;
   background-color: ${({ theme }) => theme.c_menu};
-  padding: 0 2em;
+  height: 100vh;
+  width: 65vw;
+  z-index: 2;
+  box-shadow: 0 5px 30px ${({ theme }) => theme.c_tab};
+  padding: 0 1em 1em 1em;
   & > * {
     width: 100%;
+  }
+  & > :last-child {
+    align-self: center;
+  }
+  @media (min-width: 992px) {
+    position: static;
+    top: auto;
+    left: auto;
+    right: auto;
+    height: auto;
+    width: auto;
+    box-shadow: none;
   }
 `
 
