@@ -33,15 +33,27 @@ exports[`<App/> Snapshot renders without crashing using shallow 1`] = `
           path="/"
         />
         <Route
-          element={<Blog />}
+          element={
+            <Article
+              md="test-file-stub"
+            />
+          }
           path="blog"
         />
         <Route
-          element={<div />}
+          element={
+            <Article
+              md="test-file-stub"
+            />
+          }
           path="blog/big-o"
         />
         <Route
-          element={<div />}
+          element={
+            <p>
+              UNDER CONSTRUCTION!
+            </p>
+          }
           path="blog/data-structures"
         />
         <Route

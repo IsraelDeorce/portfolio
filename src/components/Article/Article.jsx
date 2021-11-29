@@ -1,8 +1,9 @@
 import Markdown from 'markdown-to-jsx'
+import './Article.scss'
 
 function Article({ md }) {
   return (
-    <Markdown style={{ padding: '1em' }} >
+    <Markdown className='markdown' >
       {md}
     </Markdown>
   )

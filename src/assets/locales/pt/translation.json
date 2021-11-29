@@ -2,6 +2,11 @@
   "subtitle": "Engenheiro de Software",
   "copyright": "2021 Israel Deorce - Todos os direitos reservados",
   "br": "Brasil",
+  "articles": {
+    "big_o": "Big O",
+    "data_structures": "Estruturas de Dados",
+    "algorithms": "Algoritmos"
+  },
   "button": {
     "about": "Sobre",
     "about_me": "Sobre mim",
@@ -9,6 +14,7 @@
     "experience": "Experiência",
     "contact": "Contato",
     "visit_my_blog": "Visite meu Blog",
+    "visit_my_portfolio": "Visite meu Portfólio",
     "resume": "Currículo"
   },
   "desc": {

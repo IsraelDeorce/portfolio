@@ -1,0 +1,9 @@
+.markdown {
+  padding: 3em 1em 1em 1em;
+}
+
+@media (min-width: 992px) {
+  .markdown {
+    padding: 0.5em 1em;
+  }
+}

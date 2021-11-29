@@ -3,6 +3,7 @@ import styled, { css } from 'styled-components'
 export const UIButton = styled.button`
   display: flex;
   justify-content: center;
+  width: fit-content;
   padding: .75rem 1.25rem;
   cursor: pointer;
   > *:not(:last-child) {
