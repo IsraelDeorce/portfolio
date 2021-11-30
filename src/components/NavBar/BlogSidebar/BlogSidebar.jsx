@@ -3,7 +3,7 @@ import { useSelector, useDispatch } from 'react-redux'
 import { Link } from 'react-router-dom'
 import 'react-toggle/style.css'
 import { useWindowSize } from '../../../utils/hooks'
-import { TitledLogo, ThemeToggle, LanguageSelector, ArticleLinks, UIButton } from '../../'
+import { TitledLogo, ThemeToggle, LanguageSelector, ArticleLinks } from '../../'
 import * as S from './styles'
 
 function BlogSidebar() {

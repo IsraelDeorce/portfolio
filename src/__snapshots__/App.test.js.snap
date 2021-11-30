@@ -3,7 +3,6 @@
 exports[`<App/> Snapshot renders without crashing using shallow 1`] = `
 <HashRouter
   basename="/"
-  hashType="noslash"
 >
   <Component
     theme={

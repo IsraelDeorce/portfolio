@@ -21,7 +21,7 @@ describe('<BlogSidebar/>', () => {
     expect(shallowed.isEmptyRender()).toBe(true)
   })
 
-  it.only('closes the BlogSidebar when the user clicks on the background', () => {
+  it('closes the BlogSidebar when the user clicks on the background', () => {
     shallow(<BlogSidebar />).find(S.Background).simulate('click')
     expect(dispatch.session.update).toHaveBeenCalledTimes(1)
     expect(dispatch.session.update).toHaveBeenCalledWith({ isBlogSidebarOpen: false })
@@ -39,35 +39,37 @@ describe('<BlogSidebar/>', () => {
     expect(dispatch.session.update).toHaveBeenCalledWith({ isBlogSidebarOpen: false })
   })
 
-  it('closes the BlogSidebar when the screen width is 992 pixels wide', () => {
+  it('closes the BlogSidebar when it was open and the screen width is 992 pixels wide', () => {
+    session.isBlogSidebarOpen = true
     global.innerWidth = 992
-    mount(<BlogSidebar />)
+    mount(<Router><BlogSidebar /></Router>)
     expect(dispatch.session.update).toHaveBeenCalledTimes(1)
     expect(dispatch.session.update).toHaveBeenCalledWith({ isBlogSidebarOpen: false })
   })
 
-  it('closes the BlogSidebar when the screen width is wider than 992 pixels', () => {
+  it('closes the BlogSidebar when it was open and the screen width is wider than 992 pixels', () => {
+    session.isBlogSidebarOpen = true
     global.innerWidth = 993
-    mount(<BlogSidebar />)
+    mount(<Router><BlogSidebar /></Router>)
     expect(dispatch.session.update).toHaveBeenCalledTimes(1)
     expect(dispatch.session.update).toHaveBeenCalledWith({ isBlogSidebarOpen: false })
   })
 
   it('does not close the BlogSidebar when the screen width is smaller than 992 pixels', () => {
     global.innerWidth = 991
-    mount(<BlogSidebar />)
+    mount(<Router><BlogSidebar /></Router>)
     expect(dispatch.session.update).toHaveBeenCalledTimes(0)
   })
 
   it('hides the screen overflow when the BlogSidebar is open', () => {
     session.isBlogSidebarOpen = true
-    mount(<BlogSidebar />)
+    mount(<Router><BlogSidebar /></Router>)
     expect(document.body.style.overflow).toBe('hidden')
   })
 
   it('returns the screen overflow when the BlogSidebar is closed', () => {
     session.isBlogSidebarOpen = false
-    mount(<BlogSidebar />)
+    mount(<Router><BlogSidebar /></Router>)
     expect(document.body.style.overflow).toBe('visible')
   })
 

@@ -12,7 +12,7 @@ function App() {
   const { theme } = useSelector((state) => state.session)
 
   return (
-    <Router basename='/' hashType='noslash'>
+    <Router basename='/' >
       <ThemeProvider theme={Themes[theme]}>
         <S.App id='app'>
           <Navbar />
