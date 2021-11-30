@@ -1,16 +1,12 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<TitledLogo/> Snapshot renders without crashing using shallow 1`] = `
-<HashLink
-  to="#home"
->
-  <styled.div>
-    <GiDirewolf
-      size="32"
-    />
-    <strong>
-      Israel Deorce
-    </strong>
-  </styled.div>
-</HashLink>
+<styled.div>
+  <GiDirewolf
+    size="32"
+  />
+  <strong>
+    Israel Deorce
+  </strong>
+</styled.div>
 `;

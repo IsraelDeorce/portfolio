@@ -10,7 +10,8 @@ const selectors = {
   session: {
     language: 'en',
     theme: 'dark',
-    isSideBarOpen: false
+    isPortfolioSidebarOpen: false,
+    isBlogSidebarOpen: false
   }
 }
 

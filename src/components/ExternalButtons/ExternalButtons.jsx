@@ -10,7 +10,7 @@ function ExternalButtons() {
   const navigate = useNavigate()
 
     const handleClick = () => {
-      navigate('blog')
+      navigate('/blog')
     }
 
   return (

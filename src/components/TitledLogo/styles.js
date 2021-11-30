@@ -8,6 +8,6 @@ export const TitledLogo = styled.div`
     color: ${({ theme }) => theme.c_varType};
   }
   & > *:not(:last-child) {
-    margin-right: 0.5em;
+    margin-right: 0.25em;
   }
 `

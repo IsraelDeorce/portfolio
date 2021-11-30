@@ -8,8 +8,12 @@ export const Background = styled.div`
   height:100%;
   top:0px;
   left:0px;
+  @media (min-width: 992px) {
+    display: none;
+  }
 `
-export const SideBar = styled.div`
+
+export const BlogSidebar = styled.div`
   position: fixed;
   top: 0;
   left: 0;
@@ -21,9 +25,21 @@ export const SideBar = styled.div`
   width: 65vw;
   z-index: 2;
   box-shadow: 0 5px 30px ${({ theme }) => theme.c_tab};
-  padding: 0 2em;
+  padding: 0 1em 1em 1em;
   & > * {
     width: 100%;
+  }
+  & > :last-child {
+    align-self: center;
+  }
+  @media (min-width: 992px) {
+    position: static;
+    top: auto;
+    left: auto;
+    right: auto;
+    height: auto;
+    width: auto;
+    box-shadow: none;
   }
 `
 

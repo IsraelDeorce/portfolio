@@ -1,15 +1,19 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<SideBar/> Snapshot renders without crashing using shallow 1`] = `
+exports[`<PortfolioSidebar/> Snapshot renders without crashing using shallow 1`] = `
 <Fragment>
   <styled.div
     onClick={[Function]}
   />
   <styled.div>
     <styled.div>
-      <TitledLogo
-        onClick={[Function]}
-      />
+      <HashLink
+        to="#home"
+      >
+        <TitledLogo
+          onClick={[Function]}
+        />
+      </HashLink>
       <styled.div>
         <ThemeToggle />
         <LanguageSelector />

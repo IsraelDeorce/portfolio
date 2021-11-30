@@ -1,8 +1,9 @@
 import Markdown from 'markdown-to-jsx'
+import './Article.scss'
 
 function Article({ md }) {
   return (
-    <Markdown>
+    <Markdown className='markdown' >
       {md}
     </Markdown>
   )

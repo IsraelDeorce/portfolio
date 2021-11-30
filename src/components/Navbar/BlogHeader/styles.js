@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const NavBar = styled.nav`
+export const BlogHeader = styled.nav`
   position: fixed;
   top: 0;
   left: 0;
@@ -16,6 +16,9 @@ export const NavBar = styled.nav`
   & > *:not(:last-child) {
     margin-right: 0.75em;
   }
+  @media (min-width: 992px) {
+    display: none;
+  }
 `
 export const Hamburguer = styled.span`
   display: flex;
@@ -24,21 +27,5 @@ export const Hamburguer = styled.span`
   flex-shrink: 0;
   &:hover {
     color: ${({ theme }) => theme.c_varType};
-  }
-  @media (min-width: 992px) {
-    display: none;
-  }
-`
-
-export const Menu = styled.div`
-  flex: 1;
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  & > *:not(:last-child) {
-    margin-right: 0.75em;
-  }
-  @media (max-width: 992px) {
-    display: none;
   }
 `

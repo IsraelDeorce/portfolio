@@ -25,16 +25,35 @@ exports[`<App/> Snapshot renders without crashing using shallow 1`] = `
     <styled.div
       id="app"
     >
+      <Navbar />
       <Routes>
         <Route
           element={<Portfolio />}
-          exact={true}
           path="/"
         />
         <Route
-          element={<Blog />}
-          exact={true}
-          path="/blog"
+          element={
+            <Article
+              md="test-file-stub"
+            />
+          }
+          path="blog"
+        />
+        <Route
+          element={
+            <Article
+              md="test-file-stub"
+            />
+          }
+          path="blog/big-o"
+        />
+        <Route
+          element={
+            <p>
+              UNDER CONSTRUCTION!
+            </p>
+          }
+          path="blog/data-structures"
         />
         <Route
           element={<Error />}

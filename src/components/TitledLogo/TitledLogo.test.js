@@ -1,11 +1,8 @@
 import TitledLogo from './TitledLogo'
 import { TEXT } from '../../utils/constants'
+import * as S from './styles'
 
 describe('<TitledLogo/>', () => {
-  it('renders a link that redirects to the home section', () => {
-    expect(shallow(<TitledLogo />).find('HashLink').prop('to')).toBe('#home')
-  })
-
   it('renders a direwolf icon', () => {
     expect(shallow(<TitledLogo />).find('GiDirewolf').exists()).toBe(true)
   })
@@ -16,7 +13,7 @@ describe('<TitledLogo/>', () => {
 
   it('calls the onCLick function when it is passed and the user clicks on the Logo', () => {
     const mockFn = jest.fn()
-    shallow(<TitledLogo onClick={mockFn} />).find('HashLink').simulate('click')
+    shallow(<TitledLogo onClick={mockFn} />).find(S.TitledLogo).simulate('click')
     expect(mockFn).toHaveBeenCalledTimes(1)
   })
 

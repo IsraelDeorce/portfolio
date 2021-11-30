@@ -1,15 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Portfolio/> Snapshot renders without crashing using shallow 1`] = `
-<Fragment>
-  <NavBar />
-  <SideBar />
-  <styled.div>
-    <Home />
-    <About />
-    <Skills />
-    <Experience />
-    <Contact />
-  </styled.div>
-</Fragment>
+<styled.div>
+  <Home />
+  <About />
+  <Skills />
+  <Experience />
+  <Contact />
+</styled.div>
 `;

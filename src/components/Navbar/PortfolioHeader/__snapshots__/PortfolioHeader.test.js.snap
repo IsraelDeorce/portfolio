@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<NavBar/> Snapshot renders without crashing using shallow 1`] = `
+exports[`<PortfolioHeader/> Snapshot renders without crashing using shallow 1`] = `
 <styled.nav>
   <styled.span
     onClick={[Function]}
@@ -9,7 +9,11 @@ exports[`<NavBar/> Snapshot renders without crashing using shallow 1`] = `
       size="32"
     />
   </styled.span>
-  <TitledLogo />
+  <HashLink
+    to="#home"
+  >
+    <TitledLogo />
+  </HashLink>
   <styled.div>
     <PortfolioLinks />
     <ThemeToggle />
