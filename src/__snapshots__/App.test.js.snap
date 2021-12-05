@@ -34,7 +34,7 @@ exports[`<App/> Snapshot renders without crashing using shallow 1`] = `
         <Route
           element={
             <Article
-              md="test-file-stub"
+              file="test-file-stub"
             />
           }
           path="blog"
@@ -42,7 +42,7 @@ exports[`<App/> Snapshot renders without crashing using shallow 1`] = `
         <Route
           element={
             <Article
-              md="test-file-stub"
+              file="test-file-stub"
             />
           }
           path="blog/big-o"
