@@ -1,12 +1,7 @@
-import Markdown from 'markdown-to-jsx'
 import './Article.scss'
 
-function Article({ md }) {
-  return (
-    <Markdown className='markdown' >
-      {md}
-    </Markdown>
-  )
+function Article({ file }) {
+  return <div className='article' dangerouslySetInnerHTML={{ __html: file }} />
 }
 
 export default Article

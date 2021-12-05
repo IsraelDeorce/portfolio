@@ -11,8 +11,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-html, body, #root, #app {
+html, body, #root {
   height: 100%;
+}
+
+#app {
+  min-height: 100%;
 }
 
 /* Breakpoints */
