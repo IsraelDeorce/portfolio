@@ -1,5 +1,5 @@
 export const LINKS = {
-  GDRIVE: 'https://docs.google.com/document/d/1gwsxihd7lOVGqM2HzhD2VqOYW85ExDR7hLntG_dOQyg/edit?usp=sharing',
+  GDRIVE: 'https://drive.google.com/file/d/1WyQWJqrEMXOaKKo4v3rP5PEV6SLl14uy/view?usp=sharing',
   WHATSAPP: 'https://wa.me/5551980254545',
   GITHUB: 'https://github.com/IsraelDeorce',
   LINKEDIN: 'https://www.linkedin.com/in/israeldeorce',
