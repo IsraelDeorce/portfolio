@@ -30,10 +30,4 @@ describe('<ExternalButtons/>', () => {
       expect(global.open).toHaveBeenCalledWith(LINKS.GDRIVE, '_blank')
     })
   })
-
-  describe('Snapshot', () => {
-    it('renders without crashing using shallow', () => {
-      expect(shallow(<ExternalButtons />)).toMatchSnapshot()
-    })
-  })
 })

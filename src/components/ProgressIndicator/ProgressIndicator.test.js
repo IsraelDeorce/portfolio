@@ -23,10 +23,4 @@ describe('<ProgressIndicator/>', () => {
     expect(shallow(<ProgressIndicator percentage={percentage} />)
     .find(S.Progress).prop('percentage')).toBe(percentage)
   })
-
-  describe('Snapshot', () => {
-    it('renders without crashing using shallow', () => {
-      expect(shallow(<ProgressIndicator />)).toMatchSnapshot()
-    })
-  })
 })

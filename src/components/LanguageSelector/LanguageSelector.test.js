@@ -49,10 +49,4 @@ describe('<LanguageSelector/>', () => {
     expect(dispatch.session.changeLanguage).toHaveBeenCalledTimes(1)
     expect(dispatch.session.changeLanguage).toHaveBeenCalledWith({ language: 'en' })
   })
-
-  describe('Snapshot', () => {
-    it('renders without crashing using shallow', () => {
-      expect(shallow(<LanguageSelector />)).toMatchSnapshot()
-    })
-  })
 })

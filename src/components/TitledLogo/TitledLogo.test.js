@@ -16,10 +16,4 @@ describe('<TitledLogo/>', () => {
     shallow(<TitledLogo onClick={mockFn} />).find(S.TitledLogo).simulate('click')
     expect(mockFn).toHaveBeenCalledTimes(1)
   })
-
-  describe('Snapshot', () => {
-    it('renders without crashing using shallow', () => {
-      expect(shallow(<TitledLogo />)).toMatchSnapshot()
-    })
-  })
 })

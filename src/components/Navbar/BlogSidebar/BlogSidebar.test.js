@@ -72,10 +72,4 @@ describe('<BlogSidebar/>', () => {
     mount(<Router><BlogSidebar /></Router>)
     expect(document.body.style.overflow).toBe('visible')
   })
-
-  describe('Snapshot', () => {
-    it('renders without crashing using shallow', () => {
-      expect(shallow(<BlogSidebar />)).toMatchSnapshot()
-    })
-  })
 })

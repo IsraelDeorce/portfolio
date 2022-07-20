@@ -72,10 +72,4 @@ describe('<PortfolioSidebar/>', () => {
     mount(<Router><PortfolioSidebar /></Router>)
     expect(document.body.style.overflow).toBe('visible')
   })
-
-  describe('Snapshot', () => {
-    it('renders without crashing using shallow', () => {
-      expect(shallow(<PortfolioSidebar />)).toMatchSnapshot()
-    })
-  })
 })

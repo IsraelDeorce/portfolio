@@ -37,10 +37,4 @@ describe('<PortfolioLinks/>', () => {
     expect(shallow(<PortfolioLinks />).find('HashLink[to="#contact"]').text()).toBe('button.contact')
     expect(t).toHaveBeenCalledWith('button.contact')
   })
-
-  describe('Snapshot', () => {
-    it('renders without crashing using shallow', () => {
-      expect(shallow(<PortfolioLinks />)).toMatchSnapshot()
-    })
-  })
 })

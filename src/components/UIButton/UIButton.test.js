@@ -23,10 +23,4 @@ describe('<UIButton/>', () => {
     shallow(<UIButton onClick={mockFn} />).find(S.UIButton).simulate('click')
     expect(mockFn).toHaveBeenCalledTimes(1)
   })
-
-  describe('Snapshot', () => {
-    it('renders without crashing using shallow', () => {
-      expect(shallow(<UIButton />)).toMatchSnapshot()
-    })
-  })
 })

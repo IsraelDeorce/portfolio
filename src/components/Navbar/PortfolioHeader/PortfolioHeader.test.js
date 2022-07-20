@@ -16,10 +16,4 @@ describe('<PortfolioHeader/>', () => {
   it('renders the titled logo as a link that redirects to the home section', () => {
     expect(shallow(<PortfolioHeader />).find('HashLink').prop('to')).toBe('#home')
   })
-
-  describe('Snapshot', () => {
-    it('renders without crashing using shallow', () => {
-      expect(shallow(<PortfolioHeader />)).toMatchSnapshot()
-    })
-  })
 })

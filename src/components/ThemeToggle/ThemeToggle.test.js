@@ -19,10 +19,4 @@ describe('<ThemeToggle/>', () => {
     shallow(<ThemeToggle />).find('Toggle').simulate('change')
     expect(dispatch.session.switchTheme).toHaveBeenCalled()
   })
-
-  describe('Snapshot', () => {
-    it('renders without crashing using shallow', () => {
-      expect(shallow(<ThemeToggle />)).toMatchSnapshot()
-    })
-  })
 })

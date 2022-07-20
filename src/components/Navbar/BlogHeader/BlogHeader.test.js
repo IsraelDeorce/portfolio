@@ -18,10 +18,4 @@ describe('<BlogHeader/>', () => {
     expect(Link.prop('to')).toBe('/')
     expect(Link.find('TitledLogo')).toHaveLength(1)
   })
-
-  describe('Snapshot', () => {
-    it('renders without crashing using shallow', () => {
-      expect(shallow(<BlogHeader />)).toMatchSnapshot()
-    })
-  })
 })

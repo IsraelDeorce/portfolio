@@ -1,7 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`<Project/> Snapshot renders without crashing using shallow 1`] = `
-<styled.div>
-  <div />
-</styled.div>
-`;
