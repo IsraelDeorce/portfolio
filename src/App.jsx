@@ -1,10 +1,10 @@
 import { useSelector } from 'react-redux'
-import { HashRouter as Router, Routes, Route } from 'react-router-dom'
+import { Routes, Route } from 'react-router-dom'
 import { ThemeProvider } from 'styled-components'
 import './i18n'
 import { Portfolio, Error } from './pages'
-import { Navbar, Article } from './components'
-import BigO from './assets/articles/BigO.html'
+import { BigO, SoftwareEngineering, DataStructures, Algorithms } from './pages/Blog'
+import { Navbar } from './components'
 import Themes from './utils/themes'
 import * as S from './styles'
 
@@ -12,20 +12,23 @@ function App() {
   const { theme } = useSelector((state) => state.session)
 
   return (
-    <Router basename='/' >
-      <ThemeProvider theme={Themes[theme]}>
-        <S.App id='app'>
-          <Navbar />
-          <Routes>
-            <Route path='/' element={<Portfolio />} />
-            <Route path='blog' element={<Article file={BigO} />} />
-            <Route path='blog/big-o' element={<Article file={BigO} />} />
-            <Route path='blog/data-structures' element={<p>UNDER CONSTRUCTION!</p>} />
-            <Route path='*' element={<Error />} />
-          </Routes>
-        </S.App>
-      </ThemeProvider>
-    </Router >
+    <ThemeProvider theme={Themes[theme]}>
+      <S.App id='app'>
+        <Routes>
+          <Route path='/' element={<Navbar />} >
+            <Route index element={<Portfolio />} />
+          </Route>
+          <Route path='/blog' element={<Navbar isBlogPage />} >
+            <Route index element={<BigO />} />
+            <Route path='/blog/big-o' element={<BigO />} />
+            <Route path='/blog/software-engineering' element={<SoftwareEngineering />} />
+            <Route path='/blog/data-structures' element={<DataStructures />} />
+            <Route path='/blog/algorithms' element={<Algorithms />} />
+          </Route>
+          <Route path='*' element={<Error />} />
+        </Routes>
+      </S.App>
+    </ThemeProvider>
   )
 }
 
