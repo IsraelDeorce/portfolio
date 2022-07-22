@@ -1,13 +1,13 @@
 import * as S from './styles'
 
-function BigO() {
+function TimeComplexity() {
 
   return (
     <S.Blog>
-      <h1>Big O</h1>
+      <h1>Time Complexity</h1>
       <p>Under construction...</p>
     </S.Blog>
   )
 }
 
-export default BigO
+export default TimeComplexity

@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const Blog = styled.div`
+export const Blog = styled.article`
   display: flex;
   flex-direction: column;
   background-color: ${({ theme }) => theme.c_background};
@@ -8,4 +8,8 @@ export const Blog = styled.div`
   @media (min-width: 992px) {
     padding: 0.5em 1em;
   }
+`
+
+export const Centralized = styled.div`
+  padding: 0 20%;
 `

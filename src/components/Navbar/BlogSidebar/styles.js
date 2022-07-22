@@ -38,7 +38,8 @@ export const BlogSidebar = styled.div`
     left: auto;
     right: auto;
     height: auto;
-    width: auto;
+    width: 285px;
+    min-width: 285px;
     box-shadow: none;
   }
 `

@@ -3,7 +3,7 @@
   "copyright": "2021 Israel Deorce - All rights reserved",
   "br": "Brazil",
   "articles": {
-    "big_o": "Big O",
+    "time_complexity": "Time Complexity",
     "data_structures": "Data Structures",
     "algorithms": "Algorithms"
   },
