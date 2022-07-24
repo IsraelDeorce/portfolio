@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 
 export const Blog = styled.article`
+  flex: 1;
   display: flex;
   flex-direction: column;
   background-color: ${({ theme }) => theme.c_background};
