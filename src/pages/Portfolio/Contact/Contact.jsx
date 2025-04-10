@@ -13,7 +13,7 @@ function Contact() {
         <S.TextualContacts>
           <p>{TEXT.EMAIL}</p>
           <p>{TEXT.PHONE}</p>
-          <p>{`${TEXT.PORTO} - ${t('br')}`}</p>
+          <p>{`${TEXT.VAN} - ${t('ca')}`}</p>
         </S.TextualContacts>
       </S.Body>
       <Copyright />

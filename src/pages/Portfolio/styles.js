@@ -3,6 +3,7 @@ import styled from 'styled-components'
 export const Portfolio = styled.div`
   display: flex;
   flex-direction: column;
+  min-width: 100%;
   > * {
     display: flex;
     flex-direction: column;

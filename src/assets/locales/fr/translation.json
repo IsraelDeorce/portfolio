@@ -1,0 +1,66 @@
+{
+  "subtitle": "Ingénieur(e) logiciel(le)",
+  "copyright": "2021 Israel Deorce - Tous droits réservés",
+  "br": "Brésil",
+  "ca": "Canada",
+  "articles": {
+    "time_complexity": "Complexité temporelle",
+    "data_structures": "Structures de données",
+    "algorithms": "Algorithmes"
+  },
+  "button": {
+    "about": "À propos",
+    "about_me": "À propos de moi",
+    "skills": "Compétences",
+    "experience": "Expérience",
+    "contact": "Contact",
+    "visit_my_blog": "Visiter mon blogue",
+    "visit_my_portfolio": "Voir mon portfolio",
+    "resume": "CV"
+  },
+  "desc": {
+    "about_1": "Salut! Moi, c’est Israel Deorce. Je suis ingénieur(e) logiciel(le) spécialisé(e) en développement web. J’aime relever des défis et bâtir des produits numériques de qualité, même dans des contextes incertains, pour améliorer concrètement la vie des gens.",
+    "about_2": "Diplômé(e) en génie logiciel de la PUCRS et fort(e) d'une expérience dans des entreprises multinationales, j’ai créé cette page pour présenter mon travail, partager mes connaissances et contribuer à la communauté techno en aidant à concevoir des solutions ayant un impact positif sur la société.",
+    "personal_project": "Projet personnel",
+    "research_intern": "Stagiaire en recherche et développement en collaboration avec Dell Inc.",
+    "intern": "(2018-2019) J’ai soutenu les équipes de Dell dans l’adoption d’une nouvelle méthodologie basée sur l’eXtreme Programming, le Lean et la conception centrée sur l’utilisateur. Un guide pratique est né de ce projet, ce qui m’a ensuite ouvert la porte à un poste d’ingénieur chez Dell.",
+    "hp": "(2020 - aujourd’hui) Je travaille principalement comme développeur(euse) UI avec React.js et Scrum Master au sein d’une équipe responsable de la solution unifiée de gestion des identifiants pour plusieurs produits HP à l’international.",
+    "dell": "(2019-2020) J’ai occupé un poste de développeur(euse) full stack avec React.js et .NET, créant des interfaces et microservices pour « Dell Financial Services ». J’y ai pratiqué le développement en binôme, le TDD et d’autres méthodes agiles expérimentées durant mon stage.",
+    "ginatells": "(En cours) Un projet d’intelligence artificielle qui aide les gens à trouver les meilleurs films ou émissions à regarder selon leurs goûts et leur humeur du moment.",
+    "nonprofit_engineer": "Développeur(euse) bénévole",
+    "ages": "(2016-2019) L’Agence Expérimentale de Génie Logiciel (AGES) m’a permis de contribuer à plusieurs projets comme des livres audio, des systèmes pour l’adoption d’enfants, un simulateur d’examen de droit et une plateforme de travail simplifié.",
+    "kpis": "(En cours) Le projet d’indicateurs clés de performance (KPI) en développement logiciel vise à simplifier leur création, implantation et suivi pour les équipes agiles qui adoptent une approche Lean."
+  },
+  "skills": {
+    "software_engineering": "Génie logiciel",
+    "agile": "Agilité",
+    "xp": "XP",
+    "sm": "Scrum",
+    "git": "GIT",
+    "ci_cd": "CI/CD",
+    "lean": "Lean",
+    "front": "Front-end",
+    "html": "HTML",
+    "css": "CSS",
+    "react": "React.js",
+    "javascript": "JavaScript",
+    "back": "Back-end",
+    "node": "Node.js",
+    "c_sharp": "C#",
+    "dotnet": ".NET 5",
+    "java": "Java",
+    "db": "Base de données",
+    "sql": "MySQL",
+    "oracle": "Oracle",
+    "devops": "DevOps",
+    "aws": "AWS",
+    "ado": "Azure DevOps",
+    "automated_tests": "Tests automatisés",
+    "tdd": "TDD",
+    "bdd": "BDD",
+    "jest_enzyme": "Jest/Enzyme"
+  },
+  "errors": {
+    "resource_not_found": "Ressource introuvable à : \"<1>{{pathname}}</1>\""
+  }
+}

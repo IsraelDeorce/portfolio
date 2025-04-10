@@ -1,6 +1,6 @@
 export const LINKS = {
-  GDRIVE: 'https://drive.google.com/file/d/1WyQWJqrEMXOaKKo4v3rP5PEV6SLl14uy/view?usp=sharing',
-  WHATSAPP: 'https://wa.me/5551980254545',
+  GDRIVE: 'https://drive.google.com/file/d/1KqQPqDMiyAdhHkgwWXVz-lPrv03cWsw2/view?usp=sharing',
+  WHATSAPP: 'https://wa.me/12369978520',
   GITHUB: 'https://github.com/IsraelDeorce',
   LINKEDIN: 'https://www.linkedin.com/in/israeldeorce',
 }
@@ -8,8 +8,8 @@ export const LINKS = {
 export const TEXT = {
   MYNAME: 'Israel Deorce',
   EMAIL: 'israel.idvj@gmail.com',
-  PHONE: '+55 (51) 98025-4545',
-  PORTO: 'Porto Alegre'
+  PHONE: '+1 (236) 997-8520',
+  VAN: 'Vancouver'
 }
 
 const ACCESS_ARRAY_INDEX =
