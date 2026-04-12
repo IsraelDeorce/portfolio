@@ -1,0 +1,23 @@
+.app-shell {
+  width: min(720px, calc(100% - 3rem));
+  padding: 4rem 0;
+}
+
+.test-asset {
+  display: block;
+  margin: 0 0 1.5rem;
+}
+
+.eyebrow {
+  margin: 0 0 1rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.intro {
+  max-width: 38rem;
+  font-size: 1.1rem;
+}

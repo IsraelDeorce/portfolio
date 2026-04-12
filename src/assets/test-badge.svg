@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-labelledby="title desc">
+  <title id="title">Test badge</title>
+  <desc id="desc">Simple decorative badge for verifying asset delivery.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#ea580c" />
+    </linearGradient>
+  </defs>
+  <rect width="160" height="160" rx="32" fill="url(#bg)" />
+  <circle cx="80" cy="80" r="44" fill="#fff7ed" opacity="0.95" />
+  <path d="M80 48 88.7 70.3 112 72l-18 14.4 6 22.6L80 96 60 109l6-22.6L48 72l23.3-1.7Z" fill="#c2410c" />
+</svg>

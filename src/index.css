@@ -1,0 +1,43 @@
+:root {
+  --text: #1f2933;
+  --text-h: #0f172a;
+  --bg: #f8fafc;
+  --accent: #b45309;
+  --sans:
+    'IBM Plex Sans', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+
+  font: 18px/1.6 var(--sans);
+  color: var(--text);
+  background: var(--bg);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  min-height: 100svh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background:
+    radial-gradient(circle at top, rgba(245, 158, 11, 0.18), transparent 35%),
+    linear-gradient(180deg, #fffdf8 0%, #f8fafc 100%);
+}
+
+h1 {
+  margin: 0 0 1rem;
+  color: var(--text-h);
+  font-size: clamp(2.75rem, 8vw, 4.75rem);
+  line-height: 0.95;
+  letter-spacing: -0.06em;
+}
+
+p {
+  margin: 0;
+}
