@@ -8,6 +8,8 @@
   },
   "scripts": {
     "dev": "vite",
+    "lint": "eslint .",
+    "test": "node -e \"console.log('No tests configured yet')\"",
     "build": "tsc -b && vite build",
     "start": "node server/index.js"
   },
